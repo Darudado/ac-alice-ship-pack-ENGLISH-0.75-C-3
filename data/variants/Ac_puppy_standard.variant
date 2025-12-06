@@ -1,0 +1,26 @@
+{
+  "variantId": "Ac_puppy_standard",
+  "hullId": "Ac_puppy",
+  "displayName": "standard",
+  "goalVariant": true,
+  "fluxCapacitors": 0,
+  "fluxVents": 2,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [
+    "insulatedengine",
+    "expanded_cargo_holds",
+    "unstable_injector"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0003": "lightdualmg"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

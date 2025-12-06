@@ -1,0 +1,61 @@
+{
+  "variantId": "Ac_Demolisher_poor",
+  "hullId": "Ac_Demolisher",
+  "displayName": "poor",
+  "goalVariant": true,
+  "fluxCapacitors": 16,
+  "fluxVents": 28,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [
+    "targetingunit",
+    "safetyoverrides",
+    "heavyarmor",
+    "magazines"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0017": "autopulse",
+        "WS0018": "autopulse"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "miningblaster",
+        "WS0002": "miningblaster",
+        "WS0014": "jackhammer",
+        "WS0015": "jackhammer",
+        "WS0016": "jackhammer"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0003": "mininglaser",
+        "WS0004": "mininglaser",
+        "WS0005": "mininglaser",
+        "WS0006": "mininglaser",
+        "WS0007": "mininglaser",
+        "WS0008": "mininglaser",
+        "WS0009": "mininglaser",
+        "WS0010": "mininglaser",
+        "WS0011": "mininglaser",
+        "WS0012": "mininglaser",
+        "WS0013": "mininglaser"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {}
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

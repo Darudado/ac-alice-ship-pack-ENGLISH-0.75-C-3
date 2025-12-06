@@ -1,0 +1,121 @@
+{
+  "hullName": "Ac_lance",
+  "hullId": "Ac_lance",
+  "hullSize": "FIGHTER",
+  "spriteName": "graphics/ships/Ac_lance.png",
+  "style": "HIGH_TECH",
+  "height": 71,
+  "width": 35,
+  "center": [20, 30],
+  "collisionRadius": 37.5,
+  "shieldCenter": [0, -0],
+  "shieldRadius": 36,
+  "viewOffset": 0,
+  "weaponSlots": [
+    {
+      "id": "LB 1",
+      "size": "LARGE",
+      "type": "LAUNCH_BAY",
+      "mount": "HIDDEN",
+      "arc": 360,
+      "angle": 0,
+      "locations": [
+        212.5, -164,
+        211.5, -52.5
+      ]
+    },
+    {
+      "id": "LB 2",
+      "size": "LARGE",
+      "type": "LAUNCH_BAY",
+      "mount": "HIDDEN",
+      "arc": 360,
+      "angle": 0,
+      "locations": [
+        223, -164,
+        227, -149.5
+      ]
+    },
+    {
+      "id": "WS0001",
+      "size": "MEDIUM",
+      "type": "ENERGY",
+      "mount": "HIDDEN",
+      "arc": 5,
+      "angle": 0,
+      "locations": [1, -2.5]
+    },
+    {
+      "id": "WS0002",
+      "size": "MEDIUM",
+      "type": "SYSTEM",
+      "mount": "HIDDEN",
+      "arc": 29,
+      "angle": 135,
+      "locations": [-8.5, 13.5]
+    },
+    {
+      "id": "WS0003",
+      "size": "SMALL",
+      "type": "UNIVERSAL",
+      "mount": "HIDDEN",
+      "arc": 15,
+      "angle": 0,
+      "locations": [-1.5, 12.5]
+    },
+    {
+      "id": "WS0005",
+      "size": "SMALL",
+      "type": "UNIVERSAL",
+      "mount": "HIDDEN",
+      "arc": 5,
+      "angle": 0,
+      "locations": [4.5, -10]
+    },
+    {
+      "id": "WS0004",
+      "size": "SMALL",
+      "type": "UNIVERSAL",
+      "mount": "HIDDEN",
+      "arc": 5,
+      "angle": 0,
+      "locations": [4.5, -8]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-18.5, 3],
+      "length": 21,
+      "width": 7,
+      "angle": 180,
+      "contrailSize": 7,
+      "style": "HIGH_TECH"
+    },
+    {
+      "location": [-15, -5],
+      "length": 14,
+      "width": 5,
+      "angle": 180,
+      "contrailSize": 5,
+      "style": "HIGH_TECH"
+    },
+    {
+      "location": [-16, 10],
+      "length": 11.5,
+      "width": 4,
+      "angle": 180,
+      "contrailSize": 4,
+      "style": "HIGH_TECH"
+    }
+  ],
+  "bounds": [
+    -17, 12.5,
+    -13, -7.5,
+    3.5, -10,
+    33, -7.5,
+    32, 1.5,
+    17.5, 3.5,
+    10.5, 10,
+    -8, 14
+  ]
+}

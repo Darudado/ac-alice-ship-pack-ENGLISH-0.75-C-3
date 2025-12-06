@@ -1,0 +1,53 @@
+{
+  "variantId": "Ac_fulcrum_assault",
+  "hullId": "Ac_fulcrum",
+  "displayName": "assault",
+  "goalVariant": true,
+  "fluxCapacitors": 1,
+  "fluxVents": 20,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [
+    "targetingunit"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "harpoonpod",
+        "WS0002": "harpoonpod"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0003": "heavymortar",
+        "WS0004": "heavyneedler"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0005": "pdburst",
+        "WS0006": "pdburst"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {}
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {}
+    }
+  ],
+  "modules": [],
+  "wings": [
+    "xyphos_wing"
+  ]
+}

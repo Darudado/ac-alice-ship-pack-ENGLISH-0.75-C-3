@@ -1,0 +1,187 @@
+{
+  "hullName": "Ac-_Attker",
+  "hullId": "Ac_Attker",
+  "hullSize": "FRIGATE",
+  "spriteName": "graphics/ships/Ac_Attker.png",
+  "style": "LOW_TECH",
+  "height": 119,
+  "width": 110,
+  "center": [54, 58.5],
+  "collisionRadius": 56,
+  "shieldCenter": [0, -0],
+  "shieldRadius": 56,
+  "viewOffset": 0,
+  "builtInMods": [
+    "insulatedengine",
+    "ballistic_rangefinder"
+  ],
+  "builtInWeapons": {
+    "WS0008": "blinker_red",
+    "WS0009": "blinker_red"
+  },
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 240,
+      "angle": 90,
+      "locations": [-7.5, 10]
+    },
+    {
+      "id": "WS0002",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 240,
+      "angle": -90,
+      "locations": [-7.5, -10]
+    },
+    {
+      "id": "WS0003",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "HARDPOINT",
+      "arc": 5,
+      "angle": -0,
+      "locations": [7.5, -24]
+    },
+    {
+      "id": "WS0004",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "HARDPOINT",
+      "arc": 5,
+      "angle": -0,
+      "locations": [7.5, 24]
+    },
+    {
+      "id": "WS0005",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "HARDPOINT",
+      "arc": 10,
+      "angle": -0,
+      "locations": [-2.5, -35]
+    },
+    {
+      "id": "WS0006",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "HARDPOINT",
+      "arc": 10,
+      "angle": 0,
+      "locations": [-2.5, 35]
+    },
+    {
+      "id": "WS0007",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 240,
+      "angle": 0,
+      "locations": [25.5, -0]
+    },
+    {
+      "id": "WS0008",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 10,
+      "angle": 0,
+      "locations": [-24, 35.5]
+    },
+    {
+      "id": "WS0009",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 10,
+      "angle": -0,
+      "locations": [-24, -35.5]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-48, -15.5],
+      "length": 25,
+      "width": 8,
+      "angle": 180,
+      "contrailSize": 8,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-48, 15.5],
+      "length": 25,
+      "width": 8,
+      "angle": -180,
+      "contrailSize": 8,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-53.5, -0],
+      "length": 42,
+      "width": 13,
+      "angle": -180,
+      "contrailSize": 13,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-40, -26.5],
+      "length": 24,
+      "width": 6,
+      "angle": -176.5,
+      "contrailSize": 128,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-40, 26.5],
+      "length": 24,
+      "width": 6,
+      "angle": 176.5,
+      "contrailSize": 128,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-38.5, -31],
+      "length": 20.20689,
+      "width": 5.543137,
+      "angle": -176.5,
+      "contrailSize": 128,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-38.5, 31],
+      "length": 20.20689,
+      "width": 5.543137,
+      "angle": 176.5,
+      "contrailSize": 128,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-36.5, -35],
+      "length": 17.482632,
+      "width": 5.781904,
+      "angle": -173,
+      "contrailSize": 128,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-36.5, 35],
+      "length": 17.482632,
+      "width": 5.781904,
+      "angle": 173,
+      "contrailSize": 128,
+      "style": "LOW_TECH"
+    }
+  ],
+  "bounds": [
+    -15.5, 50,
+    54, -2.5,
+    54, 2.5,
+    -15.5, -50,
+    -57, -0.5,
+    -57, 0.5
+  ]
+}

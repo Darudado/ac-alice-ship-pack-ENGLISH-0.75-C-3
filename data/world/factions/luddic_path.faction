@@ -1,0 +1,25 @@
+{
+	"hullFrequency":{
+		"hulls":{
+			"Ac_prometheus_3":1,
+			"Ac_judge":1.5,
+		},
+	},
+	"shipsWhenImporting":{
+		"hulls":[
+			"Ac_prometheus_3",
+			"Ac_judge",
+		],
+	},
+	"knownShips":{
+		"hulls":[
+			"Ac_prometheus_3",
+		],
+	},
+		
+	"priorityShips":{
+		"hulls":[
+
+		],
+	},
+},

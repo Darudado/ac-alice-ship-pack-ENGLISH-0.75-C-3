@@ -1,0 +1,38 @@
+{
+	"hullFrequency":{
+		"hulls":{
+			"Ac_irises":0.5,
+			"Ac_irises_oc":1,
+			"Ac_irises_os":0.5,
+			"Ac_fulcrum":5,
+			"Ac_interdiction":5,
+			"Ac_Mystia":1.5,
+
+
+
+		},
+	},
+		
+	"knownShips":{
+		"hulls":[
+			"Ac_irises",
+			"Ac_irises_oc",
+			"Ac_irises_os",
+			"Ac_fulcrum",
+			"Ac_interdiction",
+			"Ac_Deucalion",
+			"Ac_Mystia",
+			"Ac_Alcedo",
+			"Ac_nightingale",
+			"Ac_Harasser",
+
+
+		],
+	},
+		
+	"priorityShips":{
+		"hulls":[
+		],
+	},
+},
+

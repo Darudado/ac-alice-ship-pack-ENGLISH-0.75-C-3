@@ -1,0 +1,47 @@
+{
+  "variantId": "Ac_Attker_S_standard",
+  "hullId": "Ac_Attker_S",
+  "displayName": "standard",
+  "goalVariant": true,
+  "fluxCapacitors": 10,
+  "fluxVents": 8,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [
+    "targetingunit",
+    "blast_doors"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0003": "heavymortar"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0005": "sabot"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0004": "lightac",
+        "WS0006": "lightac"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0007": "vulcan"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

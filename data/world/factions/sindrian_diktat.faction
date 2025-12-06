@@ -1,0 +1,19 @@
+{
+	"hullFrequency":{
+		"hulls":{
+			"Ac_Nipponia":1.5,
+		},
+	},
+		
+	"knownShips":{
+		"hulls":[
+			"Ac_Nipponia",
+			"Ac_Deucalion",
+		],
+	},
+		
+	"priorityShips":{
+		"hulls":[
+		],
+	},
+},

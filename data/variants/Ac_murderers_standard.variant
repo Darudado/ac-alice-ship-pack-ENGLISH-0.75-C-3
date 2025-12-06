@@ -1,0 +1,52 @@
+{
+  "variantId": "Ac_murderers_standard",
+  "hullId": "Ac_murderers",
+  "displayName": "standard",
+  "goalVariant": true,
+  "fluxCapacitors": 0,
+  "fluxVents": 17,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [
+    "fluxbreakers",
+    "missleracks",
+    "targetingunit"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0001": "annihilatorpod",
+        "WS0002": "annihilatorpod",
+        "WS0003": "annihilatorpod",
+        "WS0004": "annihilatorpod"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0005": "pulselaser",
+        "WS0006": "pulselaser",
+        "WS0009": "ionpulser"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0007": "heavyburst",
+        "WS0008": "heavyburst",
+        "WS0010": "pdlaser",
+        "WS0011": "pdlaser",
+        "WS0012": "pdlaser",
+        "WS0013": "pdlaser",
+        "WS0014": "pdlaser",
+        "WS0015": "pdlaser"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

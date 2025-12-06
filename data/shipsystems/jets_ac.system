@@ -1,0 +1,28 @@
+{
+    "id":"jets_ac",
+    "type":"ENGINE_MOD",
+    "aiType":"BURN_DRIVE",
+
+    "statsScript":"data.shipsystems.StrongDrive",
+
+    "engineGlowContrailColor":[80,50,30,255],
+    "engineGlowLengthMult":1.8,
+    "engineGlowWidthMult":1.8,
+    "engineGlowGlowMult":1.8,
+
+    "flameoutOnImpactChance":0.2,
+
+    "clampTurnRateAfter":false,
+    "clampMaxSpeedAfter":false,
+    "alwaysAccelerate":true,
+
+	"useSound":"system_maneuvering_jets",
+	"loopSound":"system_maneuvering_jets_loop",
+	"outOfUsesSound":"engine_disabled",
+
+    "aiHints":{
+        "activeSpeedIncrease":0,
+        "burstMovementPotential":350,
+        "averageSpeedIncrease":35,
+    }
+}

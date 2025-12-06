@@ -1,0 +1,8 @@
+{
+	"knownHullMods":{
+		"tags":[],
+		"hullMods":[
+			"shield_shunt",
+		],
+	},
+},

@@ -1,0 +1,21 @@
+{
+  "baseHullId": "conquest",
+  "baseValueMult": 1.4,
+  "builtInMods": [
+    "extendedshieldemitter"
+  ],
+  "descriptionId": "conquest",
+  "descriptionPrefix": "A heavily modified version of a Conquest, featuring a distinctive blue-green paint scheme.",
+  "fighterBays": 0,
+  "fpMod": 0,
+  "hullDesignation": "CAPITAL",
+  "hullName": "Conquest-Iris",
+  "manufacturer": "",
+  "restoreToBaseHull": false,
+  "skinHullId": "ac_conquest_s",
+  "systemId":"plasmajets",
+  "spriteName": "graphics/ships/Ac_conquest.png",
+  "suppliesToRecover":44,
+  "suppliesPerMonth":44,
+  "tech": ""
+}

@@ -1,0 +1,193 @@
+{
+  "hullName": "Ac_Mudrock",
+  "hullId": "Ac_Mudrock",
+  "hullSize": "CAPITAL_SHIP",
+  "spriteName": "graphics/ships/Ac_Mudrock.png",
+  "style": "LOW_TECH",
+  "height": 430,
+  "width": 232,
+  "center": [116, 221],
+  "collisionRadius": 237.5,
+  "shieldCenter": [0, -0],
+  "shieldRadius": 238.5,
+  "viewOffset": 0,
+  "builtInMods": [
+    "civgrade",
+    "missileloader_ac"
+  ],
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 210,
+      "angle": 110,
+      "locations": [-173, 58]
+    },
+    {
+      "id": "WS0002",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 210,
+      "angle": -110,
+      "locations": [-173, -58]
+    },
+    {
+      "id": "WS0005",
+      "size": "LARGE",
+      "type": "MISSILE",
+      "mount": "TURRET",
+      "arc": 197,
+      "angle": 60,
+      "locations": [11, 71]
+    },
+    {
+      "id": "WS0006",
+      "size": "LARGE",
+      "type": "MISSILE",
+      "mount": "TURRET",
+      "arc": 197,
+      "angle": -60,
+      "locations": [11, -71]
+    },
+    {
+      "id": "WS0007",
+      "size": "MEDIUM",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 200,
+      "angle": -70,
+      "locations": [86, -47]
+    },
+    {
+      "id": "WS0008",
+      "size": "MEDIUM",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 200,
+      "angle": 70,
+      "locations": [86, 47]
+    },
+    {
+      "id": "WS0009",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 200,
+      "angle": -70,
+      "locations": [174, -42]
+    },
+    {
+      "id": "WS0010",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 200,
+      "angle": 70,
+      "locations": [174, 42]
+    },
+    {
+      "id": "WS0013",
+      "size": "LARGE",
+      "type": "COMPOSITE",
+      "mount": "HARDPOINT",
+      "arc": 5,
+      "angle": 0,
+      "locations": [139, -0]
+    },
+    {
+      "id": "WS0014",
+      "size": "MEDIUM",
+      "type": "MISSILE",
+      "mount": "TURRET",
+      "arc": 210,
+      "angle": -40,
+      "locations": [-54, -78]
+    },
+    {
+      "id": "WS0015",
+      "size": "MEDIUM",
+      "type": "MISSILE",
+      "mount": "TURRET",
+      "arc": 210,
+      "angle": 40,
+      "locations": [-54, 78]
+    },
+    {
+      "id": "WS0003",
+      "size": "MEDIUM",
+      "type": "MISSILE",
+      "mount": "TURRET",
+      "arc": 210,
+      "angle": -75,
+      "locations": [-83.5, -100]
+    },
+    {
+      "id": "WS0004",
+      "size": "MEDIUM",
+      "type": "MISSILE",
+      "mount": "TURRET",
+      "arc": 210,
+      "angle": 75,
+      "locations": [-83.5, 100]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-186.5, -0],
+      "length": 74,
+      "width": 23,
+      "angle": 180,
+      "contrailSize": 23,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-197.5, -25.5],
+      "length": 74,
+      "width": 23,
+      "angle": 180,
+      "contrailSize": 23,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-197.5, 25.5],
+      "length": 74,
+      "width": 23,
+      "angle": -180,
+      "contrailSize": 23,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-190, -42.5],
+      "length": 39,
+      "width": 13,
+      "angle": 180,
+      "contrailSize": 13,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-190, 42.5],
+      "length": 39,
+      "width": 13,
+      "angle": -180,
+      "contrailSize": 13,
+      "style": "LOW_TECH"
+    }
+  ],
+  "bounds": [
+    191.5, 51.5,
+    24, 98,
+    -36, 82.5,
+    -111.5, 122.5,
+    -126, 72.5,
+    -186.5, 54,
+    -186.5, -54,
+    -126, -72.5,
+    -111.5, -122.5,
+    -36, -82.5,
+    24, -98,
+    191.5, -51.5
+  ]
+}

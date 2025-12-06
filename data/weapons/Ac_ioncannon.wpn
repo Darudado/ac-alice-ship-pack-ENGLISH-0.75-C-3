@@ -1,0 +1,36 @@
+{
+  "id": "Ac_ioncannon",
+  "specClass": "projectile",
+  "projectileSpecId": "Ac_ioncannon_shot",
+  "type": "ENERGY",
+  "size": "MEDIUM",
+  "turretSprite": "graphics/weapons/Ac_ioncannon_turret.png",
+  "turretGlowSprite": "graphics/weapons/Ac_ioncannon_glow.png",
+  "hardpointSprite": "graphics/weapons/Ac_ioncannon_turret.png",
+  "hardpointGlowSprite": "graphics/weapons/Ac_ioncannon_glow.png",
+  "glowColor": [
+    150,150,255,255
+  ],
+  "turretOffsets": [23,0],
+  "turretAngleOffsets": [0],
+  "hardpointOffsets": [
+    50,
+    0
+  ],
+  "hardpointAngleOffsets": [
+    0
+  ],
+  "barrelMode": "ALTERNATING",
+  "animationType": "GLOW_AND_FLASH",
+  "autocharge": true,
+  "muzzleFlashSpec": {
+    "length": -14,
+    "spread": 30,
+    "particleSizeMin": 10,
+    "particleSizeRange": 10,
+    "particleDuration": 0.15,
+    "particleCount": 20,
+    "particleColor": [100,150,255,225]
+  },
+  "fireSoundTwo": "thermal_pulse_cannon_fire"
+}

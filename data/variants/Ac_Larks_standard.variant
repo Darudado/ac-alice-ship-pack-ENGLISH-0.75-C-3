@@ -1,0 +1,37 @@
+{
+  "variantId": "Ac_Larks_standard",
+  "hullId": "Ac_Larks",
+  "displayName": "standard",
+  "goalVariant": true,
+  "fluxCapacitors": 10,
+  "fluxVents": 9,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [
+    "ecm"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0003": "Ac_miningblaster",
+        "WS0004": "Ac_miningblaster",
+        "WS0011": "Ac_miningblaster",
+        "WS0012": "Ac_miningblaster"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {}
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {}
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

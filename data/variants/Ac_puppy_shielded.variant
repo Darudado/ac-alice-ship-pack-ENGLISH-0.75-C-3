@@ -1,0 +1,26 @@
+{
+  "variantId": "Ac_puppy_shielded",
+  "hullId": "Ac_puppy",
+  "displayName": "shielded",
+  "goalVariant": true,
+  "fluxCapacitors": 0,
+  "fluxVents": 4,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [
+    "frontshield",
+    "insulatedengine",
+    "armoredweapons"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0003": "lightdualac"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

@@ -1,0 +1,77 @@
+{
+  "variantId": "Ac_Minerva_standard",
+  "hullId": "Ac_Minerva",
+  "displayName": "standard",
+  "goalVariant": true,
+  "fluxCapacitors": 25,
+  "fluxVents": 45,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [
+    "stabilizedshieldemitter",
+    "fluxbreakers"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "hveldriver",
+        "WS0002": "hveldriver",
+        "WS0003": "hveldriver",
+        "WS0004": "hveldriver"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0007": "hil",
+        "WS0008": "hil"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0022": "ionbeam",
+        "WS0023": "ionbeam",
+        "WS0024": "gravitonbeam",
+        "WS0025": "gravitonbeam"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0010": "pdlaser",
+        "WS0011": "pdlaser",
+        "WS0012": "pdlaser",
+        "WS0013": "pdlaser",
+        "WS0014": "pdlaser",
+        "WS0015": "pdlaser",
+        "WS0016": "pdlaser",
+        "WS0017": "pdlaser",
+        "WS0018": "pdlaser",
+        "WS0019": "pdlaser",
+        "WS0020": "pdlaser",
+        "WS0021": "pdlaser"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0005": "heavyburst",
+        "WS0006": "heavyburst"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {}
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

@@ -1,0 +1,167 @@
+{
+  "hullName": "Ac_Larks",
+  "hullId": "Ac_Larks",
+  "hullSize": "FRIGATE",
+  "spriteName": "graphics/ships/Ac_Larks_V.png",
+  "style": "HIGH_TECH",
+  "height": 91,
+  "width": 82,
+  "center": [41, 42],
+  "collisionRadius": 62,
+  "shieldCenter": [0, -0],
+  "shieldRadius": 60,
+  "viewOffset": 0,
+  "builtInMods": [
+    "shielded_holds",
+    "hiressensors"
+  ],
+  "builtInWeapons": {
+    "WS0001": "blinker_green",
+    "WS0003": "Ac_laser",
+    "WS0004": "Ac_laser",
+    "WS0007": "blinker_red",
+    "WS0008": "blinker_red",
+    "WS0009": "Ac_laser",
+    "WS0010": "Ac_laser",
+    "WS0011": "Ac_laser",
+    "WS0012": "Ac_laser"
+  },
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 8,
+      "angle": 0,
+      "locations": [24.5, -0]
+    },
+    {
+      "id": "WS0002",
+      "size": "MEDIUM",
+      "type": "SYSTEM",
+      "mount": "HIDDEN",
+      "arc": 10,
+      "angle": 180,
+      "locations": [-25, -0]
+    },
+    {
+      "id": "WS0003",
+      "size": "SMALL",
+      "type": "BUILT_IN",
+      "mount": "HIDDEN",
+      "arc": 8,
+      "angle": 0,
+      "locations": [7, 16]
+    },
+    {
+      "id": "WS0004",
+      "size": "SMALL",
+      "type": "BUILT_IN",
+      "mount": "HIDDEN",
+      "arc": 8,
+      "angle": -0,
+      "locations": [7, -16]
+    },
+    {
+      "id": "WS0005",
+      "size": "SMALL",
+      "type": "SYSTEM",
+      "mount": "HIDDEN",
+      "arc": 3,
+      "angle": -145,
+      "locations": [-34, 22]
+    },
+    {
+      "id": "WS0006",
+      "size": "SMALL",
+      "type": "SYSTEM",
+      "mount": "HIDDEN",
+      "arc": 3,
+      "angle": 145,
+      "locations": [-34, -22]
+    },
+    {
+      "id": "WS0007",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "HARDPOINT",
+      "arc": 8,
+      "angle": 180,
+      "locations": [-38.5, 25.5]
+    },
+    {
+      "id": "WS0008",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "HARDPOINT",
+      "arc": 8,
+      "angle": -180,
+      "locations": [-38.5, -25.5]
+    },
+    {
+      "id": "WS0009",
+      "size": "SMALL",
+      "type": "BUILT_IN",
+      "mount": "HIDDEN",
+      "arc": 8,
+      "angle": 0,
+      "locations": [7, 17]
+    },
+    {
+      "id": "WS0010",
+      "size": "SMALL",
+      "type": "BUILT_IN",
+      "mount": "HIDDEN",
+      "arc": 8,
+      "angle": -0,
+      "locations": [7, -17]
+    },
+    {
+      "id": "WS0011",
+      "size": "SMALL",
+      "type": "BUILT_IN",
+      "mount": "HIDDEN",
+      "arc": 8,
+      "angle": 0,
+      "locations": [7, 15]
+    },
+    {
+      "id": "WS0012",
+      "size": "SMALL",
+      "type": "BUILT_IN",
+      "mount": "HIDDEN",
+      "arc": 8,
+      "angle": -0,
+      "locations": [7, -15]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-35, 8.5],
+      "length": 28,
+      "width": 10,
+      "angle": 180,
+      "contrailSize": 10,
+      "style": "HIGH_TECH"
+    },
+    {
+      "location": [-35, -8.5],
+      "length": 28,
+      "width": 10,
+      "angle": -180,
+      "contrailSize": 10,
+      "style": "HIGH_TECH"
+    }
+  ],
+  "bounds": [
+    48.5, 8.5,
+    13, 19,
+    -23.5, 32,
+    -39, 26,
+    -39, -26,
+    -23.5, -32,
+    13, -19,
+    48.5, -8.5
+  ]
+}

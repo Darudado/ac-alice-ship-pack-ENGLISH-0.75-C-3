@@ -1,0 +1,77 @@
+{
+  "variantId": "Ac_Nipponia_oc_standard",
+  "hullId": "Ac_Nipponia_oc",
+  "displayName": "standard",
+  "goalVariant": true,
+  "fluxCapacitors": 0,
+  "fluxVents": 22,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [
+    "targetingunit",
+    "fluxdistributor"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0004": "hveldriver",
+        "WS0010": "hveldriver",
+        "WS0011": "hveldriver",
+        "WS0012": "hveldriver",
+        "WS0015": "gorgon",
+        "WS0016": "gorgon",
+        "WS0017": "pdlaser"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0013": "heavymauler",
+        "WS0014": "heavymauler"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {}
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0006": "ionpulser"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0002": "pdlaser",
+        "WS0003": "pdlaser",
+        "WS0005": "pdlaser",
+        "WS0007": "pdlaser",
+        "WS0008": "pdlaser",
+        "WS0009": "pdlaser",
+        "WS0018": "pdlaser"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {}
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {}
+    }
+  ],
+  "modules": [],
+  "wings": [
+    "thunder_wing",
+    "thunder_wing"
+  ]
+}

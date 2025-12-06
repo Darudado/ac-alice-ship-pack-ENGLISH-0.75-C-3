@@ -1,0 +1,44 @@
+{
+  "variantId": "Ac_Bulldog_standard",
+  "hullId": "Ac_Bulldog",
+  "displayName": "standard",
+  "goalVariant": true,
+  "fluxCapacitors": 5,
+  "fluxVents": 10,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [
+    "unstable_injector",
+    "insulatedengine",
+    "frontshield",
+    "expanded_cargo_holds"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0003": "arbalest",
+        "WS0007": "heavymortar"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0008": "hammer",
+        "WS0009": "hammer"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0005": "vulcan",
+        "WS0006": "vulcan"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

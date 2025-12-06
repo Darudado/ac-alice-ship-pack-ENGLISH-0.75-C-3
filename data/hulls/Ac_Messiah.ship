@@ -1,0 +1,155 @@
+{
+  "hullName": "Ac_Messiah",
+  "hullId": "Ac_Messiah",
+  "hullSize": "DESTROYER",
+  "spriteName": "graphics/ships/Ac_Messiah.png",
+  "style": "HIGH_TECH",
+  "height": 257,
+  "width": 188,
+  "center": [94, 124],
+  "collisionRadius": 144,
+  "shieldCenter": [0, -0],
+  "shieldRadius": 145.5,
+  "viewOffset": 0,
+  "builtInMods": [
+    "energyincreasesmall_ac"
+  ],
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "TURRET",
+      "arc": 135,
+      "angle": 135,
+      "locations": [-61, 34]
+    },
+    {
+      "id": "WS0002",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "TURRET",
+      "arc": 135,
+      "angle": -135,
+      "locations": [-61, -34]
+    },
+    {
+      "id": "WS0003",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "TURRET",
+      "arc": 135,
+      "angle": -45,
+      "locations": [34, -20]
+    },
+    {
+      "id": "WS0004",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "TURRET",
+      "arc": 135,
+      "angle": 45,
+      "locations": [34, 20]
+    },
+    {
+      "id": "WS0005",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "TURRET",
+      "arc": 135,
+      "angle": 75,
+      "locations": [-21, 48]
+    },
+    {
+      "id": "WS0006",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "TURRET",
+      "arc": 135,
+      "angle": -75,
+      "locations": [-21, -48]
+    },
+    {
+      "id": "WS0007",
+      "size": "MEDIUM",
+      "type": "SYNERGY",
+      "mount": "TURRET",
+      "arc": 360,
+      "angle": 180,
+      "locations": [-29, -0]
+    },
+    {
+      "id": "WS0008",
+      "size": "MEDIUM",
+      "type": "HYBRID",
+      "mount": "HARDPOINT",
+      "arc": 10,
+      "angle": 0,
+      "locations": [58, -0]
+    },
+    {
+      "id": "WS0009",
+      "size": "SMALL",
+      "type": "UNIVERSAL",
+      "mount": "HARDPOINT",
+      "arc": 10,
+      "angle": 0,
+      "locations": [10, -38]
+    },
+    {
+      "id": "WS0010",
+      "size": "SMALL",
+      "type": "UNIVERSAL",
+      "mount": "HARDPOINT",
+      "arc": 10,
+      "angle": -0,
+      "locations": [10, 38]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-83, -13],
+      "length": 32.5,
+      "width": 13,
+      "angle": 180,
+      "contrailSize": 13,
+      "style": "HIGH_TECH"
+    },
+    {
+      "location": [-83, 13],
+      "length": 32.5,
+      "width": 13,
+      "angle": -180,
+      "contrailSize": 13,
+      "style": "HIGH_TECH"
+    },
+    {
+      "location": [-89, -24.5],
+      "length": 43.5,
+      "width": 12,
+      "angle": 180,
+      "contrailSize": 12,
+      "style": "HIGH_TECH"
+    },
+    {
+      "location": [-89, 24.5],
+      "length": 43.5,
+      "width": 12,
+      "angle": -180,
+      "contrailSize": 12,
+      "style": "HIGH_TECH"
+    }
+  ],
+  "bounds": [
+    104.5, 25,
+    20.5, 38.5,
+    13, 62.5,
+    -75, 45,
+    -87.5, 18.5,
+    -87.5, -18.5,
+    -75, -45,
+    13, -62.5,
+    20.5, -38.5,
+    104.5, -25
+  ]
+}

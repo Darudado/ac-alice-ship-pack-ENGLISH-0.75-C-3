@@ -1,0 +1,160 @@
+{
+  "hullName": "Ac-_Attker_X",
+  "hullId": "Ac_Attker_X",
+  "hullSize": "FRIGATE",
+  "spriteName": "graphics/ships/ac_attker_x.png",
+  "style": "LOW_TECH",
+  "height": 119,
+  "width": 110,
+  "center": [55, 58.5],
+  "collisionRadius": 56,
+  "shieldCenter": [0, -0],
+  "shieldRadius": 56,
+  "viewOffset": 0,
+  "builtInMods": [
+    "insulatedengine",
+    "hurricaneammofeed_ac"
+  ],
+  "builtInWeapons": {
+    "WS0008": "blinker_red",
+    "WS0009": "blinker_red"
+  },
+  "weaponSlots": [
+    {
+      "id": "WS0005",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "HARDPOINT",
+      "arc": 10,
+      "angle": -0,
+      "locations": [5.5, -27]
+    },
+    {
+      "id": "WS0006",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "HARDPOINT",
+      "arc": 10,
+      "angle": 0,
+      "locations": [5.5, 27]
+    },
+    {
+      "id": "WS0007",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 240,
+      "angle": 0,
+      "locations": [18.5, -0]
+    },
+    {
+      "id": "WS0008",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 10,
+      "angle": 0,
+      "locations": [-25, 31]
+    },
+    {
+      "id": "WS0009",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 10,
+      "angle": -0,
+      "locations": [-25, -31]
+    },
+    {
+      "id": "WS0001",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 240,
+      "angle": 180,
+      "locations": [-20.5, -0]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-39.5, 26],
+      "length": 25.085524,
+      "width": 6.547203,
+      "angle": 174,
+      "contrailSize": 6.547203,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-39.5, -26],
+      "length": 25.085524,
+      "width": 6.547203,
+      "angle": -174,
+      "contrailSize": 6.547203,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-39, 30.5],
+      "length": 23.350277,
+      "width": 8.003641,
+      "angle": 169.5,
+      "contrailSize": 8.003641,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-39, -30.5],
+      "length": 23.350277,
+      "width": 8.003641,
+      "angle": -169.5,
+      "contrailSize": 8.003641,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-37, 34.5],
+      "length": 20.602243,
+      "width": 7.496023,
+      "angle": 170,
+      "contrailSize": 7.496023,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-36.5, -35],
+      "length": 20.602243,
+      "width": 7.496023,
+      "angle": -170,
+      "contrailSize": 7.496023,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-55, -0],
+      "length": 47.5,
+      "width": 16,
+      "angle": 180,
+      "contrailSize": 16,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-47.5, -16],
+      "length": 31,
+      "width": 10,
+      "angle": 180,
+      "contrailSize": 10,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-47.5, 16],
+      "length": 31,
+      "width": 10,
+      "angle": -180,
+      "contrailSize": 10,
+      "style": "LOW_TECH"
+    }
+  ],
+  "bounds": [
+    -15.5, 51,
+    46, 10,
+    46.5, -9.5,
+    -15.5, -49,
+    -52, -10.5,
+    -52, 9.5
+  ]
+}

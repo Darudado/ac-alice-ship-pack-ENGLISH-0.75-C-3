@@ -1,0 +1,13 @@
+{
+	"id":"quickattack_ac",
+	"type":"STAT_MOD",
+	#"aiType":"HIGH_ENERGY_FOCUS",
+	"aiType":"WEAPON_BOOST",
+	
+	"statsScript":"data.shipsystems.AC_QuickAttack",
+	"weaponGlowColor":[200,200,0,155],
+	"weaponTypes":[BALLISTIC],	
+	
+	"useSound":"system_ammo_feeder",
+	"outOfUsesSound":"gun_out_of_ammo",
+}

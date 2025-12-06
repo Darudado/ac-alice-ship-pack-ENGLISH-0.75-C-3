@@ -1,0 +1,14 @@
+{	
+	"graphics":{
+		"characters":{
+			"generic_grayscale":"graphics/portraits/portrait_generic_grayscale.png",
+			"super_fox_9":"graphics/portraits/fox9.png",
+			"knight":"graphics/portraits/portrait_luddic09.png",
+		},
+	  "fx":{
+            "HUAN1": "graphics/icon/icon1.png",
+			"HUAN2": "graphics/icon/icon2.png",
+
+        },
+	}
+}

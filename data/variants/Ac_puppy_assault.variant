@@ -1,0 +1,25 @@
+{
+  "variantId": "Ac_puppy_assault",
+  "hullId": "Ac_puppy",
+  "displayName": "assault",
+  "goalVariant": true,
+  "fluxCapacitors": 0,
+  "fluxVents": 4,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [
+    "heavyarmor",
+    "armoredweapons"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0003": "lightag"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

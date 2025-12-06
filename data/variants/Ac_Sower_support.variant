@@ -1,0 +1,63 @@
+{
+  "variantId": "Ac_Sower_support",
+  "hullId": "Ac_Sower",
+  "displayName": "suport",
+  "goalVariant": true,
+  "fluxCapacitors": 24,
+  "fluxVents": 46,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [
+    "targetingunit",
+    "expanded_deck_crew",
+    "nav_relay"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0002": "flak",
+        "WS0005": "typhoon"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0001": "heavymortar",
+        "WS0007": "heavyac",
+        "WS0008": "heavyac"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0003": "ionpulser",
+        "WS0004": "ionpulser"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0009": "pdlaser",
+        "WS0010": "pdlaser",
+        "WS0013": "pdburst",
+        "WS0014": "pdburst",
+        "WS0017": "pdlaser",
+        "WS0018": "pdlaser",
+        "WS0019": "pdlaser",
+        "WS0020": "pdlaser"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": [
+    "thunder_wing",
+    "thunder_wing",
+    "gladius_wing",
+    "gladius_wing"
+  ]
+}

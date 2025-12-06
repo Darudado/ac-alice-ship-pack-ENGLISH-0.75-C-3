@@ -1,0 +1,48 @@
+{
+  "variantId": "Ac_wing_left_standard",
+  "hullId": "Ac_wing_left",
+  "displayName": "standard",
+  "goalVariant": true,
+  "fluxCapacitors": 2,
+  "fluxVents": 10,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [
+    "missleracks"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0002": "tachyonlance"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "squall",
+        "WS0003": "pilum"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0006": "taclaser",
+        "WS0007": "taclaser"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0004": "pdlaser",
+        "WS0005": "pdlaser"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

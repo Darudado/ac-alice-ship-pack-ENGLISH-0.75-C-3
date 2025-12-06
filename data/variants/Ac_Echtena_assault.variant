@@ -1,0 +1,57 @@
+{
+  "variantId": "Ac_Echtena_assault",
+  "hullId": "Ac_Echtena",
+  "displayName": "assault",
+  "goalVariant": true,
+  "fluxCapacitors": 0,
+  "fluxVents": 16,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [
+    "targetingunit",
+    "fluxbreakers"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0002": "amblaster",
+        "WS0003": "amblaster"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0006": "phasecl",
+        "WS0007": "phasecl"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "sabotpod"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0004": "irpulse",
+        "WS0005": "irpulse"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0008": "pdlaser",
+        "WS0009": "pdlaser"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

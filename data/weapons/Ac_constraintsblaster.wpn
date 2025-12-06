@@ -1,0 +1,48 @@
+{
+  "id": "Ac_constraintsblaster",
+  "specClass": "projectile",
+  "projectileSpecId": "Ac_constraintsblaster_shot",
+  "type": "ENERGY",
+  "size": "MEDIUM",
+  "turretSprite": "graphics/weapons/Ac_constraintsblaster.png",
+  "turretGlowSprite": "graphics/weapons/Ac_constraintsblaster_glow.png",
+  "hardpointSprite": "graphics/weapons/Ac_constraintsblaster.png",
+  "hardpointGlowSprite": "graphics/weapons/Ac_constraintsblaster_glow.png",
+  "glowColor": [
+    120,
+    120,
+    120,
+    255
+  ],
+  "turretOffsets": [
+    23,
+    -0.5
+  ],
+  "turretAngleOffsets": [
+    0
+  ],
+  "hardpointOffsets": [
+    30,
+    0
+  ],
+  "hardpointAngleOffsets": [
+    0
+  ],
+  "barrelMode": "ALTERNATING",
+  "animationType": "GLOW_AND_FLASH",
+  "muzzleFlashSpec": {
+    "length": 40,
+    "spread": 15,
+    "particleSizeMin": 20,
+    "particleSizeRange": 10,
+    "particleDuration": 0.12,
+    "particleCount": 12,
+    "particleColor": [
+      255,
+      250,
+      245,
+      255
+    ]
+  },
+  "fireSoundTwo": "kinetic_blaster_fire"
+}

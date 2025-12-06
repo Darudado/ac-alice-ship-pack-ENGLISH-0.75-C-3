@@ -1,0 +1,180 @@
+{
+  "hullName": "Ac_whitebird_S",
+  "hullId": "Ac_whitebird_S",
+  "hullSize": "FRIGATE",
+  "spriteName": "graphics/ships/ac_whitebird_s.png",
+  "style": "MIDLINE",
+  "height": 101,
+  "width": 126,
+  "center": [63, 51.5],
+  "collisionRadius": 81.5,
+  "shieldCenter": [0, -0],
+  "shieldRadius": 82.5,
+  "viewOffset": 0,
+  "builtInWeapons": {
+    "WS0007": "blinker_red",
+    "WS0008": "blinker_red",
+    "WS0009": "blinker_green",
+    "WS0010": "blinker_green",
+    "WS0011": "blinker_red",
+    "WS0012": "blinker_red"
+  },
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "MEDIUM",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 210,
+      "angle": 90,
+      "locations": [-12.5, 45]
+    },
+    {
+      "id": "WS0002",
+      "size": "MEDIUM",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 210,
+      "angle": -90,
+      "locations": [-12.5, -45]
+    },
+    {
+      "id": "WS0003",
+      "size": "MEDIUM",
+      "type": "ENERGY",
+      "mount": "TURRET",
+      "arc": 208,
+      "angle": -60,
+      "locations": [7.5, -24]
+    },
+    {
+      "id": "WS0004",
+      "size": "MEDIUM",
+      "type": "ENERGY",
+      "mount": "TURRET",
+      "arc": 208,
+      "angle": 60,
+      "locations": [7.5, 24]
+    },
+    {
+      "id": "WS0005",
+      "size": "SMALL",
+      "type": "SYSTEM",
+      "mount": "HARDPOINT",
+      "arc": 10,
+      "angle": 180,
+      "locations": [-24.5, 18.5]
+    },
+    {
+      "id": "WS0006",
+      "size": "SMALL",
+      "type": "SYSTEM",
+      "mount": "HARDPOINT",
+      "arc": 10,
+      "angle": -180,
+      "locations": [-24.5, -18.5]
+    },
+    {
+      "id": "WS0007",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "HARDPOINT",
+      "arc": 5,
+      "angle": 0,
+      "locations": [10, 46]
+    },
+    {
+      "id": "WS0008",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "HARDPOINT",
+      "arc": 5,
+      "angle": -0,
+      "locations": [10, -46]
+    },
+    {
+      "id": "WS0009",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "HARDPOINT",
+      "arc": 5,
+      "angle": -0,
+      "locations": [-37.5, -47]
+    },
+    {
+      "id": "WS0010",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "HARDPOINT",
+      "arc": 5,
+      "angle": 0,
+      "locations": [-37.5, 47]
+    },
+    {
+      "id": "WS0011",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "HARDPOINT",
+      "arc": 5,
+      "angle": 0,
+      "locations": [32.5, 26.5]
+    },
+    {
+      "id": "WS0012",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "HARDPOINT",
+      "arc": 5,
+      "angle": -0,
+      "locations": [32.5, -26.5]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-36.5, 29],
+      "length": 30.5,
+      "width": 16,
+      "angle": 180,
+      "contrailSize": 16,
+      "style": "MIDLINE"
+    },
+    {
+      "location": [-36.5, -29],
+      "length": 30.5,
+      "width": 16,
+      "angle": -180,
+      "contrailSize": 16,
+      "style": "MIDLINE"
+    },
+    {
+      "location": [-29, 12.5],
+      "length": 20,
+      "width": 10,
+      "angle": 180,
+      "contrailSize": 10,
+      "style": "MIDLINE"
+    },
+    {
+      "location": [-29, -12.5],
+      "length": 20,
+      "width": 10,
+      "angle": -180,
+      "contrailSize": 10,
+      "style": "MIDLINE"
+    }
+  ],
+  "bounds": [
+    18, 12,
+    39.5, 14,
+    -12.5, 64,
+    -43, 39,
+    -30, 22,
+    -29, 12.5,
+    -29, -12.5,
+    -30, -22,
+    -43, -39,
+    -12.5, -64,
+    39.5, -14,
+    18, -12
+  ]
+}

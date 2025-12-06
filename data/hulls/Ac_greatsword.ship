@@ -1,0 +1,96 @@
+{
+  "hullName": "Ac_greatsword",
+  "hullId": "Ac_greatsword",
+  "hullSize": "FIGHTER",
+  "spriteName": "graphics/ships/Ac_greatsword.png",
+  "style": "HIGH_TECH",
+  "height": 40,
+  "width": 29,
+  "center": [15, 22],
+  "collisionRadius": 35,
+  "shieldCenter": [0, -0],
+  "shieldRadius": 26,
+  "viewOffset": 0,
+  "builtInMods": [
+    "autorepair"
+  ],
+  "weaponSlots": [
+    {
+      "id": "LB 1",
+      "size": "LARGE",
+      "type": "LAUNCH_BAY",
+      "mount": "HIDDEN",
+      "arc": 360,
+      "angle": 0,
+      "locations": [
+        220.5, -169,
+        219.5, -57.5
+      ]
+    },
+    {
+      "id": "LB 2",
+      "size": "LARGE",
+      "type": "LAUNCH_BAY",
+      "mount": "HIDDEN",
+      "arc": 360,
+      "angle": 0,
+      "locations": [
+        231, -169,
+        235, -154.5
+      ]
+    },
+    {
+      "id": "WS0001",
+      "size": "SMALL",
+      "type": "UNIVERSAL",
+      "mount": "HIDDEN",
+      "arc": 5,
+      "angle": 0,
+      "locations": [13.5, -7.5]
+    },
+    {
+      "id": "WS0002",
+      "size": "SMALL",
+      "type": "UNIVERSAL",
+      "mount": "HIDDEN",
+      "arc": 4,
+      "angle": -0,
+      "locations": [10, 8]
+    },
+    {
+      "id": "WS0004",
+      "size": "SMALL",
+      "type": "SYSTEM",
+      "mount": "HIDDEN",
+      "arc": 4,
+      "angle": 180,
+      "locations": [-10, -0]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-19, -7],
+      "length": 13,
+      "width": 9,
+      "angle": 180,
+      "contrailSize": 9,
+      "style": "MIDLINE"
+    },
+    {
+      "location": [-19, 7],
+      "length": 13,
+      "width": 9,
+      "angle": -180,
+      "contrailSize": 9,
+      "style": "MIDLINE"
+    }
+  ],
+  "bounds": [
+    -11, -4,
+    -11, -18,
+    0, -24.5,
+    20, -19.5,
+    19.5, -1.5,
+    1.5, 3.5
+  ]
+}

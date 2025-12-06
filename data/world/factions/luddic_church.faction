@@ -1,0 +1,97 @@
+{
+	# variantOverrides restricts hulls to listed variants and adjusts their probability
+	"variantOverrides":{
+		"Ac_Punch_assault":3,
+		"Ac_Punch_standard":3,
+
+	},
+	# multiplier for how often hulls show up in the faction's fleets
+	"hullFrequency":{
+		"tags":{
+		},
+		"hulls":{
+		},
+	},
+	# ships the faction gets access to when importing S&W out-of-faction
+	"shipsWhenImporting":{
+		"tags":[],
+		"hulls":[
+		],
+	},
+	"knownShips":{
+		"tags":["luddic_church", "LC_bp"],
+		"hulls":[
+			"Ac_judge",
+			"Ac_Punch",
+			"Ac_Aphrodite",
+			"Ac_Mystia",
+			"Ac_Robber",
+			"Ac_liquid_iron",
+		],
+	},
+	# listing ships here will make the faction mostly use them even if other hulls become available
+	"priorityShips":{
+		"tags":[],
+		"hulls":[
+		],
+	},
+	"knownFighters":{
+		"tags":["luddic_church"],
+		"fighters":[
+			"Ac_grinder",
+		],
+	},
+	"priorityFighters":{
+		"tags":[],
+		"fighters":[
+		],
+	},
+	"knownWeapons":{
+		"tags":[],
+		"weapons":[
+		],
+	},
+	"priorityWeapons":{
+		"tags":[],
+		"weapons":[
+		],
+	},
+	"knownHullMods":{
+		"tags":["standard", "luddic_church"],
+		"hullMods":[
+		],
+	},
+	"weaponSellFrequency":{
+	},
+	"fighterSellFrequency":{
+	},
+	"hullmodSellFrequency":{
+	},	
+	"shipRoles":{
+		"carrierSmall":{
+		},
+		"carrierMedium":{
+			"includeDefault":true,
+			"Ac_Aphrodite_support":35,
+			"Ac_Aphrodite_standard":30,
+		},
+		"combatMedium":{
+			"includeDefault":true,
+
+		},
+		"combatFreighterMedium":{
+		},
+		"carrierLarge":{
+			"Ac_Mystia_support":37,
+		},
+
+
+
+
+	},
+	"illegalCommodities":[
+	],
+	
+	
+},
+

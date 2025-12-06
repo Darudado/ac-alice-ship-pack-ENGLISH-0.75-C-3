@@ -1,0 +1,56 @@
+{
+  "variantId": "Ac_Aphrodite_support",
+  "hullId": "Ac_Aphrodite",
+  "displayName": "support",
+  "goalVariant": true,
+  "fluxCapacitors": 7,
+  "fluxVents": 28,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [
+    "targetingunit",
+    "fluxbreakers"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0003": "salamanderpod",
+        "WS0004": "salamanderpod"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0013": "Ac_sin"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0005": "flak",
+        "WS0006": "flak",
+        "WS0009": "flak"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {}
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {}
+    }
+  ],
+  "modules": [],
+  "wings": [
+    "Ac_grinder",
+    "Ac_grinder",
+    "Ac_grinder"
+  ]
+}

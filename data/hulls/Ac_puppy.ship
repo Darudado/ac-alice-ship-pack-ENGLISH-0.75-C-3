@@ -1,0 +1,89 @@
+{
+  "hullName": "Ac_puppy",
+  "hullId": "Ac_puppy",
+  "hullSize": "FRIGATE",
+  "spriteName": "graphics/ships/Ac_puppy.png",
+  "style": "LOW_TECH",
+  "height": 93,
+  "width": 84,
+  "center": [42, 47],
+  "collisionRadius": 41.5,
+  "shieldCenter": [0, -0],
+  "shieldRadius": 40,
+  "viewOffset": 0,
+  "builtInMods": [
+    "shielded_holds",
+    "rugged"
+  ],
+  "weaponSlots": [
+    {
+      "id": "WS0003",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 240,
+      "angle": -90,
+      "locations": [2, -8]
+    },
+    {
+      "id": "LB 1",
+      "size": "LARGE",
+      "type": "LAUNCH_BAY",
+      "mount": "HIDDEN",
+      "arc": 360,
+      "angle": 0,
+      "locations": [17, -14]
+    },
+    {
+      "id": "WS0001",
+      "size": "MEDIUM",
+      "type": "SYSTEM",
+      "mount": "TURRET",
+      "arc": 10,
+      "angle": 180,
+      "locations": [-21, -0]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-25.5, 19.5],
+      "length": 30,
+      "width": 10,
+      "angle": 180,
+      "contrailSize": 30,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-25.5, -19.5],
+      "length": 30,
+      "width": 10,
+      "angle": -180,
+      "contrailSize": 30,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-24.5, 13],
+      "length": 21,
+      "width": 9,
+      "angle": 180,
+      "contrailSize": 9,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-24.5, -13],
+      "length": 21,
+      "width": 9,
+      "angle": -180,
+      "contrailSize": 9,
+      "style": "LOW_TECH"
+    }
+  ],
+  "bounds": [
+    25, -24,
+    -26, -24,
+    -26, 24,
+    19, 24,
+    19.5, -2.5,
+    25, -3.5
+  ]
+}

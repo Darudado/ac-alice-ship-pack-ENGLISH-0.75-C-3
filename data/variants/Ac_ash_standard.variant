@@ -1,0 +1,23 @@
+{
+  "variantId": "Ac_ash_standard",
+  "hullId": "Ac_ash",
+  "displayName": "无人截击机",
+  "goalVariant": true,
+  "fluxCapacitors": 0,
+  "fluxVents": 0,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "Ac_laser",
+        "WS0002": "Ac_laser"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

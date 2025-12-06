@@ -1,0 +1,63 @@
+{
+  "variantId": "Ac_murderers_assault",
+  "hullId": "Ac_murderers",
+  "displayName": "assault",
+  "goalVariant": true,
+  "fluxCapacitors": 9,
+  "fluxVents": 28,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [
+    "fluxbreakers",
+    "targetingunit"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0003": "sabotpod",
+        "WS0004": "sabotpod"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0001": "typhoon",
+        "WS0002": "typhoon"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0005": "heavyblaster",
+        "WS0006": "heavyblaster"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0007": "ionbeam",
+        "WS0008": "ionbeam",
+        "WS0009": "ionpulser"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0010": "pdlaser",
+        "WS0011": "pdlaser",
+        "WS0012": "pdlaser",
+        "WS0013": "pdlaser",
+        "WS0014": "pdlaser",
+        "WS0015": "pdlaser"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

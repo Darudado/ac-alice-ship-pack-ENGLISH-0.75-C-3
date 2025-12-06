@@ -1,0 +1,21 @@
+{
+	"id":"Ac_ioncannon_shot",
+	"specClass":"projectile",
+	"spawnType":"BALLISTIC_AS_BEAM",
+	"collisionClass":"RAY",
+	"collisionClassByFighter":"RAY_FIGHTER",
+	"onHitEffect":"data.weapons.onhit.ThundersuiteOnHitEffectAc",
+    "length":55.0,
+	"width":15.0,
+	"fadeTime":0.25,
+	"fringeColor":[150,150,255,75],
+	"coreColor":[150,150,255,55],
+	"glowColor":[150,150,255,75],
+	"glowRadius":25,
+	"hitGlowRadius":45,	
+	"textureScrollSpeed":44.0,
+	"pixelsPerTexel":5.0,
+	"passThroughMissiles":true,
+	"passThroughFighters":true,
+	"bulletSprite":"graphics/missiles/shell_gauss_cannon.png"	
+}

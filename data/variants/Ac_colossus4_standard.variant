@@ -1,0 +1,28 @@
+{
+  "variantId": "Ac_colossus4_standard",
+  "hullId": "Ac_colossus4",
+  "displayName": "standard",
+  "goalVariant": true,
+  "fluxCapacitors": 16,
+  "fluxVents": 21,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "lightac",
+        "WS0002": "lightac",
+        "WS0003": "jackhammer",
+        "WS0004": "jackhammer",
+        "WS0005": "lightac",
+        "WS0006": "lightac",
+        "WS0008": "Ac_sin"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

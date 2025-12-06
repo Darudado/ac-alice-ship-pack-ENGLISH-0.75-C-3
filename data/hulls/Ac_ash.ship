@@ -1,0 +1,88 @@
+{
+  "hullName": "Ac_ash",
+  "hullId": "Ac_ash",
+  "hullSize": "FIGHTER",
+  "spriteName": "graphics/ships/Ac_ash.png",
+  "style": "HIGH_TECH",
+  "height": 23,
+  "width": 19,
+  "center": [9.5, 12],
+  "collisionRadius": 15.5,
+  "shieldCenter": [0, -0],
+  "shieldRadius": 12,
+  "viewOffset": 0,
+  "builtInMods": [
+    "pointdefenseai",
+    "high_scatter_amp"
+  ],
+  "weaponSlots": [
+    {
+      "id": "LB 1",
+      "size": "LARGE",
+      "type": "LAUNCH_BAY",
+      "mount": "HIDDEN",
+      "arc": 360,
+      "angle": 0,
+      "locations": [
+        230.5, -174.5,
+        229.5, -63
+      ]
+    },
+    {
+      "id": "LB 2",
+      "size": "LARGE",
+      "type": "LAUNCH_BAY",
+      "mount": "HIDDEN",
+      "arc": 360,
+      "angle": 0,
+      "locations": [
+        241, -174.5,
+        245, -160
+      ]
+    },
+    {
+      "id": "WS0001",
+      "size": "SMALL",
+      "type": "UNIVERSAL",
+      "mount": "HIDDEN",
+      "arc": 30,
+      "angle": 0,
+      "locations": [5, -2.5]
+    },
+    {
+      "id": "WS0002",
+      "size": "SMALL",
+      "type": "UNIVERSAL",
+      "mount": "HIDDEN",
+      "arc": 30,
+      "angle": -0,
+      "locations": [5, 2.5]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-10, -3],
+      "length": 10,
+      "width": 4,
+      "angle": 180,
+      "contrailSize": 4,
+      "style": "HIGH_TECH"
+    },
+    {
+      "location": [-10, 3],
+      "length": 10,
+      "width": 4,
+      "angle": -180,
+      "contrailSize": 4,
+      "style": "HIGH_TECH"
+    }
+  ],
+  "bounds": [
+    -10.5, 4.5,
+    -10, -5,
+    1, -7,
+    8.5, -4,
+    9, 3.5,
+    1, 8
+  ]
+}

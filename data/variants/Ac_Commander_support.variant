@@ -1,0 +1,94 @@
+{
+  "variantId": "Ac_Commander_support",
+  "hullId": "Ac_Commander",
+  "displayName": "support",
+  "goalVariant": true,
+  "fluxCapacitors": 0,
+  "fluxVents": 28,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [
+    "targetingunit",
+    "fluxbreakers",
+    "stabilizedshieldemitter"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0027": "hil",
+        "WS0028": "hil"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0011": "heatseeker",
+        "WS0012": "heatseeker",
+        "WS0019": "heatseeker",
+        "WS0020": "heatseeker"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0003": "squall",
+        "WS0004": "squall"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "hveldriver",
+        "WS0002": "hveldriver",
+        "WS0005": "hveldriver",
+        "WS0006": "hveldriver",
+        "WS0016": "hveldriver",
+        "WS0025": "hveldriver",
+        "WS0029": "typhoon"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0030": "ionbeam"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0007": "gravitonbeam",
+        "WS0008": "gravitonbeam"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0009": "lrpdlaser",
+        "WS0010": "lrpdlaser",
+        "WS0013": "lrpdlaser",
+        "WS0014": "lrpdlaser",
+        "WS0015": "lrpdlaser",
+        "WS0017": "pdlaser",
+        "WS0018": "pdlaser",
+        "WS0021": "pdlaser",
+        "WS0022": "pdlaser",
+        "WS0023": "pdlaser",
+        "WS0024": "pdlaser",
+        "WS0026": "devastator"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": [
+    "mining_drone_wing",
+    "mining_drone_wing"
+  ]
+}

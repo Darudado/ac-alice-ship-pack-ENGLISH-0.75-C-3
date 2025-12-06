@@ -1,0 +1,61 @@
+{
+  "variantId": "Ac_Ziz_assault",
+  "hullId": "Ac_Ziz",
+  "displayName": "assault",
+  "goalVariant": true,
+  "fluxCapacitors": 13,
+  "fluxVents": 40,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [
+    "targetingunit",
+    "fluxbreakers",
+    "advancedoptics"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0010": "phasebeam",
+        "WS0015": "phasebeam",
+        "WS0016": "phasebeam"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0011": "plasma"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0008": "multineedler",
+        "WS0012": "arbalest",
+        "WS0013": "arbalest",
+        "WS0014": "arbalest"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "pdlaser",
+        "WS0002": "pdlaser",
+        "WS0003": "pdlaser",
+        "WS0004": "pdlaser",
+        "WS0005": "pdlaser",
+        "WS0006": "pdlaser",
+        "WS0007": "pdlaser",
+        "WS0009": "pdlaser"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": [
+    "xyphos_wing"
+  ]
+}

@@ -1,0 +1,188 @@
+{
+  "hullName": "Ac_Adultdog",
+  "hullId": "Ac_Adultdog",
+  "hullSize": "FRIGATE",
+  "spriteName": "graphics/ships/Ac_Adultdog.png",
+  "style": "LOW_TECH",
+  "height": 82,
+  "width": 115,
+  "center": [58, 47.5],
+  "collisionRadius": 66.5,
+  "shieldCenter": [0, -0],
+  "shieldRadius": 65.5,
+  "viewOffset": 0,
+  "builtInMods": [
+    "shielded_holds",
+    "rugged"
+  ],
+  "builtInWeapons": {
+    "WS0003": "blinker_red",
+    "WS0005": "blinker_red",
+    "WS0007": "blinker_red",
+    "WS0008": "blinker_red"
+  },
+  "weaponSlots": [
+    {
+      "id": "LB 1",
+      "size": "LARGE",
+      "type": "LAUNCH_BAY",
+      "mount": "HIDDEN",
+      "arc": 360,
+      "angle": 0,
+      "locations": [16.5, 2]
+    },
+    {
+      "id": "WS0001",
+      "size": "MEDIUM",
+      "type": "SYSTEM",
+      "mount": "TURRET",
+      "arc": 10,
+      "angle": 180,
+      "locations": [-17, -0]
+    },
+    {
+      "id": "WS0002",
+      "size": "MEDIUM",
+      "type": "SYSTEM",
+      "mount": "TURRET",
+      "arc": 10,
+      "angle": -90,
+      "locations": [4.5, -46]
+    },
+    {
+      "id": "WS0004",
+      "size": "MEDIUM",
+      "type": "SYSTEM",
+      "mount": "TURRET",
+      "arc": 10,
+      "angle": 90,
+      "locations": [4.5, 46]
+    },
+    {
+      "id": "WS0006",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 240,
+      "angle": -90,
+      "locations": [3.5, -26]
+    },
+    {
+      "id": "WS0010",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 240,
+      "angle": 90,
+      "locations": [3.5, 26]
+    },
+    {
+      "id": "WS0003",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "HARDPOINT",
+      "arc": 5,
+      "angle": 0,
+      "locations": [21.5, -37]
+    },
+    {
+      "id": "WS0005",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "HARDPOINT",
+      "arc": 5,
+      "angle": -0,
+      "locations": [21.5, 37]
+    },
+    {
+      "id": "WS0007",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "HARDPOINT",
+      "arc": 5,
+      "angle": -0,
+      "locations": [21.5, 15]
+    },
+    {
+      "id": "WS0008",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "HARDPOINT",
+      "arc": 5,
+      "angle": 0,
+      "locations": [21.5, -15]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-36.5, -35],
+      "length": 23.5,
+      "width": 8,
+      "angle": 180,
+      "contrailSize": 8,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-36.5, 35],
+      "length": 23.5,
+      "width": 8,
+      "angle": -180,
+      "contrailSize": 8,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-27.5, -14],
+      "length": 22.5,
+      "width": 8,
+      "angle": 180,
+      "contrailSize": 8,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-27.5, 14],
+      "length": 22.5,
+      "width": 8,
+      "angle": -180,
+      "contrailSize": 8,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-36, -28.5],
+      "length": 18.5,
+      "width": 6,
+      "angle": 180,
+      "contrailSize": 6,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-36, 28.5],
+      "length": 18.5,
+      "width": 6,
+      "angle": -180,
+      "contrailSize": 6,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-27.5, -19],
+      "length": 14,
+      "width": 4,
+      "angle": 180,
+      "contrailSize": 4,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-27.5, 19],
+      "length": 14,
+      "width": 4,
+      "angle": -180,
+      "contrailSize": 4,
+      "style": "LOW_TECH"
+    }
+  ],
+  "bounds": [
+    21.5, -44,
+    -23.5, -42,
+    -23.5, 42,
+    21.5, 44
+  ]
+}

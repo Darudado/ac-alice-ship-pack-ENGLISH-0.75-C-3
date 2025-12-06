@@ -1,0 +1,25 @@
+{
+
+	"portraits":{
+		"standard_male":[
+			"graphics/portraits/fox9.png",
+		],
+
+"flags":[
+		{
+			"logo":"graphics/factions/custom/flag_rddu.png",
+			"crest":"graphics/factions/custom/crest_rddu.png"
+		},
+		
+	],
+	},
+
+	"knownShips":{
+		"hulls":[
+			"Ac_Deucalion",
+
+		],
+	},
+
+
+},

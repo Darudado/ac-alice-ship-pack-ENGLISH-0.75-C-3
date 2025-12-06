@@ -1,0 +1,32 @@
+{
+  "variantId": "Ac_whitebird_C_bomber",
+  "hullId": "Ac_whitebird_C",
+  "displayName": "bomber",
+  "goalVariant": true,
+  "fluxCapacitors": 2,
+  "fluxVents": 2,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "vulcan",
+        "WS0002": "vulcan",
+        "WS0003": "heatseeker",
+        "WS0004": "heatseeker"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {}
+    }
+  ],
+  "modules": [],
+  "wings": [
+    "hoplon_wing"
+  ]
+}

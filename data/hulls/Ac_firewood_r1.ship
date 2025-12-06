@@ -1,0 +1,94 @@
+{
+  "hullName": "Ac_firewood_r1",
+  "hullId": "Ac_firewood_r1",
+  "hullSize": "CRUISER",
+  "spriteName": "graphics/ships/firelight/Ac_firewood_r1.png",
+  "style": "HIGH_TECH",
+  "height": 118,
+  "width": 78,
+  "center": [39, 62],
+  "collisionRadius": 76,
+  "shieldCenter": [0, -0],
+  "shieldRadius": 78,
+  "viewOffset": 0,
+  "builtInMods": [
+    "targetingunit",
+    "automated"
+  ],
+  "weaponSlots": [
+    {
+      "id": "WS0005",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "TURRET",
+      "arc": 200,
+      "angle": -90,
+      "locations": [-25, -25]
+    },
+    {
+      "id": "WS0010",
+      "size": "LARGE",
+      "type": "SYSTEM",
+      "mount": "HARDPOINT",
+      "arc": 12,
+      "angle": -17,
+      "locations": [-9, -23.5]
+    },
+    {
+      "id": "WS0001",
+      "size": "LARGE",
+      "type": "SYSTEM",
+      "mount": "HARDPOINT",
+      "arc": 12,
+      "angle": -17,
+      "locations": [-12, -29.5]
+    },
+    {
+      "id": "WS0002",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "TURRET",
+      "arc": 160,
+      "angle": -65,
+      "locations": [17, 5]
+    },
+    {
+      "id": "WS0003",
+      "size": "MEDIUM",
+      "type": "MISSILE",
+      "mount": "TURRET",
+      "arc": 0,
+      "angle": 0,
+      "locations": [45, 4]
+    },
+    {
+      "id": "LB 1",
+      "size": "LARGE",
+      "type": "LAUNCH_BAY",
+      "mount": "HIDDEN",
+      "arc": 360,
+      "angle": 0,
+      "locations": [-29, -7.5]
+    },
+    {
+      "id": "LB 2",
+      "size": "LARGE",
+      "type": "LAUNCH_BAY",
+      "mount": "HIDDEN",
+      "arc": 360,
+      "angle": 0,
+      "locations": [-19.5, -9]
+    }
+  ],
+  "engineSlots": [],
+  "bounds": [
+    -56, 2,
+    13, 14,
+    24, 25,
+    51.5, 21.5,
+    56.5, -4.5,
+    -1, -13.5,
+    -26.5, -40.5,
+    -53.5, -16.5
+  ]
+}

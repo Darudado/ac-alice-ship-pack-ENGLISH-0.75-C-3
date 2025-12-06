@@ -1,0 +1,38 @@
+{
+	# multiplier for how often hulls show up in the faction's fleets
+	"hullFrequency":{
+		#"tags":{
+		#},
+		"hulls":{
+			"Ac_Alice":0.5,
+			"Ac_Nipponia":1,
+			"Ac_Nipponia_oc":1.5,
+			"Ac_judge":1.5,
+
+		},
+	},
+	"knownShips":{
+		"hulls":[
+			"Ac_Alice",
+			"Ac_Nipponia",
+			"Ac_Nipponia_oc",
+			"Ac_judge",
+			"Ac_henchman",
+
+		],
+	},
+	"priorityShips":{
+		"hulls":[
+		],
+	},
+
+	"knownFighters":{
+		"fighters":[
+			"Ac_lance",
+			"Ac_grinder",
+		],
+	},
+
+
+}
+

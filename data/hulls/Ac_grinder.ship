@@ -1,0 +1,127 @@
+{
+  "hullName": "Ac_grinder",
+  "hullId": "Ac_grinder",
+  "hullSize": "FIGHTER",
+  "spriteName": "graphics/ships/Ac_grinder.png",
+  "style": "HIGH_TECH",
+  "height": 50,
+  "width": 34,
+  "center": [17, 27],
+  "collisionRadius": 25,
+  "shieldCenter": [0, -0],
+  "shieldRadius": 25.5,
+  "viewOffset": 0,
+  "weaponSlots": [
+    {
+      "id": "LB 1",
+      "size": "LARGE",
+      "type": "LAUNCH_BAY",
+      "mount": "HIDDEN",
+      "arc": 360,
+      "angle": 0,
+      "locations": [
+        215.5, -167,
+        214.5, -55.5
+      ]
+    },
+    {
+      "id": "LB 2",
+      "size": "LARGE",
+      "type": "LAUNCH_BAY",
+      "mount": "HIDDEN",
+      "arc": 360,
+      "angle": 0,
+      "locations": [
+        226, -167,
+        230, -152.5
+      ]
+    },
+    {
+      "id": "WS0001",
+      "size": "MEDIUM",
+      "type": "UNIVERSAL",
+      "mount": "HIDDEN",
+      "arc": 5,
+      "angle": 0,
+      "locations": [15.5, -3.5]
+    },
+    {
+      "id": "WS0002",
+      "size": "MEDIUM",
+      "type": "UNIVERSAL",
+      "mount": "HIDDEN",
+      "arc": 4,
+      "angle": -0,
+      "locations": [15.5, 3.5]
+    },
+    {
+      "id": "WS0004",
+      "size": "SMALL",
+      "type": "SYSTEM",
+      "mount": "HIDDEN",
+      "arc": 4,
+      "angle": 180,
+      "locations": [-4.5, -0]
+    },
+    {
+      "id": "WS0003",
+      "size": "SMALL",
+      "type": "UNIVERSAL",
+      "mount": "HIDDEN",
+      "arc": 4,
+      "angle": -0,
+      "locations": [8, 8.5]
+    },
+    {
+      "id": "WS0005",
+      "size": "SMALL",
+      "type": "UNIVERSAL",
+      "mount": "HIDDEN",
+      "arc": 4,
+      "angle": 0,
+      "locations": [8, -8.5]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-9.5, 9.5],
+      "length": 7,
+      "width": 2,
+      "angle": 180,
+      "contrailSize": 2,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-9.5, -9.5],
+      "length": 7,
+      "width": 2,
+      "angle": -180,
+      "contrailSize": 2,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-23.5, 3.5],
+      "length": 6.38811,
+      "width": 3.125414,
+      "angle": -175,
+      "contrailSize": 3.125414,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-23.5, -3.5],
+      "length": 6.38811,
+      "width": 3.125414,
+      "angle": 175,
+      "contrailSize": 3.125414,
+      "style": "LOW_TECH"
+    }
+  ],
+  "bounds": [
+    19.5, 3,
+    6.5, 13.5,
+    -23.5, 5.5,
+    -23.5, -5.5,
+    6.5, -13.5,
+    19.5, -3
+  ]
+}

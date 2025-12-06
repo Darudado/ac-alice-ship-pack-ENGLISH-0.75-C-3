@@ -1,0 +1,193 @@
+{
+  "hullName": "Ac_colossus4",
+  "hullId": "Ac_colossus4",
+  "hullSize": "CRUISER",
+  "spriteName": "graphics/ships/Ac_colossus4.png",
+  "style": "LOW_TECH",
+  "height": 237,
+  "width": 196,
+  "center": [98.5, 126],
+  "collisionRadius": 160,
+  "shieldCenter": [0, 0.5],
+  "shieldRadius": 160.5,
+  "viewOffset": 0,
+  "builtInMods": [
+    "civgrade",
+    "safetyoverrides",
+    "ill_advised",
+    "hurricaneammofeed_ac",
+    "narrowdeck_ac"
+  ],
+  "builtInWings": [
+    "talon_wing"
+  ],
+  "builtInWeapons": {
+    "WS0007": "pusherplate_lt_small",
+    "WS0008": "Ac_sin"
+  },
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 150,
+      "angle": -63.5,
+      "locations": [30, -57.5]
+    },
+    {
+      "id": "WS0002",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 150,
+      "angle": 65,
+      "locations": [30, 58.5]
+    },
+    {
+      "id": "WS0003",
+      "size": "MEDIUM",
+      "type": "MISSILE",
+      "mount": "HARDPOINT",
+      "arc": 10,
+      "angle": 0,
+      "locations": [90, -29.5]
+    },
+    {
+      "id": "WS0004",
+      "size": "MEDIUM",
+      "type": "MISSILE",
+      "mount": "HARDPOINT",
+      "arc": 10,
+      "angle": 0,
+      "locations": [89, 30.5]
+    },
+    {
+      "id": "WS0005",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 210,
+      "angle": -60,
+      "locations": [65, -39.5]
+    },
+    {
+      "id": "WS0006",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 210,
+      "angle": 60,
+      "locations": [65, 40.5]
+    },
+    {
+      "id": "WS0007",
+      "size": "LARGE",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 10,
+      "angle": 180,
+      "locations": [-74, 0.5]
+    },
+    {
+      "id": "LB 1",
+      "size": "LARGE",
+      "type": "LAUNCH_BAY",
+      "mount": "HIDDEN",
+      "arc": 360,
+      "angle": 0,
+      "locations": [
+        37.5, -42.5,
+        36.5, 44.5
+      ]
+    },
+    {
+      "id": "LB 2",
+      "size": "LARGE",
+      "type": "LAUNCH_BAY",
+      "mount": "HIDDEN",
+      "arc": 360,
+      "angle": 0,
+      "locations": [
+        43, 43.5,
+        43, -42.5
+      ]
+    },
+    {
+      "id": "WS0008",
+      "size": "LARGE",
+      "type": "BUILT_IN",
+      "mount": "HARDPOINT",
+      "arc": 0,
+      "angle": 0,
+      "locations": [65.5, -0]
+    },
+    {
+      "id": "WS0009",
+      "size": "SMALL",
+      "type": "SYSTEM",
+      "mount": "TURRET",
+      "arc": 10,
+      "angle": 180,
+      "locations": [-79, 0.5]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-118, 62.5],
+      "length": 30,
+      "width": 10,
+      "angle": 180,
+      "contrailSize": 30,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-118, -62.5],
+      "length": 30,
+      "width": 10,
+      "angle": -180,
+      "contrailSize": 30,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-118.5, 55],
+      "length": 30,
+      "width": 10,
+      "angle": 180,
+      "contrailSize": 30,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-118.5, -55],
+      "length": 30,
+      "width": 10,
+      "angle": -180,
+      "contrailSize": 30,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-117.5, 48],
+      "length": 30,
+      "width": 10,
+      "angle": 180,
+      "contrailSize": 30,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-117.5, -48],
+      "length": 30,
+      "width": 10,
+      "angle": -180,
+      "contrailSize": 30,
+      "style": "LOW_TECH"
+    }
+  ],
+  "bounds": [
+    107, 68.5,
+    -120.5, 74.5,
+    -97.5, 19.5,
+    -97.5, -19.5,
+    -120.5, -74.5,
+    107, -68.5
+  ]
+}

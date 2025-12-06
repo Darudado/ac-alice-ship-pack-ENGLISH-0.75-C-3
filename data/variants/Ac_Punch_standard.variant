@@ -1,0 +1,61 @@
+{
+  "variantId": "Ac_Punch_standard",
+  "hullId": "Ac_Punch",
+  "displayName": "standard",
+  "goalVariant": true,
+  "fluxCapacitors": 4,
+  "fluxVents": 30,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [
+    "targetingunit",
+    "ballistic_rangefinder",
+    "fluxbreakers"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "hellbore"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0004": "lightag",
+        "WS0005": "lightag",
+        "WS0012": "hammer",
+        "WS0013": "hammer"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {}
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0006": "lightac",
+        "WS0007": "lightac",
+        "WS0008": "lightac",
+        "WS0009": "lightac",
+        "WS0010": "lightac",
+        "WS0011": "lightac"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0002": "vulcan",
+        "WS0003": "vulcan"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

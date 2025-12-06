@@ -1,0 +1,152 @@
+{
+  "hullName": "Ac_reflection",
+  "hullId": "Ac_reflection",
+  "hullSize": "FIGHTER",
+  "spriteName": "graphics/ships/Ac_reflection.png",
+  "style": "HIGH_TECH",
+  "height": 26,
+  "width": 44,
+  "center": [22, 13],
+  "collisionRadius": 23,
+  "shieldCenter": [0, 0],
+  "shieldRadius": 23,
+  "viewOffset": 0,
+  "builtInMods": [
+    "eccm"
+  ],
+  "builtInWeapons": {
+    "WS0004": "blinker_red",
+    "WS0005": "blinker_red"
+  },
+  "weaponSlots": [
+    {
+      "id": "LB 1",
+      "size": "LARGE",
+      "type": "LAUNCH_BAY",
+      "mount": "HIDDEN",
+      "arc": 360,
+      "angle": 0,
+      "locations": [
+        229.5, -162,
+        228.5, -50.5
+      ]
+    },
+    {
+      "id": "LB 2",
+      "size": "LARGE",
+      "type": "LAUNCH_BAY",
+      "mount": "HIDDEN",
+      "arc": 360,
+      "angle": 0,
+      "locations": [
+        240, -162,
+        244, -147.5
+      ]
+    },
+    {
+      "id": "WS0001",
+      "size": "SMALL",
+      "type": "UNIVERSAL",
+      "mount": "HIDDEN",
+      "arc": 30,
+      "angle": 0,
+      "locations": [7.5, -8]
+    },
+    {
+      "id": "WS0002",
+      "size": "SMALL",
+      "type": "UNIVERSAL",
+      "mount": "HIDDEN",
+      "arc": 30,
+      "angle": -0,
+      "locations": [7.5, 8]
+    },
+    {
+      "id": "WS0003",
+      "size": "SMALL",
+      "type": "UNIVERSAL",
+      "mount": "HIDDEN",
+      "arc": 30,
+      "angle": 0,
+      "locations": [4.5, -0]
+    },
+    {
+      "id": "WS0004",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 30,
+      "angle": 180,
+      "locations": [3.5, 1.5]
+    },
+    {
+      "id": "WS0005",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 30,
+      "angle": -180,
+      "locations": [3.5, -1.5]
+    },
+    {
+      "id": "WS0006",
+      "size": "SMALL",
+      "type": "UNIVERSAL",
+      "mount": "HIDDEN",
+      "arc": 30,
+      "angle": -0,
+      "locations": [5, 14.5]
+    },
+    {
+      "id": "WS0007",
+      "size": "SMALL",
+      "type": "UNIVERSAL",
+      "mount": "HIDDEN",
+      "arc": 30,
+      "angle": 0,
+      "locations": [5, -14.5]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-6, -10],
+      "length": 10,
+      "width": 4,
+      "angle": 180,
+      "contrailSize": 4,
+      "style": "HIGH_TECH"
+    },
+    {
+      "location": [-6, 10],
+      "length": 10,
+      "width": 4,
+      "angle": -180,
+      "contrailSize": 4,
+      "style": "HIGH_TECH"
+    },
+    {
+      "location": [-9.5, -5],
+      "length": 10,
+      "width": 4,
+      "angle": 180,
+      "contrailSize": 4,
+      "style": "HIGH_TECH"
+    },
+    {
+      "location": [-9.5, 5],
+      "length": 10,
+      "width": 4,
+      "angle": -180,
+      "contrailSize": 4,
+      "style": "HIGH_TECH"
+    }
+  ],
+  "bounds": [
+    -8, 4,
+    -7.5, -8,
+    2.5, -20,
+    10, -8.5,
+    10, 8,
+    2, 20.5
+  ]
+}

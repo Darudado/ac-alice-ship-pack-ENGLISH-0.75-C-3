@@ -1,0 +1,31 @@
+{
+	"HullMod":{
+		"AC_EnergyIntegration_TEXT1":"降低 %s 点安装大型能量武器所需的装配点",
+		"AC_HangarDisabled_TEXT1":"无法进行改装机库等航空作业",
+		"AC_TargetLocationEx_TEXT1":"增加 %s 实弹和能量武器射程",
+		"AC_TargetLocationEx_TEXT2":"不兼容于其他定位系统",
+		"AC_EnergyIncreaseSmall_TEXT1":"增加 %s 点小型能量射弹武器射程",
+		"AC_HurricaneAmmoFeed_TEXT1":"增加 %s 实弹武器射速",
+		"AC_HurricaneAmmoFeed_TEXT2":"减少 %s 实弹武器幅能产出",
+		"AC_HurricaneAmmoFeed_TEXT3":"增加 %s 实弹武器最终射程",
+		"AC_Missileloader_TEXT1":"增加 %s 导弹武器射速",
+		"AC_Missileloader_TEXT2":"增加 %s 导弹武器备弹恢复速率",
+		"AC_NarrowDeck_TEXT1":"减少 %s 战机整备速率",
+		"AC_ImmobilizationGrid_TEXT1":"所有武器只会产出 %s 的幅能",
+		"AC_ImmobilizationGrid_TEXT2":"舰船总是会产出硬幅能",
+
+
+
+
+
+		
+	},
+	"Skills":{
+		
+	},
+	"items":{
+		
+	},
+	"event":{
+	}
+}

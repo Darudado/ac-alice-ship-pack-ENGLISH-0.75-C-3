@@ -1,0 +1,27 @@
+{
+  "variantId": "Ac_liquid_iron_standard",
+  "hullId": "Ac_liquid_iron",
+  "displayName": "standard",
+  "goalVariant": true,
+  "fluxCapacitors": 0,
+  "fluxVents": 15,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [
+    "armoredweapons",
+    "targetingunit",
+    "frontemitter",
+    "heavyarmor"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0003": "AC_impulsecannon"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

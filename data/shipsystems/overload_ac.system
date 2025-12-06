@@ -1,0 +1,15 @@
+{
+	"id":"overload_ac",
+	"type":"STAT_MOD",
+	#"aiType":"HIGH_ENERGY_FOCUS",
+	"aiType":"WEAPON_BOOST",
+	
+	"statsScript":"data.shipsystems.AC_OverLoad",
+	
+	
+	"weaponGlowColor":[200,150,0,155],
+	"weaponTypes":[BALLISTIC,ENERGY],
+	
+	"useSound":"system_ammo_feeder",
+	"outOfUsesSound":"gun_out_of_ammo",
+}

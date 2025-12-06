@@ -1,0 +1,36 @@
+{
+	"hullFrequency":{
+		"hulls":{
+		},
+	},
+		
+	"knownShips":{
+		"hulls":[
+			"Ac_Emolly",
+			"Ac_Astle",
+			"Ac_Nipponia",
+			"Ac_Demolisher",
+			"Ac_interdiction",
+			"Ac_Minerva",
+			"Ac_murderers",
+			"Ac_Messiah",
+			"Ac_Minerva",
+
+		],
+	},
+		
+	"priorityShips":{
+		"hulls":[
+			"Ac_Astle",
+			"Ac_murderers",
+			"Ac_Minerva",
+		],
+	},
+
+	"knownFighters":{
+		"fighters":[
+			"Ac_lance",
+		],
+	},
+},
+

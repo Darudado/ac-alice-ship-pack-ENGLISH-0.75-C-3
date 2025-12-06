@@ -1,0 +1,63 @@
+{
+	
+	# variantOverrides restricts hulls to listed variants and adjusts their probability
+	"variantOverrides":{
+	},
+	
+	# multiplier for how often hulls show up in the faction's fleets
+	"hullFrequency":{
+		"tags":{
+		},
+		"hulls":{
+			"Ac_Ghoul":0.8,
+		},
+	},
+    "shipsWhenImporting":{
+        "tags":["uw_post_collapse_bp", "uw_hack_job_bp", "uw_junker_bp"],
+        "hulls":[
+			"Ac_Ghoul",
+        ],
+    },
+	"knownShips":{
+		"tags":[],
+		"hulls":[
+			"Ac_Ghoul",
+			"Ac_Deucalion",
+		],
+	},
+	# listing ships here will make the faction mostly use them even if other hulls become available
+	"priorityShips":{
+		#"tags":[],
+		#"hulls":[],
+	},
+	
+	"knownFighters":{
+		#"tags":[],
+		#"fighters":[],
+	},
+	
+	"priorityFighters":{
+		#"tags":[],
+		#"fighters":[],
+	},
+	
+	"knownWeapons":{
+
+		"weapons":[
+		],
+	},
+	"priorityWeapons":{
+		#"tags":[],
+		#"weapons":[],
+	},
+	
+	"knownHullMods":{
+		#"tags":["base_bp", "pirates"],
+		#"hullMods":[],
+	},
+	
+}
+
+
+
+

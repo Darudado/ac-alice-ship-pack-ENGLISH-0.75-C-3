@@ -1,0 +1,76 @@
+{
+  "variantId": "Ac_Ziz_support",
+  "hullId": "Ac_Ziz",
+  "displayName": "support",
+  "goalVariant": true,
+  "fluxCapacitors": 17,
+  "fluxVents": 40,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [
+    "targetingunit",
+    "fluxbreakers",
+    "advancedoptics"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0011": "hil"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0008": "gauss"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0010": "irautolance",
+        "WS0012": "hveldriver",
+        "WS0013": "hveldriver",
+        "WS0014": "hveldriver",
+        "WS0015": "irautolance",
+        "WS0016": "irautolance"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "pdlaser",
+        "WS0002": "pdlaser",
+        "WS0003": "pdlaser",
+        "WS0004": "pdlaser",
+        "WS0005": "lrpdlaser",
+        "WS0006": "lrpdlaser",
+        "WS0007": "lrpdlaser",
+        "WS0009": "lrpdlaser"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {}
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {}
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {}
+    }
+  ],
+  "modules": [],
+  "wings": [
+    "xyphos_wing"
+  ]
+}

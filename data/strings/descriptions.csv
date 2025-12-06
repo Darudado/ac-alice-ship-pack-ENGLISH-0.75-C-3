@@ -1,0 +1,257 @@
+id,type,text1,text2,text3,text4,notes,Column 08
+#SHIPS,,,,,,,
+Ac_Crasher,SHIP,"A gunship retrofitted by integrating modular cargo components and modified Mudskipper modules onto a Gemini-class hull. The most notable tradeoff is its fragile shields. Despite structural weaknesses, its overwhelming firepower and ease of modification earn it high praise—among factions capable of utilizing it.",,,,,,
+Ac_Alice,SHIP,"A battlecruiser designed to address the Invincible Fleet's lack of mobility, albeit with slightly reduced firepower. Compared to the Onslaught-class, it boasts superior maneuverability and highly customizable weapon mounts.
+
+While the Domain-era Invincible Fleet left its mark on history (and the Persean Sector) with the Onslaught and Legion-class fortresses, they struggled to fulfill all roles efficiently. The Alice-class bridges the gap between battleships and cruisers, retaining heavy firepower and armor while gaining independent operational capabilities through enhanced mobility and a versatile weapon system.
+
+Though overshadowed by the Onslaught and other capital ships, this vessel's adaptability secures its place in this fractured era.",,,,,,
+Ac_Alice_oc,SHIP,"A battlecruiser designed to address the Invincible Fleet's lack of mobility, albeit with slightly reduced firepower. Compared to the Onslaught-class, it boasts superior maneuverability and highly customizable weapon mounts. A minor flight deck was added to compensate for its weaker firepower, though system compatibility issues reduced its performance.
+
+While the Domain-era Invincible Fleet left its mark on history (and the Persean Sector) with the Onslaught and Legion-class fortresses, they struggled to fulfill all roles efficiently. The Alice-class bridges the gap between battleships and cruisers, retaining heavy firepower and armor while gaining independent operational capabilities through enhanced mobility and a versatile weapon system.
+
+Though overshadowed by the Onslaught and other capital ships, this vessel's adaptability secures its place in this fractured era.",,,,,,
+Ac_Alice_os,SHIP,"A battlecruiser designed to address the Invincible Fleet's lack of mobility, albeit with slightly reduced firepower. Compared to the Onslaught-class, it boasts superior maneuverability and highly customizable weapon mounts. A large ballistic mount was added to compensate for its weaker firepower, though system compatibility issues reduced its performance.
+
+While the Domain-era Invincible Fleet left its mark on history (and the Persean Sector) with the Onslaught and Legion-class fortresses, they struggled to fulfill all roles efficiently. The Alice-class bridges the gap between battleships and cruisers, retaining heavy firepower and armor while gaining independent operational capabilities through enhanced mobility and a versatile weapon system.
+
+Though overshadowed by the Onslaught and other capital ships, this vessel's adaptability secures its place in this fractured era.",,,,,,
+Ac_Astle,SHIP,"An Expansion Era carrier battleship: fast, agile, and armed with devastating firepower.
+
+Powered by advanced engines, this massive hull achieves remarkable speed. Equipped with advanced targeting systems and four standard flight decks, it threatens all foes.
+
+As the high-tech successor to the Legion-class carrier battleship, the Astle stands as another Domain marvel—enduring pressure from specialized ships like the Paragon and Astral, or comparisons to the Odyssey-class. Yet its versatility and raw power ensure dominance in any scenario.",,,,,,
+Ac_Attker,SHIP,"A hybrid hull cobbled from Kite, Hound, and Sunder parts, prioritizing speed and missile armament.
+
+Criminals covet this retrofit for hit-and-run raids. Its blistering speed and burst firepower allow swift destruction of merchant convoys or suicidal charges against hardened targets. Simply put, this Sunder variant outpaces fighters and leaves most warships in the dust.",,,,,,
+Ac_Attker_S,SHIP,"A hybrid hull cobbled from Kite, Hound, and Sunder parts, prioritizing speed and missile armament.
+
+Criminals covet this retrofit for hit-and-run raids. Its blistering speed and burst firepower allow swift destruction of merchant convoys or suicidal charges against hardened targets. Simply put, this Sunder variant outpaces fighters and leaves most warships in the dust.",,,,,,
+Ac_Attker_X,SHIP,"A hybrid hull cobbled from Kite, Hound, and Sunder parts, prioritizing speed and ballistic armament.
+
+Criminals covet this retrofit for hit-and-run raids. Its blistering speed and burst firepower allow swift destruction of merchant convoys or suicidal charges against hardened targets. Simply put, this Sunder variant outpaces fighters and leaves most warships in the dust.",,,,,,
+Ac_prometheus_3,SHIP,"Luddic Path zealots repurposed a Prometheus fuel hauler—loaded with ""Hellfire"" (antimatter fuel)—into a mobile crusade platform.
+
+The gutted Prometheus was stuffed with nano-forges to mass-produce fighters. However, the sheer number of flight decks destabilizes its systems, jeopardizing the ship itself.",,,,,,
+Ac_Emolly,SHIP,"A superheavy frigate armed with two Terminator drone wings—its firepower rivals destroyers.
+
+The Molly-class drone carrier emerged pre-Collapse as a notorious budget-padding project. Borrowing Tempest-class tech, its symmetrical hull sacrificed medium missile mounts for stability. Conservative design pleased Domain Navy brass, as experimental ships often incurred excessive upkeep.
+
+Note: Its excessive armament strains the flux core.",,,,,,
+Ac_Dreamer,SHIP,"A high-speed battleship blending mobility, firepower, and heavy armor. Believed to combine Mithrium and Mystia-class technologies.
+
+The Dreamer-class is an overengineered relic of Domain-era炫耀shipbuilding—a display of industrial might to intimidate rebellious factions. Historical records suggest none reached the undeveloped Persean Sector.
+
+Any major power now monitors sightings closely, as pirates wielding this ship could devastate vulnerable colonies.",,,,,,
+Ac_Rosebush,SHIP,"A heavily armed freighter famed for versatility and ballistic arrays.
+
+By merchant standards, the Rosebush is overarmed—accelerated autoloaders and three integrated Mining Hornet wings belong on warships. Initially military-grade, civilian refits replaced its drones but retained enough firepower to duel small combatants.
+
+This reliable freighter is favored by cash-strapped or risk-prone captains. Pirates increasingly deploy it in large-scale raids.",,,,,,
+Ac_Ghoul,SHIP,"A carrier battleship rebuilt from Hegemony blueprints lost during the AI Wars.
+
+Tri-Tachyon’s leaked blueprints inspired pirates to combine Legion-class hulls with Onslaught-class Thermal Pulse Cannons. The Ghoul-class pairs these cannons with composite mounts and three flight decks, overwhelming colony defense fleets.
+
+Under seasoned pirate captains, this resurrected terror haunts underdefended worlds. As pirates say: ""The time to feast on the Domain’s corpse is now!""",,,,,,
+Ac_Mystia,SHIP,"A battleship focused on long-range suppression. Its limited turrets resemble heavy cruisers, but its Weapon Overdrive system enables devastating salvos.
+
+Poor at close combat, it often serves as a command center or fire support vessel for smaller fleets.",,,,,,
+Ac_Larks,SHIP,"A fragile armed freighter by Expansion Era standards.
+
+Despite its lavish appearance, the Larks-class cuts costs aggressively to serve as a budget light freighter. Its strong shield is hampered by civilian-grade power grids, leaving only minimal redundancy for mining lasers and PD. Survival relies on heavy PD lasers, flare launchers, and decent mobility.
+
+Affordable and reliable, it handles minor pirate threats like shuttle-borne raiders. Its speed also suits emergency logistics or military auxiliary roles.",,,,,,
+Ac_forsteri,SHIP,"A Core Era carrier famed for its numerous flight decks.
+
+The Heron’s bulkier cousin, designed by Altair Tech. Unlike the Heron’s focus on mobility, the Forsteri prioritizes fleet-wide carrier support. Its rounded hull (earning the ""Emperor Penguin"" nickname) houses five flight decks and two large ballistic turrets for suppression.
+
+Widely used by the Persean League for its efficient strike craft deployment.",,,,,,
+Ac_henchman,SHIP,"A light destroyer built for firepower. The Henchman’s integrated Weapon Overload Reload system enhances ballistic range and output.
+
+Colonies facing raids deploy it as rapid-response heavy firepower, leaving pirates and Luddic saboteurs deeply impressed.",,,,,,
+Ac_ray,SHIP,"A remnant of Tri-Tachyon’s AI fleets. Officially banned by the Domain (and Hegemony) and despised by the Luddic Church, these ships were supposedly purged during the First AI War—or so history claims.
+
+This unmanned battleship emphasizes armor and mobility over offense. The Hegemony’s post-war ""Victory Declaration"" insisted all AI strongholds were destroyed. Yet their resurgence in remote systems exposes this as delusion.",,,,,,
+Ac_Nipponia,SHIP,"A swift, elegant, and lethally armed cruiser threatening even capital ships.
+
+Named after a docile Earth bird, the Nipponia-class is anything but gentle. Critics initially dismissed its oversized hull, but combat silenced them. A prow-mounted large energy mount and powerful engines let it strike safely from range.
+
+Proudly serving Hegemony/League fleets, this Eagle-class sibling is a force to reckon with.",,,,,,
+Ac_Nipponia_oc,SHIP,"A swift, elegant, and lethally armed cruiser threatening even capital ships.
+
+Named after a docile Earth bird, the Nipponia-class is anything but gentle. Critics initially dismissed its oversized hull, but combat silenced them. A prow-mounted large energy mount and powerful engines let it strike safely from range.
+
+The Mk2 variant sacrifices missile racks for flight decks to counter small craft. Exclusively serving the Hegemony.",,,,,,
+Ac_judge,SHIP,"A Domain-era cruiser prioritizing armor over firepower. Compact and heavily armored, it’s common in colonial patrols.
+
+Colonial militias favor its defense over offensive upgrades—sufficient for pirate freighters. This reliable design thrives in the Persean Sector.",,,,,,
+Ac_holy_see,SHIP,"A fortress ship rivaling stations. Its purpose remains unknown.
+
+The Holy See combines massive hulls, overwhelming firepower, and logistics for small colonies. Automated systems are efficient, but crew and resource demands hinder deep-space operations. Perhaps a technician’s fantasy or a warlord’s last stand.
+
+This monolithic fortress uses an integrated design.",,,,,,
+Ac_Base_sit,SHIP,"A fortress ship rivaling stations. Its purpose remains unknown.
+
+The Holy See combines massive hulls, overwhelming firepower, and logistics for small colonies. Automated systems are efficient, but crew and resource demands hinder deep-space operations. Perhaps a technician’s fantasy or a warlord’s last stand.
+
+This monolithic fortress uses a modular design.",,,,,,
+Ac_Harasser,SHIP,"A small cruiser with suspiciously oversized components.
+
+The Harasser’s cramped layout, exposed engines, and flight decks draw scrutiny. Some speculate it’s a detachable module from a larger vessel or a Domain-era ""raider design."" Post-Collapse, such theories are unverifiable.
+
+Lacking missiles for quick kills, it remains a credible threat.",,,,,,
+Ac_whitebird_C,SHIP,"A Core Era micro-carrier for harassment. The Whitebird-C’s oversized decks strain its fragile flux core, often limiting pilots to standard operations.
+
+Cheap, fast, and flimsy—even mining crews consider using this military-grade carrier.",,,,,,
+Ac_whitebird_S,SHIP,"A Core Era heavy frigate for harassment. The Whitebird-S’s firepower surpasses the Hammerhead, but its power grid forces downgraded weapons.
+
+Cheap yet sturdy, it excels in fire support roles.",,,,,,
+Ac_Demolisher,SHIP,"An Expansion Era heavy cruiser renowned for firepower and shields. Its fortress-like shields withstand capital-grade fire, while High-Energy Focus and energy weapons punish enemies daring to enter its range. Though outshone by the Aurora’s advanced design, the rugged Demolisher held its own in Domain fleets.
+
+A testament to blending old doctrines with new tech.",,,,,,
+Ac_irises,SHIP,"A highly mobile Domain-era battlecruiser. Once admired for speed, shields, and elegance, post-Collapse obsolescence limits it to poor colonies, explorers, or speculators hoping to revive it.
+
+This beautiful war machine sleeps—awaiting a museum or rebirth. Even outdated, it fights valiantly.",,,,,,
+Ac_irises_oc,SHIP,"A highly mobile Domain-era battlecruiser. Post-Collapse upgrades added four flight decks, letting it project strike craft from its battlecruiser frame.
+
+This revived machine now stalks the battlefield like an archer.",,,,,,
+Ac_irises_os,SHIP,"A highly mobile Domain-era battlecruiser. Post-Collapse radical refits transformed it into an asymmetric monster. The Mk3 wields Tyrfing-class ""Flashfire"" rapid-fire systems to obliterate peers.
+
+Reborn as a knight, it holds the line.",,,,,,
+Ac_Redeemer,SHIP,"A sturdy, well-armed light cruiser. Post-Collapse colonies built it using Enterprise-class blueprints, offering early defense. Pragmatic design crams flight decks and diverse mounts into a compact hull.
+
+Now often deployed for long-range support.",,,,,,
+Ac_nightingale,SHIP,"A fast destroyer shredding small craft with ballistic spam. Useless against capitals, yet overeager captains charge them anyway. At least retreat is quick—explaining why tavern tales persist.",,,,,,
+Ac_interdiction,SHIP,"A mobile cruiser militarized from the Venture-class. Stripped of survey gear and hyper-optimized for speed. Efficient mounts and integrated flight decks eliminate carrier dependence. It charges like fearless cavalry.
+
+Sleek yet deadly, it anchors battlelines alone.",,,,,,
+Ac_fulcrum,SHIP,"A fast, defensive Expansion Era armed freighter. Designed to resupply Domain task forces in remote sectors or support invasions.
+
+Post-Collapse, Tri-Tachyon retrofitted it with salvage rigs for practicality.",,,,,,
+Ac_Punch,SHIP,"A retro-style fast cruiser emphasizing forward firepower at the cost of rear defense. Lacks tactical systems for chasing foes. Combines light and heavy mounts to threaten all targets.
+
+Mainly used by the Luddic Church—if you see one, expect a devout knight.",,,,,,
+Ac_Sower,SHIP,"A Core Era carrier famed for flight decks. The Sower balances six decks with mobility and power grids, outperforming the Astral in versatility.
+
+Widely used by the Persean League.",,,,,,
+Ac_Commander,SHIP,"A rare fast battleship blending capital-grade defenses, mobility, and firepower. The Vidofnir-class, designed by ""Mbayé-Gogol"" to compete with the Conquest, emphasizes energy weapons. Domain Navy officials favored the Conquest, relegating the Vidofnir to ceremonial roles or elite guards.
+
+Post-Collapse, its hidden potential shines—fighting Hegemony fleets in the AI Wars and raiding convoys.",,,,,,
+Ac_sarcasm,SHIP,"A remnant of Tri-Tachyon’s AI fleets. Officially banned by the Domain (and Hegemony) and despised by the Luddic Church, these ships were supposedly purged during the First AI War—or so history claims.
+
+This unmanned battleship emphasizes armor and mobility over offense. The Hegemony’s post-war ""Victory Declaration"" insisted all AI strongholds were destroyed. Yet their resurgence in remote systems exposes this as delusion.
+
+Ironically, Tri-Tachyon now fears this ship’s disruptive potential—hiding fangs or cowering in fear?",,,,,,
+Ac_vicious,SHIP,"A remnant of Tri-Tachyon’s AI fleets. Officially banned by the Domain (and Hegemony) and despised by the Luddic Church, these ships were supposedly purged during the First AI War—or so history claims.
+
+This unmanned battleship emphasizes armor and mobility over offense. The Hegemony’s post-war ""Victory Declaration"" insisted all AI strongholds were destroyed. Yet their resurgence in remote systems exposes this as delusion.
+
+Ironically, Tri-Tachyon now fears this ship’s disruptive potential—hiding fangs or cowering in fear?",,,,,,
+Ac_puppy,SHIP,"A short-range ""armed"" freighter beloved by remote haulers. Cheap, fast, efficient—and fragile. Despite downsizing from the Hound-class, its cargo capacity remains decent, though hyperspace fuel costs are disproportionate.
+
+Post-Collapse, such crude designs proliferate—a testament to the Sector’s decline.",,,,,,
+Ac_tracker,SHIP,"A multirole logistics frigate. ""Prospecting, scanning, salvaging! Spacious holds, crew quarters, fuel tanks! Defense, speed, and mining drones! All in the Tracker! Ditch your relics for the future!""—so claimed its ads. But high upkeep and undersized gear deterred users. Competing with Shepherd-class and Ventures, it faded into obscurity.
+
+Still, its versatility suits short-haul missions. Scholars with technical skills might appreciate its built-in gear.",,,,,,
+Ac_Echtena,SHIP,"An Expansion Era destroyer with absurd firepower. Flexible energy and missile mounts let it strike like a viper.
+
+Though flux-limited, it annihilates targets efficiently.",,,,,,
+Ac_Deucalion,SHIP,"A post-Collapse multirole fuel hauler. Praised by some governments as ""innovative,"" but despised by crews and pirates alike. Crews hate hauling antimatter in its fragile hull, cramped corridors, and useless guns. Admirals scoff at its mediocre capacity. Pirates avoid this volatile ""firework.""
+
+Deucalion crews inherit the Atlas-class’s misfortune—magnified.",,,,,,
+Ac_firelight,SHIP,"A remnant of Tri-Tachyon’s AI fleets. Officially banned by the Domain (and Hegemony) and despised by the Luddic Church, these ships were supposedly purged during the First AI War—or so history claims.
+
+This unmanned battleship emphasizes armor and mobility over offense. The Hegemony’s post-war ""Victory Declaration"" insisted all AI strongholds were destroyed. Yet their resurgence in remote systems exposes this as delusion.
+
+An eerie flame-like glow emanates from its hull...",,,,,,
+Ac_afterglow,SHIP,"A remnant of Tri-Tachyon’s AI fleets. Officially banned by the Domain (and Hegemony) and despised by the Luddic Church, these ships were supposedly purged during the First AI War—or so history claims.
+
+This unmanned battleship emphasizes armor and mobility over offense. The Hegemony’s post-war ""Victory Declaration"" insisted all AI strongholds were destroyed. Yet their resurgence in remote systems exposes this as delusion.
+
+""The Persean Sector’s twilight—or dawn? While these drones roam, no sunrise shall come.""—Hegemony propaganda from the First AI War.",,,,,,
+Ac_smolder,SHIP,"A remnant of Tri-Tachyon’s AI fleets. Officially banned by the Domain (and Hegemony) and despised by the Luddic Church, these ships were supposedly purged during the First AI War—or so history claims.
+
+This unmanned battleship emphasizes armor and mobility over offense. The Hegemony’s post-war ""Victory Declaration"" insisted all AI strongholds were destroyed. Yet their resurgence in remote systems exposes this as delusion.
+
+""Tri-Tachyon’s automatons harass our allies. Our forces cannot attack and defend simultaneously.""—First AI War field report.",,,,,,
+Ac_Alcedo,SHIP,"A fast destroyer specializing in harassing capitals. Standard guns lack punch, but flexible mounts allow heavy torpedoes or EMP ion weapons.
+
+A standard flight deck aids scouting and disruption.",,,,,,
+Ac_Robber,SHIP,"A raider playing vanguard in small fleets. Fragile but threatening with missiles and speed. Similar to retrofitted Kites—hit hard, then flee. Underrated during the Domain’s dominance, its modern resurgence aids pirates and Tri-Tachyon guerrillas.
+
+The Hegemony now acknowledges fast ships’ importance, resurrecting this design.",,,,,,
+Ac_Aphrodite,SHIP,"An old-gen superheavy cruiser-carrier hybrid. Unlike the civilian Mora, the Aphrodite emphasizes direct firepower alongside flight decks. Low build costs masked by high upkeep—manageable under Domain logistics, but post-Collapse, few factions bother.",,,,,,
+Ac_Bulldog,SHIP,"A militarized freighter beloved by haulers, pirates, and bounty hunters. Originally a planetary bomber, its excessive armament lets it brawl with warships—shieldless.
+
+Common in pirate raids—and patrols hunting those same pirates.",,,,,,
+Ac_Adultdog,SHIP,"A short-range ""armed"" freighter beloved by remote haulers. Cheap, fast, efficient—and fragile. Double the Puppy-class’s size but equally weak defenses.
+
+Post-Collapse, such crude designs proliferate—a testament to the Sector’s decline.",,,,,,
+Ac_Adriatic,SHIP,"A commemorative cruiser-sized yacht with archaic luxury. Based on an Old Earth film, its name and design reference a fictional ""flying boat."" Rare and sought-after by blueprint hunters.",,,,,,
+Ac_Minerva,SHIP,"A large, lightly armored warship embodying the Domain Navy’s pursuit of firepower and mobility. Its long-range guns and speed let commanders deploy it strategically.
+
+Dubbed ""vulnerable"" compared to ""invincible"" designs, it was relegated to secondary roles.",,,,,,
+Ac_murderers,SHIP,"A ship radiating extremism. The Domain Navy deemed it irresponsible—optimized to annihilate cruisers but helpless against capitals. Reviving the ""pocket battleship"" concept, it was reclassified as a battlecruiser during the Second AI War.
+
+Tri-Tachyon used it to ravage Hegemony convoys and patrols. Losses? Just cheap mercenary lives.",,,,,,
+Ac_Messiah,SHIP,"An Expansion Era destroyer designed by Domain Naval R&D (with Tri-Tachyon influence). Based on the Hyperion, its stabilized ""Phantom Jump"" system reduces maintenance and enables larger ship teleportation.
+
+Tri-Tachyon stole blueprints pre-Second AI War, deploying it to cripple Hegemony logistics.",,,,,,
+Ac_Ziz,SHIP,"A Core Era redesign of the Mystia-class. Domain traditionalists demanded a slow, imposing battleship for show. Retaining long-range guns and ditching missiles, it gained large energy mounts and reduced fighter dependency.
+
+During the First AI War, Ziz-class lines defended colonies effectively before Tri-Tachyon reinforcements arrived.",,,,,,
+Ac_pulse,SHIP,"A remnant of Tri-Tachyon’s AI fleets. Officially banned by the Domain (and Hegemony) and despised by the Luddic Church, these ships were supposedly purged during the First AI War—or so history claims.
+
+This unmanned battleship emphasizes armor and mobility over offense. The Hegemony’s post-war ""Victory Declaration"" insisted all AI strongholds were destroyed. Yet their resurgence in remote systems exposes this as delusion.
+
+An eerie flame-like glow emanates from its hull...",,,,,,
+Ac_Mudrock,SHIP,"A post-Collapse super-freighter retrofit. Reinforced Atlas hulls with external bracing become ad-hoc artillery platforms.
+
+Designed for bulk cargo delivery to remote outposts, its size and slowness attract pirates and fanatics. Hegemony uses it for seasonal agriculture hauls, guarded by cruiser fleets.
+
+Commanding one is punishment for competence—tedium punctuated by terror.",,,,,,
+Ac_Tyrfing,SHIP,"A Domain Navy flagship designed as a fleet centerpiece and tech testbed. Initially an all-big-gun dreadnought, later modified. Equipped with ""Flashfire"" ballistic accelerators for devastating salvos—or ""drawing the cursed blade.""
+
+Post-Collapse, it passed through mad owners seeking glory, each meeting ruin.",,,,,,
+Ac_liquid_iron,SHIP,"A durable light destroyer with archaic ablative foam armor. Weak weapons, but engineers later added auxiliary systems to boost output.
+
+The Hegemony traded its blueprints to the Luddic Church during the Second AI War for covert support.",,,,,,
+,,,,,,,
+Ac_lance,SHIP,"A post-Second AI War drone armed with PD weapons and a high-impact cannon. Formidable but lengthy rearmament.",,,,,,
+Ac_ash,SHIP,"A drone lethal to small craft. High-dispersion lasers shred shields and hulls.",,,,,,
+Ac_reflection,SHIP,"A shieldless fighter loaded with weapons. Durable and fast, but slow to rearm.",,,,,,
+Ac_greatsword,SHIP,"A heavy fighter with long-range armament.",,,,,,
+Ac_Dwarf,SHIP,"A mining drone modified for harsh environments.",,,,,,
+,,,,,,,
+Ac_ioncannon,WEAPON,"A long-range ion cannon integrated into ship hulls due to size.",,,,,,
+Ac_miningblaster,WEAPON,"A post-Second AI War weapon designed for Lance drones.",,,,,,
+Ac_heavycannon,WEAPON,"A large-bore short-barrel cannon stressing grids but threatening armor and shields.",,,,,,
+Ac_lightag,WEAPON,"An ultra-light AG assault gun piercing armor with precision.",,,,,,
+Ac_mortar,WEAPON,"A split heavy mortar firing reduced charges—still armor-cracking.",,,,,,
+Ac_laser,WEAPON,"A specialized laser used in material cutting.",,,,,,
+Ac_quadruple_flak,WEAPON,"A quad-linked flak cannon annihilating missiles and fighters at range.",,,,,,
+Ac_constraintsblaster,WEAPON,"A long-range energy weapon limited only by magnetic constraints.",,,,,,
+Ac_oerlikon,WEAPON,"An antique PD gun designed against Claw interceptors. Also damages light armor.",,,,,,
+AC_impulsecannon,WEAPON,"A weak particle accelerator with ultra-high velocity via magnetic rails.",,,,,,
+Ac_sin,WEAPON,"A fixed Hellbore firing reduced charges. Enhanced firing mechanisms make it devastating. Tavern rumors claim: ""This gun kills anything—common or otherwise.""",,,,,,
+,,,,,,,
+#systems,,,,,,,
+jets_ac,SHIP_SYSTEM,"Temporarily overdrives engines,大幅提升 mobility and speed.",Mobility,,,,
+mine_strike_ac,SHIP_SYSTEM,"Deploys heavy mines from phase space. Fewer charges due to lighter capacitors.",Offense,,,,
+highspeedcharger_ac,SHIP_SYSTEM,"Activates backup capacitors to boost energy weapon rate of fire, slightly increasing flux.",Special,,,,
+teleporter_ac,SHIP_SYSTEM,"Teleports the ship via shallow phase interaction.",Offense,,,,
+acausaldisruptoreng_ac,SHIP_SYSTEM,"Disrupts engine regulators, temporarily immobilizing ships.",Special,,,,
+temporalshellweak_ac,SHIP_SYSTEM,"A weaker, flexible ""Temporal Shell"" with lower flux cost.",Offense,,,,
+temporalshellweakre_ac,SHIP_SYSTEM,"Accelerates local timeflow, mildly boosting engines. Generates moderate flux.",Offense,,,,
+plasmajets_ac,SHIP_SYSTEM,"Dramatically increases speed and mobility briefly.",Mobility,,,,
+,,,,,,,
+quickattack_ac,SHIP_SYSTEM,"Disables most weapons. Ballistics gain +500% fire rate and -25% flux.",Offense,,,,
+quickattack_ac_1,SHIP_SYSTEM,"Disables most weapons. Ballistics gain +500% fire rate and -25% flux.",,,,,,
+overload_ac,SHIP_SYSTEM,"Overloads weapons: +25% damage and fire rate (excluding missiles). No adverse effects.",Offense,,,,
+overload_ac_1,SHIP_SYSTEM,"Overloads weapons: +25% damage and fire rate (excluding missiles). No adverse effects.",,,,,,
+hardening_ac,SHIP_SYSTEM,"Activates temporary hardening, causing beam weapons to inflict hard flux.",Special,,,,
+,,,,,,,
+firecontrolink_ac,SHIP_SYSTEM,"Grants +20% weapon range to non-capital allies within 3000su.",Special,,,,
+,,,,,,,
+linkteleporter_ac,SHIP_SYSTEM,"Teleports in a direction, relocating nearby fighters within 2000su.",Special,,,,
+reload_ac,SHIP_SYSTEM,"Reloads all non-missile weapons.",,,,,,

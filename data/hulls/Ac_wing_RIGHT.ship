@@ -1,0 +1,130 @@
+{
+  "hullName": "Ac_wing_right",
+  "hullId": "Ac_wing_right",
+  "hullSize": "CRUISER",
+  "spriteName": "graphics/ships/holy_see/ac_wing_right.png",
+  "style": "HIGH_TECH",
+  "height": 268,
+  "width": 116,
+  "center": [74, 128],
+  "collisionRadius": 0.5,
+  "shieldCenter": [0, -0],
+  "shieldRadius": 0.5,
+  "viewOffset": 0,
+  "builtInMods": [
+    "advancedcore"
+  ],
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "LARGE",
+      "type": "SYNERGY",
+      "mount": "TURRET",
+      "arc": 210,
+      "angle": -104.5,
+      "locations": [0, -0]
+    },
+    {
+      "id": "WS0002",
+      "size": "LARGE",
+      "type": "ENERGY",
+      "mount": "HARDPOINT",
+      "arc": 12,
+      "angle": 0,
+      "locations": [106.5, 8]
+    },
+    {
+      "id": "WS0003",
+      "size": "MEDIUM",
+      "type": "SYNERGY",
+      "mount": "TURRET",
+      "arc": 150,
+      "angle": -120,
+      "locations": [-48, 9]
+    },
+    {
+      "id": "WS0004",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "TURRET",
+      "arc": 150,
+      "angle": -120,
+      "locations": [-75, 44]
+    },
+    {
+      "id": "WS0005",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "TURRET",
+      "arc": 150,
+      "angle": -90,
+      "locations": [-103, 30]
+    },
+    {
+      "id": "WS0006",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "TURRET",
+      "arc": 150,
+      "angle": 30,
+      "locations": [55, 18]
+    },
+    {
+      "id": "WS0007",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "TURRET",
+      "arc": 150,
+      "angle": -90,
+      "locations": [43, -13]
+    },
+    {
+      "id": "WS0008",
+      "size": "SMALL",
+      "type": "SYSTEM",
+      "mount": "TURRET",
+      "arc": 13,
+      "angle": -60,
+      "locations": [86.5, -27]
+    },
+    {
+      "id": "WS0009",
+      "size": "LARGE",
+      "type": "SYSTEM",
+      "mount": "HARDPOINT",
+      "arc": 12,
+      "angle": -120,
+      "locations": [-47.5, -16.5]
+    },
+    {
+      "id": "WS0010",
+      "size": "LARGE",
+      "type": "SYSTEM",
+      "mount": "HARDPOINT",
+      "arc": 12,
+      "angle": -120,
+      "locations": [31, -35]
+    },
+    {
+      "id": "WS0011",
+      "size": "LARGE",
+      "type": "SYSTEM",
+      "mount": "HARDPOINT",
+      "arc": 12,
+      "angle": -60,
+      "locations": [45.5, -32]
+    }
+  ],
+  "engineSlots": [],
+  "bounds": [
+    127.5, 19,
+    101, 27,
+    42, 71.5,
+    -2.5, 43,
+    -103.5, 69,
+    -123.5, 27,
+    -47.5, -16.5,
+    30, -35,
+    120.5, -23
+  ]
+}

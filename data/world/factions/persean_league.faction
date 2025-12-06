@@ -1,0 +1,74 @@
+{
+	"variantOverrides":{
+	},
+	# multiplier for how often hulls show up in the faction's fleets
+	"hullFrequency":{
+		"tags":{
+			"Ac_Sower":0.2,
+			"Ac_Commander":0.5,
+			"Ac_Ziz":0.2,
+
+		},
+		"hulls":{
+
+		},
+	},
+	# ships the faction gets access to when importing S&W out-of-faction
+	# defaults to same as knownShips when empty
+	"shipsWhenImporting":{
+		"tags":[],
+		"hulls":[
+
+		],
+	},
+	"knownShips":{
+		"tags":["persean"],
+		"hulls":[
+			"Ac_Sower",
+			"Ac_Nipponia",
+			"Ac_Commander",
+			"Ac_whitebird_C",
+			"Ac_whitebird_S",
+			"Ac_Alcedo",
+			"Ac_nightingale",
+			"Ac_Ziz",
+		],
+	},
+	# listing ships here will make the faction mostly use them even if other hulls become available
+	"priorityShips":{
+		"tags":[],
+		"hulls":[
+		],
+	},
+	"knownFighters":{
+		"tags":["persean"],
+		"fighters":[
+		],
+	},
+	"priorityFighters":{
+		"tags":[],
+		"fighters":[
+		],
+	},
+	"knownWeapons":{
+		"tags":["persean"],
+		"weapons":[
+		],
+	},
+	"priorityWeapons":{
+		"tags":[],
+		"weapons":[
+		],
+	},
+	"knownHullMods":{
+		"tags":["standard", "persean"],
+		"hullMods":[
+		],
+	},
+	"weaponSellFrequency":{
+	},
+	"fighterSellFrequency":{
+	},
+	"hullmodSellFrequency":{
+	},
+},

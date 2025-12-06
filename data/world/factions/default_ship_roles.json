@@ -1,0 +1,247 @@
+{
+	# should be a copy of "combatSmall", minus variants that are annoying to fight in low numbers
+	# for example, no Hyperions or fast beam-based kiting loadouts, or ships with damper field
+	"combatSmallForSmallFleet":{
+		
+		# a bit annoying to fight with a really small or weak fleet - not as much so as a centurion, but close enough
+		
+	},
+	"combatSmall":{
+		"Ac_Larks_standard":5,
+		
+		"Ac_Attker_assault":5,
+		"Ac_Attker_support":5,
+		"Ac_Attker_S_standard":5,
+		"Ac_Attker_X_standard":3,
+		"Ac_Attker_X_assault":2,
+		
+		"Ac_Emolly_support":4,
+		"Ac_Emolly_standard":4,
+		"Ac_Emolly_overdriven":1,
+		"Ac_Emolly_assault":1,
+		
+		"Ac_whitebird_C_bomber":5,
+		"Ac_whitebird_C_support":5,
+		"Ac_whitebird_S_assault":5,
+		"Ac_whitebird_S_support":5,
+		
+		"Ac_puppy_assault":5,
+		"Ac_puppy_shielded":3,
+		"Ac_puppy_standard":2,
+		"Ac_tracker_standard":10,
+		
+		"Ac_Bulldog_support":2,
+		"Ac_Bulldog_standard":3,
+		"Ac_Bulldog_assault":5,
+		
+		"Ac_Adultdog_standard":10,
+	},
+	"combatMedium":{
+		"Ac_henchman_assault":5,
+		"Ac_henchman_support":5,
+		
+		"Ac_Crasher_assault":5,
+		"Ac_Crasher_support":5,
+		
+		"Ac_nightingale_assault":3,
+		"Ac_nightingale_overdriven":2,
+		"Ac_nightingale_standard":5,
+		"Ac_Echtena_standard":5,
+		"Ac_Echtena_assault":2,
+		"Ac_Echtena_support":3,
+		
+		"Ac_afterglow_standard":5,
+		"Ac_afterglow_assault":3,
+		"Ac_afterglow_support":2,
+		
+		"Ac_Alcedo_assault":5,
+		"Ac_Alcedo_standard":2,
+		"Ac_Alcedo_support":3,
+		
+		"Ac_Robber_standard":5,
+		"Ac_Robber_assault":5,
+		"Ac_Messiah_assalut":5,
+		"Ac_liquid_iron_standard":5,
+		"Ac_liquid_iron_support":5,
+	},
+	"combatLarge":{
+		"Ac_judge_standard":5,
+		"Ac_judge_support":5,
+		"Ac_Harasser_standard":5,
+		"Ac_Harasser_assault":5,
+		"Ac_fulcrum_assault":5,
+		"Ac_fulcrum_standard":5,
+		"Ac_Nipponia_assault":5,
+		"Ac_Nipponia_standard":2,
+		"Ac_Nipponia_support":3,
+		"Ac_Nipponia_oc_standard":5,
+		"Ac_Demolisher_assault":2,
+		"Ac_Demolisher_overdriven":1,
+		"Ac_Demolisher_poor":1,
+		"Ac_Demolisher_standard":3,
+		"Ac_Demolisher_support":3,
+		"Ac_interdiction_assault":3,
+		"Ac_interdiction_standard":3,
+		"Ac_interdiction_support":4,
+		"Ac_Punch_standard":5,
+		"Ac_Punch_assault":5,
+		"Ac_colossus4_standard":5,
+
+	},
+	"combatCapital":{
+		"Ac_Ghoul_standard":5,
+		"Ac_Ghoul_support":5,
+		"Ac_Alice_standard":5,
+		"Ac_Alice_support":5,
+		
+		
+		"Ac_Astle_support":5,
+		"Ac_Astle_assault":5,
+		
+		
+		"Ac_irises_oc_standard":1,
+		"Ac_irises_os_standard":1,
+		"Ac_irises_standard":1,
+		
+
+		
+		"Ac_Dreamer_standard":10,
+		"Ac_ray_standrad":3,
+		"Ac_ray_assault":5,
+		"Ac_ray_support":2,
+		"Ac_holy_see_support":10,
+		"Ac_Base_sit_standard":10,
+
+		"Ac_sarcasm_demo":10,
+		"Ac_vicious_demo":10,
+		"Ac_firelight_standard":10,
+		"Ac_Commander_standard":5,
+		"Ac_Commander_support":3,
+		"Ac_Commander_assault":2,
+
+		"Ac_Minerva_standard":5,
+		
+		"Ac_murderers_standard":5,
+		"Ac_murderers_assault":5,
+		
+		"Ac_Ziz_support":5,
+		"Ac_Ziz_assault":5,
+		
+		"Ac_pulse_standard":5,
+		
+		"Ac_Mudrock_assault":5,
+		"Ac_Mudrock_standard":5,
+		"Ac_Mudrock_support":5,
+
+		"Ac_Tyrfing_standard":5,
+	},
+	
+	
+	# hybrid ships with good combat and cargo capacity
+	"combatFreighterSmall":{
+	},
+	"combatFreighterMedium":{
+		"Ac_Adriatic_standard":10,
+	},
+	"combatFreighterLarge":{
+		"Ac_Rosebush_standard":10,
+		"Ac_Redeemer_support":5,
+		"Ac_Redeemer_assault":5,
+	},
+	
+	"civilianRandom":{
+	},
+
+	# carriers
+	"carrierSmall":{
+	},
+	"carrierMedium":{
+		"Ac_Sower_support":5,
+		"Ac_Sower_bomber":5,
+	},
+	"carrierLarge":{
+		"Ac_prometheus_3_bomber":5,
+		"Ac_prometheus_3_support":5,
+		
+		"Ac_Mystia_support":10,
+		
+		"Ac_Sower_support":5,
+		"Ac_Sower_bomber":5,
+
+		"Ac_smolder_standard":5,
+		"Ac_smolder_assault":5,
+		
+		"Ac_Aphrodite_support":5,
+		"Ac_Aphrodite_standard":5,
+	},
+
+	# phase ships
+	"phaseSmall":{
+	},
+	"phaseMedium":{
+	},
+	"phaseLarge":{
+	},
+	"phaseCapital":{
+	},
+
+	# freighters and such
+	"freighterSmall":{
+	},
+	"freighterMedium":{
+	},
+	"freighterLarge":{
+	},
+	
+	"tankerSmall":{
+		"Ac_tracker_standard":10,
+	},
+	"tankerMedium":{
+	},
+	"tankerLarge":{
+		"Ac_Deucalion_standard":10,
+	},
+	
+	"personnelSmall":{
+	},
+	"personnelMedium":{
+	},
+	"personnelLarge":{
+	},
+	
+	"linerSmall":{
+	},
+	"linerMedium":{
+	},
+	"linerLarge":{
+	},
+	
+	# utility ships
+	"tug":{
+	},
+	"crig":{
+	},
+	"utility":{
+	},
+	
+	"orbitalStationLowTech":{
+	},
+	
+	"battlestationLowTech":{
+
+	},
+	
+	
+
+
+	# Old/unused below this line
+	"fastAttack":{
+
+	},
+
+	"escortSmall":{
+	},
+	"escortMedium":{
+	},
+	
+}

@@ -1,0 +1,150 @@
+{
+  "hullName": "Ac_Robber",
+  "hullId": "Ac_Robber",
+  "hullSize": "DESTROYER",
+  "spriteName": "graphics/ships/Ac_Robber.png",
+  "style": "LOW_TECH",
+  "height": 202,
+  "width": 146,
+  "center": [73, 108],
+  "collisionRadius": 125,
+  "shieldCenter": [0, -0],
+  "shieldRadius": 123.5,
+  "viewOffset": 0,
+  "weaponSlots": [
+    {
+      "id": "WS0003",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 200,
+      "angle": 180,
+      "locations": [-51, -0]
+    },
+    {
+      "id": "WS0005",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 100,
+      "angle": -60,
+      "locations": [32, -23]
+    },
+    {
+      "id": "WS0007",
+      "size": "MEDIUM",
+      "type": "MISSILE",
+      "mount": "TURRET",
+      "arc": 145,
+      "angle": -60,
+      "locations": [-35, -48]
+    },
+    {
+      "id": "WS0008",
+      "size": "MEDIUM",
+      "type": "MISSILE",
+      "mount": "TURRET",
+      "arc": 145,
+      "angle": 60,
+      "locations": [-35, 48]
+    },
+    {
+      "id": "WS0010",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 100,
+      "angle": 60,
+      "locations": [32, 23]
+    },
+    {
+      "id": "WS0001",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 120,
+      "angle": -45,
+      "locations": [75, -19]
+    },
+    {
+      "id": "WS0002",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 120,
+      "angle": 45,
+      "locations": [75, 19]
+    },
+    {
+      "id": "WS0004",
+      "size": "MEDIUM",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 360,
+      "angle": 0,
+      "locations": [-22, -0]
+    },
+    {
+      "id": "WS0006",
+      "size": "MEDIUM",
+      "type": "BALLISTIC",
+      "mount": "HARDPOINT",
+      "arc": 10,
+      "angle": 0,
+      "locations": [20, 43]
+    },
+    {
+      "id": "WS0011",
+      "size": "MEDIUM",
+      "type": "BALLISTIC",
+      "mount": "HARDPOINT",
+      "arc": 10,
+      "angle": -0,
+      "locations": [20, -43]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-75, 13],
+      "length": 57.5,
+      "width": 23,
+      "angle": -180,
+      "contrailSize": 23,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-75, -13],
+      "length": 57.5,
+      "width": 23,
+      "angle": 180,
+      "contrailSize": 23,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-71, 50],
+      "length": 47.266674,
+      "width": 18.98543,
+      "angle": -174,
+      "contrailSize": 18.98543,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-71, -50],
+      "length": 47.266674,
+      "width": 18.98543,
+      "angle": 174,
+      "contrailSize": 18.98543,
+      "style": "LOW_TECH"
+    }
+  ],
+  "bounds": [
+    89.5, 33.5,
+    -46, 70,
+    -104, 30.5,
+    -77, 16.5,
+    -77, -10.5,
+    -105, -31.5,
+    -38.5, -73,
+    92.5, -27.5
+  ]
+}

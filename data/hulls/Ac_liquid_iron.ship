@@ -1,0 +1,55 @@
+{
+  "hullName": "Ac_liquid_iron",
+  "hullId": "Ac_liquid_iron",
+  "hullSize": "DESTROYER",
+  "spriteName": "graphics/ships/Ac_liquid_iron.png",
+  "style": "LOW_TECH",
+  "height": 154,
+  "width": 122,
+  "center": [61, 84],
+  "collisionRadius": 95.5,
+  "shieldCenter": [0, -0],
+  "shieldRadius": 94.5,
+  "viewOffset": 0,
+  "builtInMods": [
+    "hurricaneammofeed_ac",
+    "ablative_armor"
+  ],
+  "weaponSlots": [
+    {
+      "id": "WS0003",
+      "size": "MEDIUM",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 360,
+      "angle": -180,
+      "locations": [-15, 0]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-29, -25],
+      "length": 37.5,
+      "width": 15,
+      "angle": -180,
+      "contrailSize": 15,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-29, 25],
+      "length": 37.5,
+      "width": 15,
+      "angle": 180,
+      "contrailSize": 15,
+      "style": "LOW_TECH"
+    }
+  ],
+  "bounds": [
+    57, 46.5,
+    -8, 47.5,
+    -75, 8.5,
+    -75, -8.5,
+    -8, -47.5,
+    57, -46.5
+  ]
+}

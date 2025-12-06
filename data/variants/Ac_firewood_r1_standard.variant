@@ -1,0 +1,35 @@
+{
+  "variantId": "Ac_firewood_r1_standard",
+  "hullId": "Ac_firewood_r1",
+  "displayName": "standard",
+  "goalVariant": false,
+  "fluxCapacitors": 0,
+  "fluxVents": 0,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [
+    "magazines",
+    "eccm"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0003": "pilum"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0002": "pdlaser",
+        "WS0005": "pdburst"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": [
+    "lux_wing"
+  ]
+}

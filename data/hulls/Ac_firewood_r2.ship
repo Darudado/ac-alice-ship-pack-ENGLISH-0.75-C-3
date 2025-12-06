@@ -1,0 +1,52 @@
+{
+  "hullName": "Ac_firewood_r2",
+  "hullId": "Ac_firewood_r2",
+  "hullSize": "CRUISER",
+  "spriteName": "graphics/ships/firelight/Ac_firewood_r2.png",
+  "style": "HIGH_TECH",
+  "height": 89,
+  "width": 84,
+  "center": [48.5, 44.5],
+  "collisionRadius": 76,
+  "shieldCenter": [0, -0],
+  "shieldRadius": 78,
+  "viewOffset": 0,
+  "builtInMods": [
+    "automated",
+    "advancedcore"
+  ],
+  "builtInWings": [
+    "terminator_wing"
+  ],
+  "weaponSlots": [
+    {
+      "id": "WS0002",
+      "size": "MEDIUM",
+      "type": "SYNERGY",
+      "mount": "TURRET",
+      "arc": 145,
+      "angle": -35,
+      "locations": [24.5, -11.5]
+    },
+    {
+      "id": "LB 1",
+      "size": "LARGE",
+      "type": "LAUNCH_BAY",
+      "mount": "HIDDEN",
+      "arc": 360,
+      "angle": 0,
+      "locations": [-18, 11]
+    }
+  ],
+  "engineSlots": [],
+  "bounds": [
+    -23, -18,
+    11, -34.5,
+    35.5, -29.5,
+    37.5, -0,
+    11.5, 11,
+    -25, 45.5,
+    -41.5, 35.5,
+    -35, 3
+  ]
+}

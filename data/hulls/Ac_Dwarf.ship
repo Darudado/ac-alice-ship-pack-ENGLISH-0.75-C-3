@@ -1,0 +1,100 @@
+{
+  "hullName": "Ac_Dwarf",
+  "hullId": "Ac_Dwarf",
+  "hullSize": "FIGHTER",
+  "spriteName": "graphics/ships/Ac_Dwarf.png",
+  "style": "LOW_TECH",
+  "height": 33,
+  "width": 43,
+  "center": [21.5, 14],
+  "collisionRadius": 26.5,
+  "shieldCenter": [0, -0],
+  "shieldRadius": 26,
+  "viewOffset": 0,
+  "weaponSlots": [
+    {
+      "id": "LB 1",
+      "size": "LARGE",
+      "type": "LAUNCH_BAY",
+      "mount": "HIDDEN",
+      "arc": 360,
+      "angle": 0,
+      "locations": [
+        228.5, -162.5,
+        227.5, -51
+      ]
+    },
+    {
+      "id": "LB 2",
+      "size": "LARGE",
+      "type": "LAUNCH_BAY",
+      "mount": "HIDDEN",
+      "arc": 360,
+      "angle": 0,
+      "locations": [
+        239, -162.5,
+        243, -148
+      ]
+    },
+    {
+      "id": "WS0001",
+      "size": "SMALL",
+      "type": "UNIVERSAL",
+      "mount": "TURRET",
+      "arc": 210,
+      "angle": -70,
+      "locations": [1, -13.5]
+    },
+    {
+      "id": "WS0002",
+      "size": "SMALL",
+      "type": "UNIVERSAL",
+      "mount": "TURRET",
+      "arc": 210,
+      "angle": 70,
+      "locations": [1, 13.5]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-14, 9],
+      "length": 19,
+      "width": 7,
+      "angle": 180,
+      "contrailSize": 7,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-14, -9],
+      "length": 19,
+      "width": 7,
+      "angle": -180,
+      "contrailSize": 7,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-12, 14.5],
+      "length": 19,
+      "width": 7,
+      "angle": 180,
+      "contrailSize": 7,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-12, -14.5],
+      "length": 19,
+      "width": 7,
+      "angle": -180,
+      "contrailSize": 7,
+      "style": "LOW_TECH"
+    }
+  ],
+  "bounds": [
+    16.5, 17.5,
+    0.5, 20.5,
+    -12.5, 11.5,
+    -12.5, -11.5,
+    0.5, -20.5,
+    16.5, -17.5
+  ]
+}
