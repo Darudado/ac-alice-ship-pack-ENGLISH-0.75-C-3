@@ -1,5 +1,6 @@
 Translated release of the Alice pack.
 Translated to english from chinese during 2024, jar code was not changed so some small visual issues persist.
+Should all be translated.
 
 Previews:
 ![](https://github.com/Darudado/ac-alice-ship-pack-ENGLISH-0.75-C-3/blob/main/221523jshpq5m1hb1o9sj9.png)
