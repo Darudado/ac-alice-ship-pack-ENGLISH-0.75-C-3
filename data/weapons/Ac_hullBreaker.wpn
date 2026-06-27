@@ -1,0 +1,78 @@
+{
+  "id": "Ac_hullBreaker",
+  "specClass": "projectile",
+  "projectileSpecId": "Ac_hullBreaker_shot",
+  "type": "BALLISTIC",
+  "size": "LARGE",
+  "turretSprite": "graphics/weapons/Ac_hullBreaker_1.png",
+  "turretGunSprite": "graphics/weapons/Ac_hullBreaker_2.png",
+  "hardpointSprite": "graphics/weapons/Ac_hullBreaker_1.png",
+  "hardpointGunSprite": "graphics/weapons/Ac_hullBreaker_2.png",
+  "specialWeaponGlowHeight": 25,
+  "specialWeaponGlowWidth": 15,
+  "visualRecoil": 2,
+  "renderHints": [
+    RENDER_BARREL_BELOW
+  ],
+  "turretOffsets": [
+    27.5,
+    5,
+    27.5,
+    1.5,
+    27.5,
+    -1.5,
+    27.5,
+    -5,
+    27.5,
+    8.5,
+    27.5,
+    -8.5
+  ],
+  "turretAngleOffsets": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+  ],
+  "hardpointOffsets": [
+    41,
+    1.5,
+    41,
+    4.5,
+    41,
+    -1.5,
+    41,
+    -5,
+    41,
+    8.5,
+    41,
+    -8.5
+  ],
+  "hardpointAngleOffsets": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+  ],
+  "barrelMode": "LINKED",
+  "animationType": "MUZZLE_FLASH",
+  "muzzleFlashSpec": {
+    "length": 30,
+    "spread": 6,
+    "particleSizeMin": 7,
+    "particleSizeRange": 9,
+    "particleDuration": 0.15,
+    "particleCount": 11,
+    "particleColor": [
+      255,
+      120,
+      105,
+      250
+    ]
+  },
+  "fireSoundTwo": "needler_fire"
+}

@@ -1,0 +1,118 @@
+{
+  "hullName": "Ac_frigate1",
+  "hullId": "Ac_frigate1",
+  "hullSize": "FRIGATE",
+  "spriteName": "graphics/ships/Ac_special_remnants/Ac_frigate1_cover.png",
+  "style": "HIGH_TECH",
+  "height": 96,
+  "width": 86,
+  "center": [43, 48],
+  "collisionRadius": 58,
+  "shieldCenter": [0, 0],
+  "shieldRadius": 59,
+  "viewOffset": 0,
+  "builtInMods": [
+    "ac_specialHullmod_1"
+  ],
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "MEDIUM",
+      "type": "ENERGY",
+      "mount": "HARDPOINT",
+      "arc": 21,
+      "angle": 0,
+      "locations": [22, -0]
+    },
+    {
+      "id": "WS0002",
+      "size": "SMALL",
+      "type": "HYBRID",
+      "mount": "TURRET",
+      "arc": 229,
+      "angle": 52.5,
+      "locations": [-10, 23]
+    },
+    {
+      "id": "WS0003",
+      "size": "SMALL",
+      "type": "HYBRID",
+      "mount": "TURRET",
+      "arc": 229,
+      "angle": -52.5,
+      "locations": [-10, -23]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-35, 20.5],
+      "length": 30,
+      "width": 10,
+      "angle": 180,
+      "contrailSize": 30,
+      "style": "HIGH_TECH"
+    },
+    {
+      "location": [-35, -20.5],
+      "length": 30,
+      "width": 10,
+      "angle": -180,
+      "contrailSize": 30,
+      "style": "HIGH_TECH"
+    },
+    {
+      "location": [-30.5, -12],
+      "length": 21,
+      "width": 7,
+      "angle": -180,
+      "contrailSize": 7,
+      "style": "HIGH_TECH"
+    },
+    {
+      "location": [-30.5, 12],
+      "length": 21,
+      "width": 7,
+      "angle": 180,
+      "contrailSize": 7,
+      "style": "HIGH_TECH"
+    }
+  ],
+  "bounds": [
+    -49.5, 2.5,
+    -29.5, 7,
+    -31.5, 8,
+    -32, 14.5,
+    -36, 15.5,
+    -36.5, 26.5,
+    -30, 27.5,
+    -32, 29.5,
+    -33.5, 35,
+    -22, 43,
+    -14, 37,
+    -7.5, 38,
+    5, 27.5,
+    13, 25,
+    25, 21,
+    49, 15,
+    42.5, 7,
+    29.5, 6.5,
+    29.5, -6.5,
+    42.5, -7,
+    49, -15,
+    25, -21,
+    13, -25,
+    5, -27.5,
+    -7.5, -38,
+    -14, -37,
+    -22, -43,
+    -33.5, -35,
+    -32, -29.5,
+    -30, -27.5,
+    -36.5, -26.5,
+    -36, -15.5,
+    -32, -14.5,
+    -31.5, -8,
+    -29.5, -7,
+    -49.5, -2.5
+  ]
+}

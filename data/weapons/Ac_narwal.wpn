@@ -1,0 +1,53 @@
+{
+  "id": "Ac_narwal",
+  "specClass": "projectile",
+  "projectileSpecId": "Ac_big_cryoblaster_shot",
+  "type": "BALLISTIC",
+  "size": "LARGE",
+  "turretSprite": "graphics/weapons/Ac_narwhal_cover.png",
+  "turretGunSprite": "graphics/weapons/Ac_narwhal_2_cover.png",
+  "hardpointSprite": "graphics/weapons/Ac_narwhal_3_cover.png",
+  "hardpointGunSprite": "graphics/weapons/Ac_narwhal_4_cover.png",
+  "visualRecoil": 3,
+
+  "glowColor": [
+    255,
+    255,
+    255,
+    255
+  ],
+  "turretOffsets": [
+    44,
+    -0.5
+  ],
+  "turretAngleOffsets": [
+    0
+  ],
+  "hardpointOffsets": [
+    47,
+    -0.5
+  ],
+  "hardpointAngleOffsets": [
+    0
+  ],
+  "renderHints": [
+    RENDER_BARREL_BELOW
+  ],
+  "barrelMode": "LINKED",
+  "animationType": "GLOW_AND_FLASH",
+  "fireSoundTwo": "cryoblaster_fire",
+  "muzzleFlashSpec": {
+    "length": 30,
+    "spread": 20,
+    "particleSizeMin": 10,
+    "particleSizeRange": 10,
+    "particleDuration": 0.5,
+    "particleCount": 10,
+    "particleColor": [
+      255,
+      255,
+      255,
+      255
+    ]
+  }
+}

@@ -1,0 +1,86 @@
+{
+  "hullName": "Ac_thunderDragon",
+  "hullId": "Ac_thunderDragon",
+  "hullSize": "FIGHTER",
+  "spriteName": "graphics/ships/Ac_thunderDragon.png",
+  "style": "MIDLINE",
+  "height": 57,
+  "width": 42,
+  "center": [21, 28.5],
+  "collisionRadius": 36.5,
+  "shieldCenter": [0, 0],
+  "shieldRadius": 36.5,
+  "viewOffset": 0,
+  "builtInWeapons": {
+    "WS0001": "Ac_oerlikon",
+    "WS0002": "lightneedler",
+    "WS0003": "lightneedler"
+  },
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "MEDIUM",
+      "type": "BALLISTIC",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": 0,
+      "locations": [-7, -0.5]
+    },
+    {
+      "id": "WS0002",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": 0,
+      "locations": [-8.5, 13]
+    },
+    {
+      "id": "WS0003",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": -0,
+      "locations": [-8.5, -13]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-28, 11.5],
+      "length": 23,
+      "width": 6,
+      "angle": 180,
+      "contrailSize": 6,
+      "style": "LOW_TECH_FIGHTER"
+    },
+    {
+      "location": [-28, -11.5],
+      "length": 23,
+      "width": 6,
+      "angle": -180,
+      "contrailSize": 6,
+      "style": "LOW_TECH_FIGHTER"
+    }
+  ],
+  "bounds": [
+    -23, 4,
+    -28.5, 7.5,
+    -29, 16,
+    -15, 21,
+    -4, 15.5,
+    6, 15,
+    6.5, 11,
+    16, 7,
+    29, 2,
+    29, -2,
+    16, -7,
+    6.5, -11,
+    6, -15,
+    -4, -15.5,
+    -15, -21,
+    -29, -16,
+    -28.5, -7.5,
+    -23, -4
+  ]
+}

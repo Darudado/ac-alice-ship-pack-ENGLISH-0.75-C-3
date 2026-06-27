@@ -1,14 +1,187 @@
 name,id,tier,rarity,base value,range,damage/second,damage/shot,emp,impact,turn rate,OPs,ammo,ammo/sec,reload size,type,energy/shot,energy/second,chargeup,chargedown,burst size,burst delay,min spread,max spread,spread/shot,spread decay/sec,beam speed,proj speed,launch speed,flight time,proj hitpoints,autofireAccBonus,extraArcForAI,hints,tags,groupTag,tech/manufacturer,for weapon tooltip>>,primaryRoleStr,speedStr,trackingStr,turnRateStr,accuracyStr,customPrimary,customPrimaryHL,customAncillary,customAncillaryHL,noDPSInTooltip,number
-Ion Striker,Ac_ioncannon,4,,2250,700,,200,200,10,0,33,12,1.5,3,ENERGY,160,,0.1,0.1,1,0.1,2,5,1,2,,800,,,,,,"SYSTEM,SHOW_IN_CODEX","energy13, merc, ind",,,,Disabler,,,,,"When hitting hull or armor, has a %s chance to arc to weapons and engines, dealing additional damage equal to the weapon's damage.",50%,,,,222.12
-Pinpoint Laser,Ac_laser,4,,200,600,300,,40,0,20,9,,,,KINETIC,,150,125,0.25,0.25,2,,,,,3200,,,,,,,"SYSTEM,SHOW_IN_CODEX","energy11, merc, ind",,,,General Purpose,,,,,,,,,,127.12
-High-Impact Mining Blaster,Ac_miningblaster,4,,1000,600,,100,,0,7,10,,,,ENERGY,20,,0,3,5,0.2,,,,,,900,,,,,,"SYSTEM,SHOW_IN_CODEX","energy13, merc",,,,General Purpose,,,,,,,,,,222.13
-Assault Cannon (Mounted),Ac_lightag,1,,300,600,,45,,3,40,5,,,,HIGH_EXPLOSIVE,30,,0,0.5,,,0,5,1,5,,800,,,30,,,"SYSTEM,SHOW_IN_CODEX","he6, merc",,,,Anti-Armor,,,,,,,,,,3212.3
+Ion Striker,Ac_ioncannon,4,,2250,800,,100,100,10,0,33,20,1.5,5,ENERGY,80,,0,0.04,1,0.04,2,5,1,2,,800,,,,,,"SYSTEM,SHOW_IN_CODEX","energy13, merc, ind",,,,Disabler,,,,,"When hitting hull or armor, has a %s chance to arc to weapons and engines, dealing additional damage equal to the weapon's damage.",50%,,,,222.12
+Pinpoint Laser,Ac_laser,4,,200,600,300,,40,0,20,9,,,,KINETIC,,150,0.125,0.25,0.25,2,,,,,3200,,,,,,,"SYSTEM,SHOW_IN_CODEX","energy11, merc, ind",,,,General Purpose,,,,,,,,,,127.12
+High-Impact Mining Blaster,Ac_miningblaster,4,,1000,700,,200,,0,7,10,,,,ENERGY,20,,0,4,5,0.2,,,,,,1400,,,,,,"SYSTEM,SHOW_IN_CODEX","energy13, merc",,,,General Purpose,,,,,,,,,,222.13
+Assault Cannon (Mounted),Ac_lightag,4,,300,600,,45,,3,40,5,,,,HIGH_EXPLOSIVE,30,,0,0.5,,,0,5,1,5,,800,,,30,,,"SYSTEM,SHOW_IN_CODEX","he6, merc",,,,Anti-Armor,,,,,,,,,,3212.3
 Rotary Cannon,Ac_mg,4,,300,600,,10,,0,7,10,,,,KINETIC,3,,0,0.2,,,,,,,,800,,,30,,,"SYSTEM,SHOW_IN_CODEX","he6, merc",,,,Anti-Shield,,,,,,,,,,32232.3
-Pulse Cannon (Mounted),AC_impulsecannon_f,2,,2250,500,,40,20,1,35,11,20,,,ENERGY,5,,0,0.1,,,0,6,1,6,,1400,,,10,,,"SYSTEM,SHOW_IN_CODEX","energy18,",,,,Disabler,,,,,"Continuously arcs to weapons and engines when hitting hull or armor, dealing additional EMP and energy damage. When hitting shields, randomly generates shield-penetrating arcs based on target's hard flux level.",,,,,2323
-Quad Flak Battery,Ac_quadruple_flak,1,,3500,700,,250,,40,22,20,,,,FRAGMENTATION,100,,0,0.4,2,0.1,0,10,2,10,,700,,,30,,,PD,"pd15, SR, remnant, lowtech_bp, merc",,,,Point Defense (Area),,,,,,,,,,7.4
-Heavy Cannon,Ac_heavycannon,1,0.1,1000,900,,300,200,4,7,12,,,,ENERGY,400,,0,1.0,,,,,,,,800,,,,,,,"energy18,remnant, lowtech_bp, hist1t, merc",,,,General Purpose,,,,,,,,,,222.14
+Pulse Cannon (Mounted),AC_impulsecannon_f,4,,2250,500,,30,20,1,35,11,15,,,ENERGY,5,,0,0.1,,,0,9,3,6,,1000,,,10,,,"SYSTEM,SHOW_IN_CODEX","energy18,",,,,Disabler,,,,,"Continuously arcs to weapons and engines when hitting hull or armor, dealing additional EMP and energy damage. When hitting shields, randomly generates shield-penetrating arcs based on target's hard flux level.",,,,,2323
+Airborne Phase Lance,AC_phasebeam_noflux,4,,1500,600,1000,,,0,20,10,,,,ENERGY,,0,0.25,0.5,1,4,,,,,3200,,,,,,,"SYSTEM,SHOW_IN_CODEX","energy14, beam10",,,,Universal,,,,,,,,,,2324
+Airborne Mining Blaster,Ac_miningblaster_noflux,4,,1000,500,,200,,0,7,10,4,0.5,,HIGH_EXPLOSIVE,0,,0,0.2,,,,,,,,1000,,,,,,"SYSTEM,SHOW_IN_CODEX",energy12,,,,Anti-Armor,,,,,The projectile deals %s damage to armor that cannot be mitigated.,100,,,,2325
+Airborne Tachyon Lance,Ac_tachyonlance_noflux,4,,8000,1000,4250,,1000,0,7,25,1,,,ENERGY,,0,0.1,0.1,0.5,4,,,,,10000,,,,,,,"SYSTEM,SHOW_IN_CODEX,STRIKE",beam9,,,,Suppression / Strike,,,,,"Hits on hulls or armor generate arcs of lightning that strike weapons and engines, dealing additional EMP and energy damage. When hitting shields, it has a chance to bypass shields and strike the hull based on the target's hard flux level.",,,,,2326
+Airborne Gazer DEM,Ac_gazer_fighter,4,,250,1200,,200,,15,30,4,1,,,KINETIC,0,,0,15,1,,0,0,0,0,,150,25,5,250,,,"DO_NOT_AIM,SYSTEM,SHOW_IN_CODEX","missile6, damage_special, damage_soft_flux",,,,Suppression,Low,Good,,,The DEM missile's graviton beam deals 1000 kinetic damage over 10s. Its performance is affected by missile skills rather than energy weapon skills.,,,,TRUE,2327
+Airborne IR Pulse Laser,Ac_irpulse_fighter,4,,250,500,,100,,0,50,5,,,,HIGH_EXPLOSIVE,25,,0.667,0.667,,,,,,,,1000,,,,,,"SYSTEM,SHOW_IN_CODEX",energy8,,,,Anti-Armor,,,,,,,,,,2328
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Quad Flak Battery,Ac_quadruple_flak,1,,3500,800,,250,,40,22,20,,,,FRAGMENTATION,100,,0,0.4,2,0.1,0,10,2,10,,800,,,30,,,PD,"pd15, SR, remnant, lowtech_bp, merc",,,,Point Defense (Area),,,,,,,,,,7.4
+Heavy Cannon,Ac_heavycannon,1,0.4,1000,900,,300,200,4,7,12,,,,ENERGY,400,,0,1.0,,,,,,,,800,,,,,,,"energy18,remnant, lowtech_bp, hist1t, merc",,,,General Purpose,,,,,,,,,,222.14
 Single-Barrel Mortar,Ac_mortar,0,,120,600,,100,,4,30,5,,,,HIGH_EXPLOSIVE,80,,0,1.2,1,,0,15,3,10,,500,,,10,,,,"kinetic11, pd10, SR, merc, ind",,,,Anti-Armor,,,,,,,,,,12121.1
-Constraint Shockwave,Ac_constraintsblaster,2,,2500,850,,300,,0,15,12,,,,ENERGY,320,,0.1,3,2,0.1,,,,,,1400,,,,,,,"energy14, rare_bp,remnant, hist1t, merc",,,,General Purpose,,,,,,,,,,222.25
-Rapid-Fire Cannon,Ac_oerlikon,2,,1500,800,,60,,3,40,10,,,,HIGH_EXPLOSIVE,45,,0,0.4,3,0.15,0,5,1,15,,700,,,30,,,"PD,PD_ALSO","he16, pd14, lowtech_bp, merc",,,,Anti-Fighter,,,,,,,,,,23851
+"""Skadi"" Cryo-Cannon",Ac_skadiGun,0,0.4,1750,450,,750,,25,30,8,,,,FRAGMENTATION,250,,0,2,,,0,0,0,0,,600,,,,,,,"energy15,merc, ind,rare_bp",,AC Ship Design Co.,,Universal,,,,,"The weapon's projectile speed is only 600 su/s, making it ineffective against fast targets.",,,,,222.15
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+"""Lens"" Constraint Particle Gun",Ac_constraintGun,2,,1250,900,,180,,0,15,8,,,,ENERGY,180,,0.25,3.25,2,0.1,,,,,,1200,,,,,,,"energy14, rare_bp,remnant, hist1t, merc",,AC Ship Design Co.,,Universal,,,,,,,,,,222.261
+Constraint Shockwave,Ac_constraintsblaster,2,,2500,900,,300,,0,15,12,,,,ENERGY,350,,0.25,3.25,2,0.1,,,,,,1400,,,,,,,"energy14, rare_bp,remnant, hist1t, merc",,,,General Purpose,,,,,,,,,,222.25
+Rapid-Fire Cannon,Ac_oerlikon,2,,1500,800,,60,,3,40,10,,,,HIGH_EXPLOSIVE,45,,0,0.4,3,0.15,0,5,1,15,,700,,,30,,,"PD,PD_ALSO","he16, pd14, lowtech_bp, merc",,,,Anti-Fighter,,,,,,,,,,23.851
 Pulse Cannon,AC_impulsecannon,2,,2250,900,,45,20,1,35,11,,,,ENERGY,35,,0,0.15,,,0,6,1,6,,1400,,,10,,,,"energy18,lowtech_bp, ",,,,Disabler,,,,,"Continuously arcs to weapons and engines when hitting hull or armor, dealing additional EMP and energy damage. When hitting shields, randomly generates shield-penetrating arcs based on target's hard flux level.",,,,,
-Original Sin,Ac_sin,4,,120,1000,,500,,200,5,5,,,,HIGH_EXPLOSIVE,400,,0.05,4.65,3,0.1,,15,3,10,,700,,,10,,,"SYSTEM,SHOW_IN_CODEX",he6,,,,Anti-Armor,,,,,,,,,,122121.1
+"""Tiangang"" Constraint Driver",Ac_constraitdriver,1,0.4,5000,900,,650,,0,15,24,,,,ENERGY,780,,0.25,3.25,2,0.1,,,,,,2000,,,,,,,"energy14, rare_bp,remnant, hist1t, merc, ind",,AC Ship Design Co.,,Universal,,,,,,,,,,222.251
+"""Spectre"" Proximity Blast Cannon",Ac_protonCannon,1,0.4,3500,600,,600,300,0,45,24,,,,HIGH_EXPLOSIVE,400,,0.2,0.8,,,0,0,0,0,,1000,,,,,,"PD,PD_ALSO","rare_bp,remnant, hist1t, merc, ind, he16, pd17",,AC Ship Design Co.,,Anti-Armor / Anti-Fighter,,,,,"Energy projectiles explode when close to targets. The proximity trigger distance and explosion radius are 50 su and 125 su respectively. If no ships are in range, it targets fighters.",,,,,222.252
+"""Big Rip"" Mining Torpedo",AC_bigHammer,1,0.4,3500,1600,,2000,,30,10,22,32,,,HIGH_EXPLOSIVE,0,,0,7.5,,,0,0,0,,,500,250,5,1000,,,STRIKE,"strike10, rocket5, ind, missile_bp, merc",,AC Ship Design Co.,,Anti-Armor,High,None,,,"Torpedoes deal 1500 damage to armor, ignoring damage mitigation, and have a base penetration speed of 500 su/s.",,,,TRUE,222.253
+"""Rotoblade"" Assault Autocannon",AC_shmg,1,0.4,3650,700,,170,,6,35,24,,,,KINETIC,120,,0,0.25,1,,18,18,0,0,,1200,,,,,,,"kinetic16, ind, merc",,AC Ship Design Co.,,Anti-Shield,,,,,"The weapon spread is fixed at 18° to the left and right, making long-range shooting completely impractical.",,,,,222.254
+"""Argus"" DEM Launcher Pod",Ac_gazer_pod,1,0.4,2600,1400,,200,,15,10,19,42,,,KINETIC,0,,0,10.8,6,0.2,0,0,0,0,,250,125,5,250,,,DO_NOT_AIM,"missile12, merc, rare_bp, damage_special, damage_soft_flux",,AC Ship Design Co.,,Suppression,Low,Good,,,The DEM missile's graviton beam deals 1000 kinetic damage over 10s. Its performance is affected by missile skills rather than energy weapon skills.,,,,TRUE,222.256
+Gongshi-class Torpedo,Ac_os_launcher,1,0.4,5000,10000,,7500,,200,10,25,1,,,KINETIC,0,,0,40,,,0,0,0,,,1000,20,90,4000,,,STRIKE,"strike6, rocket2, ind, merc",,AC Ship Design Co.,,Universal / Meme,Very High,None,,,,,,,TRUE,222.257
+Tesla Assault Lance,Ac_teslaLance,1,0.4,3500,900,3600,,4200,0,14,30,4,0.125,1,FRAGMENTATION,,1200,0.2,0.3,0.25,0.25,,,,,10000,,,,,,,,"beam9,  ind, merc",,AC Ship Design Co.,,Disable,,,,,"On hit, generates electromagnetic arcs that disable weapons and engines. When hitting shields, the arcs can bypass shields based on target hard flux level, always bypassing if hard flux is >= 50%.",,The stats shown are the sum of both beams for this dual weapon; divide by 2 to get individual beam DPH.,,,222.258
+Heavy Punisher,Ac_punisher,1,0.4,3000,1000,,400,,1,20,25,,,,HIGH_EXPLOSIVE,400,,0,2,2,0.5,0,0,0,0,,1500,,,,,,,he6,,,,Anti-Armor,,,,,,,,,,222.259
+"""Narwhal"" Heavy Cryo-Cannon",Ac_narwal,1,0.4,3500,1000,,4000,,50,30,28,,,,FRAGMENTATION,1000,,0,5.33,,,0,0,0,0,,2500,,,,,,,"energy15,merc, ind,rare_bp",,AC Ship Design Co.,,Universal,,,,,"On hit, increases damage taken by target's shield by 15% for 8s. Repeated hits only refresh the duration.",,,,,222.260
+"""Monarch"" Pulse Accelerator Cannon",Ac_monarch,2,0.4,2250,1000,,175,,2,35,12,,,,ENERGY,200,,0.35,0.98,,,0,0,0,0,,2250,,,10,,,,"energy18,merc, ind,rare_bp",,AC Ship Design Co.,,Universal,,,,,The weapon has a 33% chance to trigger a small fragmentation explosion dealing 525 damage.,,,,,222.262
+Phase Assault Lance,Ac_big_phase_beam,1,0.4,3000,700,2000,,,0,20,20,,,,ENERGY,,1600,0.25,0.25,0.75,3.25,,,,,6400,,,,,,,,"energy14, beam10, rare_bp, merc, ind",,,,Universal,,,,,,,,,,222.263
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+"""Shredder"" Slag Rapid-Fire Cannon",Ac_hullBreaker,4,,3500,900,,25,50,20,12,27,,,,FRAGMENTATION,12,,0,0.1,1,0,15,15,0,0,,1000,,,,,,USE_VS_FRIGATES,"he16, pd14,  codex_unlockable",,AC Ship Design Co.,,Hull Breaker,,,,,"Slag projectiles deal 5 forced structural damage to the target. If the target's structural integrity is no greater than 20% of its maximum structure or 500 points, the weapon will trigger an ammunition explosion to execute the enemy.",,,,,222.255
+"""Big Rip"" (Built-in)",AC_bigHammer_2,1,,3500,1600,,1000,,30,10,9999,1,0.1,1,HIGH_EXPLOSIVE,0,,0,2,2,0.5,0,0,0,,,500,500,4,1000,,,STRIKE,"strike10, rocket5, ind, missile_bp, merc",,AC Ship Design Co.,,Anti-Armor,High,None,,,"Torpedoes deal 1500 damage to armor, ignoring damage mitigation, and have a base penetration speed of 500 su/s.",,,,,222.261
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Original Sin,Ac_sin,4,,120,1000,,600,,200,5,5,,,,HIGH_EXPLOSIVE,400,,0.05,4.65,3,0.1,,15,3,10,,900,,,10,,,"SYSTEM,SHOW_IN_CODEX",he6,,,,Anti-Armor,,,,,,,,,,122121.1
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Rapid Autocannon (Test),Ac_oerlikon_test,4,,1500,800,,60,,3,40,10,,,,HIGH_EXPLOSIVE,45,,0,0.4,3,0.15,0,5,1,15,,700,,,30,,,"PD,PD_ALSO, SYSTEM","he16, pd14, codex_unlockable",,,,Anti-Fighter,,,,,,,,,,23.851
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,63
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,72
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,73
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,59
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,60
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,61
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,62
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,64
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,65
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,66
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,67
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,68
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,69
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,70
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,71
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,

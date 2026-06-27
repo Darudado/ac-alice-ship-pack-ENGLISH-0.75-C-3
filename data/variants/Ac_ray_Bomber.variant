@@ -1,0 +1,54 @@
+{
+    "displayName": "Bomber",
+    "fluxCapacitors": 50,
+    "fluxVents": 45,
+    "goalVariant": false,
+    "hullId": "Ac_ray",
+    "hullMods": [
+        "eccm",
+        "hardenedshieldemitter",
+        "missleracks",
+        "stabilizedshieldemitter",
+        "targetingunit",
+    ],
+    "permaMods": [],
+    "sMods": [],
+    "suppressedMods": [],
+    "variantId": "Ac_ray_assault",
+    "weaponGroups": [
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0014": "pulselaser",
+                "WS0013": "pulselaser",
+            }
+        },
+        {
+            "autofire": false,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS0001": "dragon",
+                "WS0003": "dragon",
+                "WS0002": "dragon",
+                "WS0005": "dragon",
+                "WS0004": "dragon",
+                "WS0006": "dragon",
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0012": "pulselaser",
+                "WS0011": "pulselaser",
+                "WS0008": "pulselaser",
+                "WS0007": "pulselaser",
+                "WS0018": "pulselaser",
+                "WS0017": "pulselaser",
+            }
+        },
+    ],
+    "wings": [],
+    "modules": [],
+}

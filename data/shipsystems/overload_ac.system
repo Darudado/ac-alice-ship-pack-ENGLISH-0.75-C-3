@@ -4,7 +4,7 @@
 	#"aiType":"HIGH_ENERGY_FOCUS",
 	"aiType":"WEAPON_BOOST",
 	
-	"statsScript":"data.shipsystems.AC_OverLoad",
+	"statsScript":"data.shipsystems.scripts.AC_OverLoad",
 	
 	
 	"weaponGlowColor":[200,150,0,155],

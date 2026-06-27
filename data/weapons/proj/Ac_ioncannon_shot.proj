@@ -4,7 +4,7 @@
 	"spawnType":"BALLISTIC_AS_BEAM",
 	"collisionClass":"RAY",
 	"collisionClassByFighter":"RAY_FIGHTER",
-	"onHitEffect":"data.weapons.onhit.ThundersuiteOnHitEffectAc",
+	"onHitEffect":"data.weapons.scripts.onhit.ThundersuiteOnHitEffectAc",
     "length":55.0,
 	"width":15.0,
 	"fadeTime":0.25,

@@ -1,0 +1,68 @@
+{
+    "hullId": "Ac_irises",
+    "displayName": "Siege",
+    "fluxCapacitors": 50,
+    "fluxVents": 49,
+    "goalVariant": true,
+    "hullMods": [
+        "advancedshieldemitter",
+        "auxiliarythrusters",
+        "converted_hangar",
+        "extendedshieldemitter",
+        "targetingunit",
+    ],
+    "permaMods": [],
+    "sMods": [],
+    "suppressedMods": [],
+    "variantId": "Ac_irises_Siege",
+    "weaponGroups": [
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0002": "hellbore",
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0004": "hellbore",
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0012": "lightneedler",
+                "WS0016": "lightneedler",
+                "WS0017": "lightneedler",
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0020": "lightneedler",
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0007": "AC_impulsecannon",
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0006": "AC_impulsecannon",
+            }
+        },
+    ],
+    "wings": [
+        "wasp_wing",
+    ],
+    "modules": [],
+}

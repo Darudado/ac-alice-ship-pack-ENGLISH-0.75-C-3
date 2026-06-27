@@ -1,0 +1,146 @@
+{
+  "hullName": "Ac_BigBrawerTT",
+  "hullId": "Ac_BigBrawerTT",
+  "hullSize": "DESTROYER",
+  "spriteName": "graphics/ships/chongming.png",
+  "style": "HIGH_TECH",
+  "height": 110,
+  "width": 124,
+  "center": [62, 55],
+  "collisionRadius": 99,
+  "shieldCenter": [0, 0],
+  "shieldRadius": 101,
+  "viewOffset": 0,
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "LARGE",
+      "type": "ENERGY",
+      "mount": "HARDPOINT",
+      "arc": 25,
+      "angle": 0,
+      "locations": [41, 23]
+    },
+    {
+      "id": "WS0002",
+      "size": "LARGE",
+      "type": "ENERGY",
+      "mount": "HARDPOINT",
+      "arc": 25,
+      "angle": -0,
+      "locations": [41, -23]
+    },
+    {
+      "id": "WS0003",
+      "size": "SMALL",
+      "type": "SYNERGY",
+      "mount": "TURRET",
+      "arc": 236,
+      "angle": 56.5,
+      "locations": [7, 36]
+    },
+    {
+      "id": "WS0004",
+      "size": "SMALL",
+      "type": "SYNERGY",
+      "mount": "TURRET",
+      "arc": 236,
+      "angle": -56.5,
+      "locations": [7, -36]
+    },
+    {
+      "id": "WS0005",
+      "size": "SMALL",
+      "type": "SYNERGY",
+      "mount": "TURRET",
+      "arc": 236,
+      "angle": -90,
+      "locations": [-17, -47]
+    },
+    {
+      "id": "WS0006",
+      "size": "SMALL",
+      "type": "SYNERGY",
+      "mount": "TURRET",
+      "arc": 236,
+      "angle": 90,
+      "locations": [-17, 47]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-53.5, 34.5],
+      "length": 31,
+      "width": 11,
+      "angle": 180,
+      "contrailSize": 11,
+      "style": "HIGH_TECH"
+    },
+    {
+      "location": [-53.5, -34.5],
+      "length": 31,
+      "width": 11,
+      "angle": -180,
+      "contrailSize": 11,
+      "style": "HIGH_TECH"
+    },
+    {
+      "location": [-41, -13.5],
+      "length": 22,
+      "width": 6,
+      "angle": -180,
+      "contrailSize": 6,
+      "style": "HIGH_TECH"
+    },
+    {
+      "location": [-41, 13.5],
+      "length": 22,
+      "width": 6,
+      "angle": 180,
+      "contrailSize": 6,
+      "style": "HIGH_TECH"
+    },
+    {
+      "location": [-42, -4.5],
+      "length": 33.5,
+      "width": 7,
+      "angle": -180,
+      "contrailSize": 7,
+      "style": "HIGH_TECH"
+    },
+    {
+      "location": [-42, 4.5],
+      "length": 33.5,
+      "width": 7,
+      "angle": 180,
+      "contrailSize": 7,
+      "style": "HIGH_TECH"
+    }
+  ],
+  "bounds": [
+    -43, 15.5,
+    -48.5, 20,
+    -53.5, 25,
+    -54.5, 41,
+    -39, 46.5,
+    -27, 57,
+    -5.5, 58.5,
+    16.5, 59,
+    31.5, 41.5,
+    53.5, 41,
+    55.5, 10,
+    32.5, 4.5,
+    32.5, -4.5,
+    55.5, -10,
+    53.5, -41,
+    31.5, -41.5,
+    16.5, -59,
+    -5.5, -58.5,
+    -27, -57,
+    -39, -46.5,
+    -54.5, -41,
+    -53.5, -25,
+    -48.5, -20,
+    -43, -15.5
+  ]
+}

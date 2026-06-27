@@ -1,7 +1,7 @@
 {
   "variantId": "Ac_grinder_standard",
   "hullId": "Ac_grinder",
-  "displayName": "高速轰炸机",
+  "displayName": "高速攻击机",
   "goalVariant": true,
   "fluxCapacitors": 0,
   "fluxVents": 0,

@@ -7,8 +7,8 @@
 			"Ac_fulcrum":5,
 			"Ac_interdiction":5,
 			"Ac_Mystia":1.5,
-
-
+            "Ac_promethus_cv":1,
+            "Ac_murderers":1.0,
 
 		},
 	},
@@ -25,8 +25,9 @@
 			"Ac_Alcedo",
 			"Ac_nightingale",
 			"Ac_Harasser",
-
-
+            "Ac_promethus_cv",
+            "Ac_stone",
+            "Ac_murderers",
 		],
 	},
 		

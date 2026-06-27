@@ -1,0 +1,46 @@
+{
+    "displayName": "standard",
+    "fluxCapacitors": 30,
+    "fluxVents": 6,
+    "goalVariant": true,
+    "hullId": "Ac_doom",
+    "hullMods": [
+        "armoredweapons",
+        "missleracks",
+        "targetingunit",
+    ],
+    "permaMods": [],
+    "sMods": [],
+    "suppressedMods": [],
+    "variantId": "Ac_doom_standard",
+    "weaponGroups": [
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0001": "Ac_constraitdriver",
+                "WS0002": "Ac_constraitdriver",
+            }
+        },
+        {
+            "autofire": false,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS0010": "reaper",
+                "WS0009": "reaper",
+                "WS0005": "reaper",
+                "WS0006": "reaper",
+            }
+        },
+        {
+            "autofire": false,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS0008": "phasecl",
+                "WS0007": "phasecl",
+            }
+        },
+    ],
+    "wings": [],
+    "modules": [],
+}

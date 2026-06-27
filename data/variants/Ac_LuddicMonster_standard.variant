@@ -1,0 +1,95 @@
+{
+    "displayName": "Standard",
+    "fluxCapacitors": 0,
+    "fluxVents": 21,
+    "goalVariant": true,
+    "hullId": "Ac_LuddicMonster",
+    "hullMods": [
+        "armoredweapons",
+        "autorepair",
+        "fluxbreakers",
+        "heavyarmor",
+        "missleracks",
+        "shield_shunt",
+        "targetingunit",
+    ],
+    "permaMods": [],
+    "sMods": [],
+    "suppressedMods": [],
+    "variantId": "Ac_LuddicMonster_standard",
+    "weaponGroups": [
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0009": "hammerrack",
+            }
+        },
+        {
+            "autofire": false,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS0023": "swarmer",
+                "WS0025": "swarmer",
+                "WS0024": "swarmer",
+            }
+        },
+        {
+            "autofire": false,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS0014": "hammer",
+                "WS0013": "hammer",
+                "WS0015": "jackhammer",
+                "WS0026": "hammer",
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0011": "mark9",
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0010": "hellbore",
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0001": "shredder",
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0012": "vulcan",
+                "WS0022": "vulcan",
+                "WS0003": "vulcan",
+                "WS0002": "vulcan",
+                "WS0021": "vulcan",
+                "WS0020": "vulcan",
+                "WS0008": "vulcan",
+                "WS0019": "vulcan",
+                "WS0005": "vulcan",
+                "WS0016": "vulcan",
+                "WS0004": "vulcan",
+                "WS0007": "vulcan",
+                "WS0018": "vulcan",
+                "WS0006": "vulcan",
+                "WS0017": "vulcan",
+            }
+        },
+    ],
+    "wings": [
+        "perdition_wing",
+        "perdition_wing",
+    ],
+    "modules": [],
+}

@@ -1,0 +1,39 @@
+{
+    "displayName": "Anomaly",
+    "fluxCapacitors": 10,
+    "fluxVents": 3,
+    "goalVariant": true,
+    "hullId": "Ac_hyperionS",
+    "hullMods": [
+        "safetyoverrides",
+    ],
+    "permaMods": [],
+    "sMods": [],
+    "suppressedMods": [],
+    "variantId": "Ac_hyperionS_standard",
+    "weaponGroups": [
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0001": "voidblaster",
+            }
+        },
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {
+                "MAIN_02": "pseudoparticle_jet",
+            }
+        },
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {
+                "MAIN_01": "disintegrator",
+            }
+        },
+    ],
+    "wings": [],
+    "modules": [],
+}

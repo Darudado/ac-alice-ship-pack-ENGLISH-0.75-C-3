@@ -12,7 +12,7 @@
   "shieldRadius": 273.5,
   "viewOffset": 0,
   "builtInMods": [
-    "operations_center"
+    "ballistic_rangefinder"
   ],
   "weaponSlots": [
     {

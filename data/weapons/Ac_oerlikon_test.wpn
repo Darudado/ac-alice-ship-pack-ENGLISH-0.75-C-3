@@ -1,0 +1,55 @@
+{
+  "id": "Ac_oerlikon_test",
+  "specClass": "projectile",
+  "projectileSpecId": "Ac_hullBreaker_shot",
+  "type": "BALLISTIC",
+  "size": "MEDIUM",
+  "displayArcRadius": 300,
+  "turretSprite": "graphics/weapons/Ac_oerlikon_1.png",
+  "turretGunSprite": "graphics/weapons/Ac_oerlikon_2.png",
+  "hardpointSprite": "graphics/weapons/Ac_oerlikon_4.png",
+  "hardpointGunSprite": "graphics/weapons/Ac_oerlikon_5.png",
+  "specialWeaponGlowHeight": 25,
+  "specialWeaponGlowWidth": 15,
+  "visualRecoil": 3,
+  "renderHints": [
+    RENDER_BARREL_BELOW
+  ],
+  "turretOffsets": [
+    19,
+    -6,
+    19,
+    6
+  ],
+  "turretAngleOffsets": [
+    0,
+    -0
+  ],
+  "hardpointOffsets": [
+    31.5,
+    -5,
+    31.5,
+    5
+  ],
+  "hardpointAngleOffsets": [
+    0,
+    0
+  ],
+  "barrelMode": "ALTERNATING_BURST",
+  "animationType": "MUZZLE_FLASH",
+  "muzzleFlashSpec": {
+    "length": 30,
+    "spread": 6,
+    "particleSizeMin": 7,
+    "particleSizeRange": 9,
+    "particleDuration": 0.15,
+    "particleCount": 11,
+    "particleColor": [
+      255,
+      120,
+      105,
+      250
+    ]
+  },
+  "fireSoundTwo": "needler_fire"
+}

@@ -3,7 +3,7 @@
 	"variantOverrides":{
 		"Ac_Punch_assault":3,
 		"Ac_Punch_standard":3,
-
+        "Ac_lowtechAurora_standard":3,
 	},
 	# multiplier for how often hulls show up in the faction's fleets
 	"hullFrequency":{
@@ -27,6 +27,8 @@
 			"Ac_Mystia",
 			"Ac_Robber",
 			"Ac_liquid_iron",
+			"Ac_lowtechAurora",
+			"Ac_irises",
 		],
 	},
 	# listing ships here will make the faction mostly use them even if other hulls become available

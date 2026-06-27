@@ -5,11 +5,11 @@
     "extendedshieldemitter"
   ],
   "descriptionId": "conquest",
-  "descriptionPrefix": "A heavily modified version of a Conquest, featuring a distinctive blue-green paint scheme.",
+  "descriptionPrefix": "高度改装的某款征服者，涂上了蓝绿色的特色涂装。或许某些你能在某些客制化的生产商那边找到她。",
   "fighterBays": 0,
   "fpMod": 0,
   "hullDesignation": "CAPITAL",
-  "hullName": "Conquest-Iris",
+  "hullName": "征服者-鸢尾",
   "manufacturer": "",
   "restoreToBaseHull": false,
   "skinHullId": "ac_conquest_s",

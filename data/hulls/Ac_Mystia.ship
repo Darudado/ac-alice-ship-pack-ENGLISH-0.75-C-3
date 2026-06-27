@@ -12,7 +12,8 @@
   "shieldRadius": 220.5,
   "viewOffset": 0,
   "builtInMods": [
-    "hurricaneammofeed_ac"
+    "hurricaneammofeed_ac",
+    "ablative_armor"
   ],
   "weaponSlots": [
     {
@@ -95,8 +96,30 @@
       "arc": 280,
       "angle": 180,
       "locations": [-41, -0]
+    },
+    {
+      "id": "WS0003",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 360,
+      "angle": 0,
+      "locations": [120, 33]
+    },
+    {
+      "id": "WS0004",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 360,
+      "angle": -0,
+      "locations": [120, -33]
     }
   ],
+  "builtInWeapons": {
+        "WS0003": "lidardish",
+        "WS0004": "lidardish"
+  },
   "engineSlots": [
     {
       "location": [-88.5, 67],

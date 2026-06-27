@@ -7,7 +7,7 @@
 			"Ac_Sower":0.2,
 			"Ac_Commander":0.5,
 			"Ac_Ziz":0.2,
-
+            "Ac_conquestG1":0.2,
 		},
 		"hulls":{
 
@@ -32,6 +32,7 @@
 			"Ac_Alcedo",
 			"Ac_nightingale",
 			"Ac_Ziz",
+			"Ac_conquestG1",
 		],
 	},
 	# listing ships here will make the faction mostly use them even if other hulls become available

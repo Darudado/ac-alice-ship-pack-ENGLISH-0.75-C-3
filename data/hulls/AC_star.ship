@@ -1,0 +1,97 @@
+{
+  "hullName": "AC_star",
+  "hullId": "AC_star",
+  "hullSize": "FIGHTER",
+  "spriteName": "graphics/ships/Ac_star.png",
+  "style": "HIGH_TECH",
+  "height": 61,
+  "width": 48,
+  "center": [24, 30],
+  "collisionRadius": 35.5,
+  "shieldCenter": [0.5, 0],
+  "shieldRadius": 37.5,
+  "viewOffset": 0,
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "MEDIUM",
+      "type": "ENERGY",
+      "mount": "HIDDEN",
+      "arc": 8,
+      "angle": 0,
+      "locations": [4, 0]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-22, 15.5],
+      "length": 13.5,
+      "width": 2,
+      "angle": 180,
+      "contrailSize": 2,
+      "style": "HIGH_TECH"
+    },
+    {
+      "location": [-22, -15.5],
+      "length": 13.5,
+      "width": 2,
+      "angle": -180,
+      "contrailSize": 2,
+      "style": "HIGH_TECH"
+    },
+    {
+      "location": [-26.5, -2],
+      "length": 23,
+      "width": 4,
+      "angle": -180,
+      "contrailSize": 4,
+      "style": "HIGH_TECH"
+    },
+    {
+      "location": [-26.5, 2],
+      "length": 23,
+      "width": 4,
+      "angle": 180,
+      "contrailSize": 4,
+      "style": "HIGH_TECH"
+    }
+  ],
+  "bounds": [
+    -26, 1,
+    -27.5, 2.5,
+    -24.5, 5,
+    -29.5, 5,
+    -30.5, 7.5,
+    -22, 12,
+    -23.5, 13,
+    -23.5, 17.5,
+    -21, 19,
+    -17, 22.5,
+    -16.5, 24.5,
+    -9.5, 24,
+    -7, 23,
+    2.5, 19.5,
+    7, 20.5,
+    30, 15,
+    31.5, 6,
+    26.5, 4.5,
+    26.5, -4.5,
+    31.5, -6,
+    30, -15,
+    7, -20.5,
+    2.5, -19.5,
+    -7, -23,
+    -9.5, -24,
+    -16.5, -24.5,
+    -17, -22.5,
+    -21, -19,
+    -23.5, -17.5,
+    -23.5, -13,
+    -22, -12,
+    -30.5, -7.5,
+    -29.5, -5,
+    -24.5, -5,
+    -27.5, -2.5,
+    -26, -1
+  ]
+}

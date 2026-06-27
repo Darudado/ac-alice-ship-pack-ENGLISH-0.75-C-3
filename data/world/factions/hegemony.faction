@@ -8,7 +8,8 @@
 			"Ac_Nipponia":1,
 			"Ac_Nipponia_oc":1.5,
 			"Ac_judge":1.5,
-
+            "Ac_Alice_xiv":0.5,
+            "Ac_Punch_xiv":0.5,
 		},
 	},
 	"knownShips":{
@@ -18,7 +19,9 @@
 			"Ac_Nipponia_oc",
 			"Ac_judge",
 			"Ac_henchman",
-
+            "Ac_stone",
+            "Ac_Alice_xiv",
+            "Ac_Punch_xiv",
 		],
 	},
 	"priorityShips":{
@@ -28,8 +31,8 @@
 
 	"knownFighters":{
 		"fighters":[
-			"Ac_lance",
 			"Ac_grinder",
+			"Ac_greatsword",
 		],
 	},
 

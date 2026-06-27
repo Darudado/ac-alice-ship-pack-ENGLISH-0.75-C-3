@@ -1,0 +1,52 @@
+{
+    "displayName": "Support",
+    "fluxCapacitors": 20,
+    "fluxVents": 5,
+    "goalVariant": true,
+    "hullId": "Ac_BigBrawerTT",
+    "hullMods": [
+        "advancedoptics",
+        "converted_hangar",
+        "targetingunit",
+    ],
+    "permaMods": [],
+    "sMods": [],
+    "suppressedMods": [],
+    "variantId": "Ac_BigBrawerTT_support",
+    "weaponGroups": [
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0001": "tachyonlance",
+            }
+        },
+        {
+            "autofire": false,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS0003": "heatseeker",
+                "WS0004": "heatseeker",
+            }
+        },
+        {
+            "autofire": false,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS0005": "breach",
+                "WS0006": "breach",
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0002": "ionbeam",
+            }
+        },
+    ],
+    "wings": [
+        "broadsword_wing",
+    ],
+    "modules": [],
+}

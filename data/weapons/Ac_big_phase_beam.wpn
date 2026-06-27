@@ -1,0 +1,33 @@
+{
+  "id": "Ac_big_phase_beam",
+  "specClass": "beam",
+  "type": "ENERGY",
+  "size": "LARGE",
+  "turretSprite": "graphics/weapons/Ac_big_phase_beam.png",
+  "turretGlowSprite": "graphics/weapons/Ac_big_phase_beam_glow.png",
+  "hardpointSprite": "graphics/weapons/Ac_big_phase_beam_h.png",
+  "hardpointGlowSprite": "graphics/weapons/Ac_big_phase_beam_h_glow.png",
+  "fringeColor":[125,0,155,255],
+  "coreColor":[255,255,255,255],
+  "glowColor":[225,100,255,255],
+  "width":40.0,
+  "textureType":ROUGH,
+  "textureScrollSpeed":64.0,
+  "pixelsPerTexel":5.0,
+  "turretOffsets": [
+    34.5,
+    0
+  ],
+  "turretAngleOffsets": [
+    0
+  ],
+  "hardpointOffsets": [
+    0,
+    0
+  ],
+  "hardpointAngleOffsets": [
+    0
+  ],
+  "pierceSet":[PROJECTILE_FF,PROJECTILE_NO_FF,PROJECTILE_FIGHTER,MISSILE_FF,MISSILE_NO_FF],
+  "fireSoundTwo":"phase_beam_loop",
+ }

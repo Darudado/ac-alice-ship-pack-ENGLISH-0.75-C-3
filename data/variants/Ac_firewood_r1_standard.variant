@@ -1,35 +1,36 @@
 {
-  "variantId": "Ac_firewood_r1_standard",
-  "hullId": "Ac_firewood_r1",
-  "displayName": "standard",
-  "goalVariant": false,
-  "fluxCapacitors": 0,
-  "fluxVents": 0,
-  "quality": 1,
-  "permaMods": [],
-  "hullMods": [
-    "magazines",
-    "eccm"
-  ],
-  "weaponGroups": [
-    {
-      "autofire": false,
-      "mode": "LINKED",
-      "weapons": {
-        "WS0003": "pilum"
-      }
-    },
-    {
-      "autofire": true,
-      "mode": "LINKED",
-      "weapons": {
-        "WS0002": "pdlaser",
-        "WS0005": "pdburst"
-      }
-    }
-  ],
-  "modules": [],
-  "wings": [
-    "lux_wing"
-  ]
+    "displayName": "Standard",
+    "fluxCapacitors": 2,
+    "fluxVents": 0,
+    "goalVariant": false,
+    "hullId": "Ac_firewood_r1",
+    "hullMods": [
+        "defensive_targeting_array",
+        "eccm",
+    ],
+    "permaMods": [],
+    "sMods": [],
+    "suppressedMods": [],
+    "variantId": "Ac_firewood_r1_standard",
+    "weaponGroups": [
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0002": "pdburst",
+                "WS0005": "pdburst",
+            }
+        },
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0003": "sabotpod",
+            }
+        },
+    ],
+    "wings": [
+        "wasp_wing",
+    ],
+    "modules": [],
 }

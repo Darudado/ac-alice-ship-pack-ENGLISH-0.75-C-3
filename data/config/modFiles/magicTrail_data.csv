@@ -1,0 +1,4 @@
+trail,projectile,sprite,minLength,fadeIn,duration,fadeOut,sizeIn,sizeOut,colorIn,colorOut,opacity,textLength,textScroll,distance,dispersion,drift,fadeOnFadeOut,angleAdjustment,additive,velocityIn,velocityOut,randomVelocity,angle,rotationIn,rotationOut,randomRotation,renderBelowExplosions
+#弹体轨迹,,,,淡入,持续时间,淡出,入射宽度,尾迹宽度,若sizein小于sizeout，则可制作前尖后宽的尾迹,,不透明,影响材质压缩，数值越小，每段材质长度越小，但不影响显示长度,滚动,"距离,过远将导致尾迹跃出弹头",,,淡入 淡出,角度调整,累积,速度,,,,旋转,,随机旋转,在爆炸发生处下方渲染
+Ac_protonTrail,Ac_plasma_shot,Ac_protonTrail_fx,10,0,0.1,0.5,45,23,"[242,163,255]","[242,163,255]",1,200,50,20,0,1,TRUE,FALSE,TRUE,10,20,0.3,0,0,0,FALSE,FALSE
+,,,,,,,,,,,,,,,,,,,,,,,,,,,

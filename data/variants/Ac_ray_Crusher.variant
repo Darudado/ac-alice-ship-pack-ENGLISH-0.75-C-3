@@ -1,0 +1,56 @@
+{
+    "displayName": "Crusher",
+    "fluxCapacitors": 50,
+    "fluxVents": 50,
+    "goalVariant": true,
+    "hullId": "Ac_ray",
+    "hullMods": [
+        "armoredweapons",
+        "autorepair",
+        "fluxbreakers",
+        "shield_shunt",
+        "targetingunit",
+    ],
+    "permaMods": [],
+    "sMods": [],
+    "suppressedMods": [],
+    "variantId": "Ac_ray_standrad",
+    "weaponGroups": [
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0001": "Ac_constraintsblaster",
+                "WS0014": "Ac_constraintsblaster",
+                "WS0003": "Ac_constraintsblaster",
+                "WS0013": "Ac_constraintsblaster",
+                "WS0002": "Ac_constraintsblaster",
+                "WS0005": "Ac_constraintsblaster",
+                "WS0004": "Ac_constraintsblaster",
+                "WS0006": "Ac_constraintsblaster",
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0012": "Ac_constraintsblaster",
+                "WS0011": "Ac_constraintsblaster",
+                "WS0008": "Ac_constraintsblaster",
+                "WS0007": "Ac_constraintsblaster",
+                "WS0018": "Ac_constraintsblaster",
+                "WS0017": "Ac_constraintsblaster",
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0023": "mininglaser",
+                "WS0022": "mininglaser",
+            }
+        },
+    ],
+    "wings": [],
+    "modules": [],
+}

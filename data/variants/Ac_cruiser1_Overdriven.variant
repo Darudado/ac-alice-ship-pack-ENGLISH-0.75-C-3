@@ -1,0 +1,56 @@
+{
+    "displayName": "Overdriven",
+    "fluxCapacitors": 28,
+    "fluxVents": 0,
+    "goalVariant": true,
+    "hullId": "Ac_cruiser1",
+    "hullMods": [
+        "hardenedshieldemitter",
+        "magazines",
+        "safetyoverrides",
+    ],
+    "permaMods": [],
+    "sMods": [],
+    "suppressedMods": [],
+    "variantId": "Ac_cruiser1_overdriven",
+    "weaponGroups": [
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0001": "multineedler",
+            }
+        },
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0008": "reaper",
+            }
+        },
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0007": "sabotpod",
+            }
+        },
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0003": "ionpulser",
+                "WS0002": "miningblaster",
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0006": "Ac_protonCannon",
+            }
+        },
+    ],
+    "wings": [],
+    "modules": [],
+}

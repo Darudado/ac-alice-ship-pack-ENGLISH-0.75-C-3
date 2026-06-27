@@ -1,0 +1,54 @@
+package data.shipsystems.scripts;
+
+import com.fs.starfarer.api.combat.MutableShipStatsAPI;
+import com.fs.starfarer.api.impl.combat.BaseShipSystemScript;
+import com.fs.starfarer.api.plugins.ShipSystemStatsScript;
+
+public class AC_missleDrive extends BaseShipSystemScript {
+    public final static float MissleROFMult = 750f;
+
+    protected Object STATUSKEY1 = new Object();
+
+
+    public void apply(MutableShipStatsAPI stats, String id, ShipSystemStatsScript.State state, float effectLevel) {
+        if (state == State.OUT) {
+            stats.getMaxSpeed().modifyFlat(id, 0.0F);
+            stats.getMaxSpeed().modifyPercent(id, 200.0F * effectLevel);
+            stats.getMaxTurnRate().modifyPercent(id, 50.0F * effectLevel);
+            stats.getAcceleration().modifyPercent(id, 600.0F * effectLevel);
+            stats.getDeceleration().modifyPercent(id, 200.0F);
+            stats.getMissileRoFMult().modifyPercent(id, MissleROFMult);
+            stats.getMissileAmmoRegenMult().modifyPercent(id, 5*MissleROFMult);
+        } else {
+            stats.getMaxSpeed().modifyFlat(id, 250.0F * effectLevel);
+            stats.getMaxSpeed().modifyPercent(id, 250.0F * effectLevel);
+            stats.getAcceleration().modifyFlat(id, 500.0F * effectLevel);
+            stats.getAcceleration().modifyPercent(id, 600.0F * effectLevel);
+            stats.getDeceleration().modifyPercent(id, 100.0F * effectLevel);
+            stats.getTurnAcceleration().modifyFlat(id, 50.0F * effectLevel);
+            stats.getTurnAcceleration().modifyPercent(id, 100.0F * effectLevel);
+            stats.getMaxTurnRate().modifyFlat(id, 25.0F * effectLevel);
+            stats.getMaxTurnRate().modifyPercent(id, 50.0F * effectLevel);
+            stats.getMissileRoFMult().modifyPercent(id, MissleROFMult);
+            stats.getMissileAmmoRegenMult().modifyPercent(id, 5*MissleROFMult);
+        }
+    }
+
+    public ShipSystemStatsScript.StatusData getStatusData(int index, ShipSystemStatsScript.State state, float effectLevel) {
+        if (index == 0) {
+            return new ShipSystemStatsScript.StatusData("Engine performance increased", false);
+        } else {
+            return index == 1 ? new ShipSystemStatsScript.StatusData("Rapid reloading missiles", false) : null;
+        }
+    }
+
+    public void unapply(MutableShipStatsAPI stats, String id) {
+        stats.getMaxSpeed().unmodify(id);
+        stats.getMaxTurnRate().unmodify(id);
+        stats.getTurnAcceleration().unmodify(id);
+        stats.getAcceleration().unmodify(id);
+        stats.getDeceleration().unmodify(id);
+        stats.getMissileRoFMult().unmodify(id);
+        stats.getMissileAmmoRegenMult().unmodify(id);
+    }
+}

@@ -1,0 +1,71 @@
+{
+    "displayName": "Demo",
+    "fluxCapacitors": 50,
+    "fluxVents": 45,
+    "goalVariant": true,
+    "hullId": "Ac_astralS",
+    "hullMods": [
+        "expanded_deck_crew",
+        "missleracks",
+    ],
+    "permaMods": [],
+    "sMods": [],
+    "suppressedMods": [],
+    "variantId": "Ac_astralS_demo",
+    "weaponGroups": [
+        {
+            "autofire": false,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS0014": "pilum_large",
+                "WS0015": "pilum_large",
+            }
+        },
+        {
+            "autofire": false,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS0005": "pilum",
+                "WS0004": "pilum",
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0008": "irautolance",
+                "WS0007": "irautolance",
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0006": "ionbeam",
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0001": "mininglaser",
+                "WS0012": "mininglaser",
+                "WS0011": "mininglaser",
+                "WS0003": "mininglaser",
+                "WS0002": "mininglaser",
+                "WS0013": "mininglaser",
+                "WS0010": "mininglaser",
+                "WS0009": "mininglaser",
+            }
+        },
+    ],
+    "wings": [
+        "flash_wing",
+        "flash_wing",
+        "flash_wing",
+        "flash_wing",
+        "flash_wing",
+        "flash_wing",
+    ],
+    "modules": [],
+}

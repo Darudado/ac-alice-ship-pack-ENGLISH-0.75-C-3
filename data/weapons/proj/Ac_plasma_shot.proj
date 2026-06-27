@@ -1,0 +1,32 @@
+{
+	"id":"Ac_plasma_shot",
+	"specClass":"projectile",
+	"spawnType":"PLASMA",
+	"collisionClass":"PROJECTILE_FF",
+	"collisionClassByFighter":"PROJECTILE_FIGHTER",
+	"width":60.0,
+	"fadeTime":0.5,
+	"fringeColor":[0,0,255,255],
+	"coreColor":[255,100,100,255],
+
+
+	"behaviorSpec":{
+	    "behavior":"PROXIMITY_FUSE",
+        "shotRangeVariance":0,
+        "range":50,
+        "explosionSpec":{
+             "duration":0.12f,
+             "radius":125,
+             "coreRadius":50, # full damage within core radius - at least equal to proximity fuse range
+             "collisionClass":PROJECTILE_FF,
+             "collisionClassByFighter":PROJECTILE_FIGHTER,
+             "particleSizeMin":7.0,
+             "particleSizeRange":4.0,
+             "particleDuration":2,
+             "particleCount":25,
+             "particleColor":[255,100,100,255],
+             "explosionColor":[0,0,255,255],
+             "sound":"devastator_explosion"
+        },
+    }
+}

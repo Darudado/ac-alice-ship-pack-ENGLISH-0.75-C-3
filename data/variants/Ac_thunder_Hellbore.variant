@@ -1,0 +1,48 @@
+{
+    "displayName": "Hellbore",
+    "fluxCapacitors": 27,
+    "fluxVents": 0,
+    "goalVariant": true,
+    "hullId": "Ac_thunder",
+    "hullMods": [
+        "frontemitter",
+        "missleracks",
+        "safetyoverrides",
+    ],
+    "permaMods": [],
+    "sMods": [],
+    "suppressedMods": [],
+    "variantId": "Ac_thunder_standard",
+    "weaponGroups": [
+        {
+            "autofire": false,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS0003": "hammerrack",
+                "WS0002": "hammerrack",
+                "WS0005": "hammerrack",
+                "WS0004": "hammerrack",
+            }
+        },
+        {
+            "autofire": false,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS0009": "sabotpod",
+                "WS0008": "sabotpod",
+                "WS0007": "sabotpod",
+                "WS0006": "sabotpod",
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0014": "lightneedler",
+                "WS0015": "lightneedler",
+            }
+        },
+    ],
+    "wings": [],
+    "modules": [],
+}

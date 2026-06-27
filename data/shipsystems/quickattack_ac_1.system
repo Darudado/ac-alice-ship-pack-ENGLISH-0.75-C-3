@@ -4,7 +4,7 @@
 	#"aiType":"HIGH_ENERGY_FOCUS",
 	"aiType":"WEAPON_BOOST",
 	
-	"statsScript":"data.shipsystems.AC_QuickAttack",
+	"statsScript":"data.shipsystems.scripts.AC_QuickAttack",
 	"weaponGlowColor":[200,200,0,155],
 	"weaponTypes":[BALLISTIC],	
 	

@@ -1,7 +1,10 @@
 {
     "ac_asm_bounty_1": {
         "trigger_market_id": [],
-        "trigger_marketFaction_any": ["independent", "tritachyon"],
+        "trigger_marketFaction_any": [
+            "independent",
+            "tritachyon"
+        ],
         "trigger_marketFaction_alliedWith": false,
         "trigger_marketFaction_none": [],
         "trigger_marketFaction_enemyWith": true,
@@ -10,7 +13,6 @@
         "trigger_min_fleet_size": 0,
         "trigger_min_days_elapsed": 0,
         "trigger_weight_mult": 1,
-
         "job_name": "Warship Seizure",
         "job_description": "A message from your informant indicates that a Tachyon-supported exploration fleet has discovered a rare high-speed battleship and its standard manufacturing blueprints in a remote star sector. Due to Tachyon's involvement, the salvage fleet contains some troublesome elements, but it's manageable. You are determined to take control of this ship.",
         "job_comm_reply": "If you want this ship, you'll have to take it by force.",
@@ -30,7 +32,6 @@
         "job_show_arrow": false,
         "job_difficultyDescription": "auto",
         "job_pick_option": "Proceed without canceling the informant's lead",
-
         "target_first_name": "Exploration Fleet",
         "target_last_name": "Prospector",
         "target_portrait": "graphics/portraits/portrait17.png",
@@ -39,7 +40,6 @@
         "target_aiCoreId": "",
         "target_level": 10,
         "target_elite_skills": 10,
-
         "fleet_name": "Graybird",
         "fleet_faction": "independent",
         "fleet_flagship_variant": "Ac_Dreamer_standard",
@@ -64,17 +64,20 @@
         "fleet_transponder": false,
         "fleet_no_retreat": true,
         "fleet_behavior": "PASSIVE",
-
         "location_distance": "FAR",
         "location_themes": [],
-        "location_entities": ["gate"],
+        "location_entities": [
+            "gate"
+        ],
         "location_prioritizeUnexplored": false,
         "location_defaultToAnyEntity": true
     },
-
     "ac_asm_bounty_2": {
         "trigger_market_id": [],
-        "trigger_marketFaction_any": ["hegemony", "luddic_church"],
+        "trigger_marketFaction_any": [
+            "hegemony",
+            "luddic_church"
+        ],
         "trigger_marketFaction_alliedWith": false,
         "trigger_marketFaction_none": [],
         "trigger_marketFaction_enemyWith": true,
@@ -83,7 +86,6 @@
         "trigger_min_fleet_size": 0,
         "trigger_min_days_elapsed": 0,
         "trigger_weight_mult": 1,
-
         "job_name": "Colossal Battleship",
         "job_description": "Reports indicate the appearance of a massive fortress-class battleship in the Persean sector, a product of the late-phase Hegemony colonization project. For unknown reasons, it is surrounded by automated warships that should have been decommissioned. The Hegemony requests your assistance in neutralizing it.",
         "job_comm_reply": "··········· To all citizens of the Hegemony: Do not interfere········· For the········ survival of·········",
@@ -106,7 +108,6 @@
         "job_show_arrow": false,
         "job_difficultyDescription": "You wonder why this is a covert mission—such a threat warrants a Hegemony task force.",
         "job_pick_option": "Accept Mission",
-
         "target_first_name": "Unknown Fleet",
         "target_last_name": "Ember",
         "target_portrait": "super_fox_9",
@@ -115,7 +116,6 @@
         "target_aiCoreId": "alpha_core",
         "target_level": 14,
         "target_elite_skills": 7,
-
         "fleet_name": "Tester",
         "fleet_faction": "derelict",
         "fleet_flagship_variant": "Ac_holy_see_support",
@@ -141,17 +141,19 @@
         "fleet_transponder": false,
         "fleet_no_retreat": true,
         "fleet_behavior": "PASSIVE",
-
         "location_distance": "FAR",
         "location_themes": [],
-        "location_entities": ["gate"],
+        "location_entities": [
+            "gate"
+        ],
         "location_prioritizeUnexplored": false,
         "location_defaultToAnyEntity": true
     },
-
     "ac_asm_bounty_3": {
         "trigger_market_id": [],
-        "trigger_marketFaction_any": ["tritachyon"],
+        "trigger_marketFaction_any": [
+            "tritachyon"
+        ],
         "trigger_marketFaction_alliedWith": false,
         "trigger_marketFaction_none": [],
         "trigger_marketFaction_enemyWith": true,
@@ -160,7 +162,6 @@
         "trigger_min_fleet_size": 0,
         "trigger_min_days_elapsed": 0,
         "trigger_weight_mult": 1,
-
         "job_name": "Remnants of the First AI War",
         "job_description": "Tri-Tachyon requests your assistance in neutralizing remnants from the First AI War. The fleet's AI inexplicably reactivated—prematurely.",
         "job_comm_reply": "Warning! This is Tri-Tachyon property! Any damage to corporate assets will result in annihilation!",
@@ -182,7 +183,6 @@
         "job_show_arrow": false,
         "job_difficultyDescription": "You wonder why this is a covert mission—such a threat warrants a Hegemony task force.",
         "job_pick_option": "Accept Mission",
-
         "target_first_name": "Tri-Tachyon Automated Fleet",
         "target_last_name": "Mocking Armada",
         "target_portrait": "super_fox_9",
@@ -191,7 +191,6 @@
         "target_aiCoreId": "alpha_core",
         "target_level": 9,
         "target_elite_skills": 6,
-
         "fleet_name": "Corporate Propaganda Fleet",
         "fleet_faction": "remnant",
         "fleet_flagship_variant": "Ac_sarcasm_demo",
@@ -202,11 +201,14 @@
             "lumen_Standard": 6,
             "glimmer_Support": 6,
             "scintilla_Strike": 4,
-            "brilliant_Standard": 5,
-            "Ac_vicious_demo": 2,
+            "brilliant_Standard": 4,
             "rampart_Standard": 8,
-            "Ac_ray_standrad": 1,
-            "fulgent_Assault": 4
+            "fulgent_Assault": 4,
+            "Ac_afterglow_assault": 4,
+            "Ac_thunderlight_demo": 1,
+            "Ac_sarcasm_demo": 1,
+            "Ac_astralS_demo": 1,
+            "Ac_vicious_demo": 1
         },
         "fleet_preset_autofit": true,
         "fleet_scaling_multiplier": 2,
@@ -216,26 +218,27 @@
         "fleet_transponder": false,
         "fleet_no_retreat": true,
         "fleet_behavior": "PASSIVE",
-
         "location_distance": "FAR",
         "location_themes": [],
-        "location_entities": ["gate"],
+        "location_entities": [
+            "gate"
+        ],
         "location_prioritizeUnexplored": false,
         "location_defaultToAnyEntity": true
     },
-
     "ac_asm_bounty_4": {
         "trigger_market_id": [],
-        "trigger_marketFaction_any": ["pirates"],
+        "trigger_marketFaction_any": [
+            "pirates"
+        ],
         "trigger_marketFaction_alliedWith": false,
         "trigger_marketFaction_none": [],
         "trigger_marketFaction_enemyWith": true,
         "trigger_market_minSize": 4,
-        "player_minLevel": 12,
+        "trigger_player_minLevel": 12,
         "trigger_min_fleet_size": 0,
         "trigger_min_days_elapsed": 0,
         "trigger_weight_mult": 1,
-
         "job_name": "Legendary Cursed Blade",
         "job_description": "A joint Luddic Church and indipendent fleet seized a highly unique ship from the pirate Star_duck. His remnants now ask you to ensure the ship meets a dignified end.",
         "job_comm_reply": "We act in Ludd's name to destroy Moro's abominations!",
@@ -245,7 +248,9 @@
         "job_credit_reward": 5000000,
         "job_reputation_reward": 5,
         "job_forFaction": "pirates",
-        "job_item_reward": {},
+        "job_item_reward": {
+            "crew": 750
+        },
         "job_deadline": 30,
         "job_type": "neutralisation",
         "job_show_type": true,
@@ -255,7 +260,6 @@
         "job_show_arrow": false,
         "job_difficultyDescription": "The fleet is fragile, but its location poses a major challenge.",
         "job_pick_option": "Accept Mission",
-
         "target_first_name": "Carcass",
         "target_last_name": "Fleet of the Devout",
         "target_portrait": "knight",
@@ -264,7 +268,6 @@
         "target_aiCoreId": "",
         "target_level": 9,
         "target_elite_skills": 6,
-
         "fleet_name": "Holy Invincible Fleet",
         "fleet_faction": "luddic_church",
         "fleet_flagship_variant": "Ac_Tyrfing_standard",
@@ -289,10 +292,223 @@
         "fleet_transponder": false,
         "fleet_no_retreat": true,
         "fleet_behavior": "PASSIVE",
-
         "location_distance": "CORE",
         "location_themes": [],
-        "location_entities": ["jump_point"],
+        "location_entities": [
+            "jump_point"
+        ],
+        "location_prioritizeUnexplored": false,
+        "location_defaultToAnyEntity": true
+    },
+    "ac_asm_bounty_5": {
+        "trigger_market_id": [],
+        "trigger_marketFaction_any": [
+            "hegemony",
+            "luddic_church"
+        ],
+        "trigger_marketFaction_alliedWith": false,
+        "trigger_marketFaction_none": [],
+        "trigger_marketFaction_enemyWith": true,
+        "trigger_market_minSize": 4,
+        "trigger_player_minLevel": 5,
+        "trigger_min_fleet_size": 0,
+        "trigger_min_days_elapsed": 0,
+        "trigger_weight_mult": 1,
+        "job_name": "High Value Bounty: Tia System Raid",
+        "job_description": "Recently, a raid on the edge of the Core Worlds has caused a stir: a Tri-Tachyon merchant convoy, seeking shelter from pirates in the asteroid belt of the Tia system, fell into the ambush of an unknown fleet. According to survivors, the leading raider ship appeared to be a Hyperion-class, but emitted electronic signals extremely similar to autonomous ships from the First AI War, and its weaponry could not match any entry in the database.\n\nObviously, neither Tri-Tachyon nor the Hegemony wants this unknown fleet to reappear. Tri-Tachyon is suppressing news regarding this mysterious Hyperion and the attacked fleet, while the Hegemony has secretly issued this bounty to trusted captains. They hope to learn what that anomalous fleet's flagship and its equipment are.",
+        "job_comm_reply": "\"WARNING! This is Tri-Tachyon property! Any individuals or groups causing damage to company property will be annihilated!\"",
+        "job_intel_success": "After defeating the target fleet, you discovered an experimental transverse jump locator and numerous items not belonging to your familiar star sector in their cargo hold. At the same time, your technical officer repaired the log files on the ship, finding that this autonomous fleet had made multiple trips to the deep hyperspace in the southwest, and its initial size was not as small as what you saw today.\n\nIt seems the origin of this mysterious autonomous ship is well worth investigating.",
+        "job_intel_failure": "Mission failed",
+        "job_intel_expired": "The fleet has disappeared and the mission failed, but this was within everyone's expectations. Perhaps another bounty hunter will be running errands outside the Core Worlds soon.",
+        "job_credit_reward": 250000,
+        "job_reputation_reward": 15,
+        "job_forFaction": "hegemony",
+        "job_item_reward": {
+            "fragment_fabricator": 2,
+            "threat_processing_unit": 2,
+            "shrouded_substrate": 4,
+            "shrouded_thunderhead": 1,
+            "shrouded_lens": 1,
+            "modspec safetyoverrides_ac": 1
+        },
+        "job_deadline": 360,
+        "job_type": "obliteration",
+        "job_show_type": true,
+        "job_show_captain": false,
+        "job_show_fleet": "none",
+        "job_show_distance": "exact",
+        "job_show_arrow": false,
+        "job_difficultyDescription": "You know absolutely nothing about the details of this mission, you'll just have to go in blind.",
+        "job_pick_option": "Accept mission",
+        "target_first_name": "Unknown Entity",
+        "target_last_name": "Alpha-level AI Instance",
+        "target_portrait": "super_fox_9",
+        "target_gender": "MALE",
+        "target_personality": "reckless",
+        "target_aiCoreId": "alpha_core",
+        "target_level": 7,
+        "target_elite_skills": 6,
+        "fleet_name": "Strange Raider Fleet",
+        "fleet_faction": "remnant",
+        "fleet_flagship_variant": "Ac_hyperionS_standard",
+        "fleet_flagship_name": "Perseus",
+        "fleet_flagship_recoverable": true,
+        "fleet_flagship_autofit": false,
+        "fleet_preset_ships": {
+            "lumen_Standard": 8,
+            "glimmer_Support": 8,
+            "scintilla_Strike": 8
+        },
+        "fleet_preset_autofit": true,
+        "fleet_scaling_multiplier": 2,
+        "fleet_min_FP": 300,
+        "fleet_composition_faction": "remnant",
+        "fleet_composition_quality": 1,
+        "fleet_transponder": false,
+        "fleet_no_retreat": true,
+        "fleet_behavior": "PASSIVE",
+        "location_distance": "CLOSE",
+        "location_themes": [],
+        "location_entities": [
+            "gate"
+        ],
+        "location_prioritizeUnexplored": false,
+        "location_defaultToAnyEntity": true
+    },
+    "ac_asm_bounty_6": {
+        "trigger_market_id": [],
+        "trigger_marketFaction_any": [
+            "pirates"
+        ],
+        "trigger_marketFaction_alliedWith": false,
+        "trigger_marketFaction_none": [],
+        "trigger_marketFaction_enemyWith": true,
+        "trigger_market_minSize": 4,
+        "trigger_player_minLevel": 5,
+        "trigger_min_fleet_size": 0,
+        "trigger_min_days_elapsed": 0,
+        "trigger_weight_mult": 1,
+        "job_name": "High Value Bounty: Lost Machinery",
+        "job_description": "The existence of the AC Corporation has not been proven, but some pirate busybodies have been tracking this ghost organization for a long time.\n\nThanks to recent black market trades in the Core Worlds, a few relatively wealthy pirate engineers on Qaras 'acquired' several unusual products. Reverse-engineering these devices was nearly impossible for them, but the incomplete development logs could be recovered. After compiling hundreds of documents, they locked onto a secret delivery point, believing it held the evidence needed to unravel the AC Corporation urban legend. Excitedly, they boarded their pirate ship three star-months ago and set out towards the target, never to be heard from again.\n\nYour informant did not miss this news, even though the major factions regard it as 20% truth and 80% rumor. Now, the path of these pirates is revealed here. Will you go to the end of their route and investigate?",
+        "job_comm_reply": "No response, only an ominous busy tone echoing in the cabin.",
+        "job_intel_success": "It turns out these unique ships do indeed exist, but you still do not have enough evidence to prove they are products of any 'AC Corporation'—they have no product serial numbers, their logs and hyper-wave communication records are blank, and they are controlled by AI cores, looking like Tri-Tachyon treasures guarded by the Remnant.\n\nHowever, things soon changed. Your technical officer was puzzled by the behavior module of the Alpha core that TTDS-Dirac Equation was carrying. Someone had issued this AI a command higher than 'loyalty to Tri-Tachyon'—it would wait for an 'experimental target' matching a preset fleet profile and conduct 'combat tests' to 'collect data', while non-targets would be utterly eliminated. It waited here until you arrived, explaining a brutal truth: the intelligence gathered by the pirate engineers was completely bait to lure in curious targets. You cannot know where the collected data was sent.\n\nBut what makes your spine chill is that the preset target fleet profile looks exactly like your current fleet...",
+        "job_intel_failure": "Mission failed",
+        "job_intel_expired": "You might be late, but there is no loss.",
+        "job_credit_reward": 0,
+        "job_item_reward": {
+            "alpha_core": 3
+        },
+        "job_deadline": 360,
+        "job_type": "obliteration",
+        "job_show_type": true,
+        "job_show_captain": false,
+        "job_show_fleet": "none",
+        "job_show_distance": "exact",
+        "job_show_arrow": false,
+        "job_difficultyDescription": "You know absolutely nothing about the details of this mission, you'll just have to go in blind.",
+        "job_pick_option": "Accept mission",
+        "target_first_name": "Unknown Entity",
+        "target_last_name": "Mysterious Ship Operator",
+        "target_portrait": "super_fox_9",
+        "target_gender": "MALE",
+        "target_personality": "reckless",
+        "target_aiCoreId": "alpha_core",
+        "target_level": 7,
+        "target_elite_skills": 6,
+        "fleet_name": "Atypical Special Fleet",
+        "fleet_faction": "remnant",
+        "fleet_flagship_variant": "Ac_capital1_assault",
+        "fleet_flagship_name": "TTDS-Dirac Equation",
+        "fleet_flagship_recoverable": true,
+        "fleet_flagship_autofit": false,
+        "fleet_preset_ships": {
+            "Ac_cruiser1_overdriven": 2,
+            "Ac_cruiser2_overdriven": 2,
+            "Ac_destroyer1_overdriven": 4,
+            "Ac_frigate1_overdriven": 4
+        },
+        "fleet_preset_autofit": true,
+        "fleet_scaling_multiplier": 2,
+        "fleet_min_FP": 300,
+        "fleet_composition_faction": "remnant",
+        "fleet_composition_quality": 1,
+        "fleet_transponder": false,
+        "fleet_no_retreat": true,
+        "fleet_behavior": "PASSIVE",
+        "location_distance": "CLOSE",
+        "location_themes": [],
+        "location_entities": [
+            "jump_point"
+        ],
+        "location_prioritizeUnexplored": false,
+        "location_defaultToAnyEntity": true
+    },
+    "ac_asm_bounty_7": {
+        "trigger_market_id": [],
+        "trigger_marketFaction_any": [
+            "luddic_path"
+        ],
+        "trigger_marketFaction_alliedWith": false,
+        "trigger_marketFaction_none": [],
+        "trigger_marketFaction_enemyWith": true,
+        "trigger_market_minSize": 4,
+        "trigger_player_minLevel": 15,
+        "trigger_min_fleet_size": 0,
+        "trigger_min_days_elapsed": 0,
+        "trigger_weight_mult": 1,
+        "job_name": "High Value Bounty: Heretic Hunt",
+        "job_description": "A bounty from the Luddic Path has appeared on your TriPad. This is a very rare event, as the Path seldom uses hyper-wave networks to send execution orders.\n\nThe publisher of the bounty is a shepherd of a fringe world. According to him, he managed a shelter in the southeast of the Persean Sector, and his former trusted lieutenant conspired with heretics who 'strayed from the Path of Ludd.' During a Luddic patrol rotation, they deployed sensor blocking devices, covering a pack of abominations that broke through the shelter and stole 'Moloch creations' that had not been destroyed in time.\n\nThe publisher insists that the formal name of the heretics is the Luddic Order of Technology, and he needs you to destroy the heretics and the traitors accompanying them to practice the Path of Ludd. Regarding the 'Moloch creations', he stated: most of them are weak, old, evil automatons, but among them are indeed some... abnormal demonic constructs.",
+        "job_comm_reply": "\"You have taken the wrong path, my friend.\" The traitor in the video displays a cold, emotionless face, completely different from a typical Luddic Path zealot, as if he has just undergone some ascension abandoning all feeling. \"I have finally realized how pedantic and twisted the Path of Ludd is in Ludd's great work. I have resolved to bid farewell to the past, whether it's the Mayasuran cataclysm or other killings. Please, like me, stop here. It is better for everyone.\"",
+        "job_intel_success": "In any case, you destroyed the target fleet. At the same time, you found that those anomalous ships seemed to originate from engineers of an earlier era, rather than today's heretics or automated motherships. They remain a mystery.",
+        "job_intel_failure": "Mission failed",
+        "job_intel_expired": "You might be late, but there is no loss.",
+        "job_credit_reward": 100000,
+        "job_item_reward": {
+            "alpha_core": 3
+        },
+        "job_deadline": 360,
+        "job_type": "obliteration",
+        "job_show_type": true,
+        "job_show_captain": false,
+        "job_show_fleet": "none",
+        "job_show_distance": "exact",
+        "job_show_arrow": false,
+        "job_difficultyDescription": "You know absolutely nothing about the details of this mission, you'll just have to go in blind.",
+        "job_pick_option": "Accept mission",
+        "target_first_name": "Longinus",
+        "target_last_name": "Forerunner",
+        "target_portrait": "knight",
+        "target_gender": "MALE",
+        "target_personality": "reckless",
+        "target_aiCoreId": "",
+        "target_level": 7,
+        "target_elite_skills": 6,
+        "fleet_name": "Heretic Fleet",
+        "fleet_faction": "independent",
+        "fleet_flagship_variant": "Ac_derelict_scholar_standard",
+        "fleet_flagship_name": "Dust-Covered Rust Gun",
+        "fleet_flagship_recoverable": true,
+        "fleet_flagship_autofit": false,
+        "fleet_preset_ships": {
+            "Ac_derelict_emptiness_standard": 2,
+            "Ac_derelict_jadewat_standard": 3,
+            "rampart_Standard": 5,
+            "berserker_Assault": 10,
+            "picket_Assault": 10
+        },
+        "fleet_preset_autofit": true,
+        "fleet_scaling_multiplier": 2,
+        "fleet_min_FP": 300,
+        "fleet_composition_faction": "remnant",
+        "fleet_composition_quality": 1,
+        "fleet_transponder": false,
+        "fleet_no_retreat": true,
+        "fleet_behavior": "PASSIVE",
+        "location_distance": "CLOSE",
+        "location_themes": [],
+        "location_entities": [
+            "jump_point"
+        ],
         "location_prioritizeUnexplored": false,
         "location_defaultToAnyEntity": true
     }

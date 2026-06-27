@@ -1,0 +1,9 @@
+id,name,shortDescription,longDescription,order,iconPath,plugin
+Ac_CustomStart1,Son of the Overlord,You possess a respectable behemoth.,"You have lived on a giant battleship of changing ownership since you can remember. People say you are the orphan of the original crew of this great ship. Out of respect for this behemoth, no one was willing to do you harm.
+
+All of this came to an abrupt end during a distant voyage when this giant ship fell into crisis under the attack of sky-blue automated machinery, forced to drag a nearly wiped-out fleet back to the Core Worlds. When the captain was declared dead, all eyes turned to you...",1000,graphics\factions\crest_rddu.png,data.campaign.scripts.customstart.Ac_CustomStart1
+Ac_CustomStart2,Broken Setting Sun,You are the new captain of a super battleship.,"You woke up from a cryo-pod far away from civilization. Muscle memory prompted you to stumble onto the bridge, activate the dusty central console, and subconsciously count the survivors in the fleet, finding that only what remains on this ship is left.
+
+The malfunctioning life support system caused some damage to your brain, and most of your memories are lost. You only remember that the current ship was commissioned by the Supreme Hegemon to sweep up the remnants outside the Core Worlds at the end of the First AI War, and you were the lieutenant under its missing captain.
+
+In any case, you gathered the remaining survivors to bring this super battleship back to the Core Worlds, restarting your Persean Sector journey as the new captain. However, after this, an ominous sky-blue fire often appears in your dreams...",1000,graphics\factions\crest_rddu.png,data.campaign.scripts.customstart.Ac_CustomStart2

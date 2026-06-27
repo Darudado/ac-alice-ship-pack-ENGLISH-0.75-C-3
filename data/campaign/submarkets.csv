@@ -1,0 +1,2 @@
+id,name,faction,desc,script,icon,order
+Ac,Rumored Trade Outpost,ac_faction,"It seems some of the urban legends are true; there is indeed a shielded dock hidden in the lower levels of the orbital station, converted into a quiet, automated trading post. Perhaps you can find some valuable things here.",data.campaign.scripts.submarkets.Ac_submarketPlugin,,2244.01

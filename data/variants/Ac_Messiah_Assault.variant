@@ -1,0 +1,49 @@
+{
+    "displayName": "Assault",
+    "fluxCapacitors": 20,
+    "fluxVents": 3,
+    "goalVariant": true,
+    "hullId": "Ac_Messiah",
+    "hullMods": [
+        "frontemitter",
+        "safetyoverrides",
+    ],
+    "permaMods": [],
+    "sMods": [],
+    "suppressedMods": [],
+    "variantId": "Ac_Messiah_assalut",
+    "weaponGroups": [
+        {
+            "autofire": false,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS0003": "amblaster",
+                "WS0004": "amblaster",
+            }
+        },
+        {
+            "autofire": false,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS0010": "sabot",
+                "WS0009": "sabot",
+            }
+        },
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0008": "heavyneedler",
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0007": "ionpulser",
+            }
+        },
+    ],
+    "wings": [],
+    "modules": [],
+}

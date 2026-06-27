@@ -12,7 +12,8 @@
   "shieldRadius": 182,
   "viewOffset": 0,
   "builtInMods": [
-    "automated"
+    "automated",
+    "coherer"
   ],
   "weaponSlots": [
     {

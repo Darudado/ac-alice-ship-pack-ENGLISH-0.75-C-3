@@ -1,0 +1,49 @@
+{
+  "id": "Ac_protonCannon",
+  "specClass": "projectile",
+  "projectileSpecId": "Ac_plasma_shot",
+  "type": "ENERGY",
+  "mountTypeOverride": "SYNERGY",
+  "size": "LARGE",
+  "turretSprite": "graphics/weapons/Ac_protonCannon_turret.png",
+  "turretGlowSprite": "graphics/weapons/Ac_protonCannon_glow1.png",
+  "hardpointSprite": "graphics/weapons/Ac_protonCannon_turret.png",
+  "hardpointGlowSprite": "graphics/weapons/Ac_protonCannon_glow1.png",
+  "glowColor": [
+    255,
+    255,
+    255,
+    255
+  ],
+  "turretOffsets": [
+    0,
+    0
+  ],
+  "turretAngleOffsets": [
+    0
+  ],
+  "hardpointOffsets": [
+    0,
+    0
+  ],
+  "hardpointAngleOffsets": [
+    0
+  ],
+  "barrelMode": "ALTERNATING",
+  "animationType": "GLOW_AND_FLASH",
+  "muzzleFlashSpec": {
+    "length": 34,
+    "spread": 7,
+    "particleSizeMin": 7,
+    "particleSizeRange": 7,
+    "particleDuration": 0.15,
+    "particleCount": 30,
+    "particleColor": [
+      255,
+      100,
+      150,
+      255
+    ]
+  },
+  "fireSoundTwo": "AC_energyCannon_fire"
+}

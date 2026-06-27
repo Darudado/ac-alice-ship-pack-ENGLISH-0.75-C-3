@@ -3,6 +3,7 @@
 		"tags":[],
 		"hullMods":[
 			"shield_shunt",
+			"safetyoverrides_ac",
 		],
 	},
 },

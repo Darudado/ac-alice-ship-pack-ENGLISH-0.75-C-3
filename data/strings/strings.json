@@ -1,20 +1,20 @@
 {
-	"HullMod": {
-		"AC_EnergyIntegration_TEXT1": "Reduces the ordnance point cost of installing large energy weapons by %s",
-		"AC_HangarDisabled_TEXT1": "Unable to perform hangar operations (e.g., modifying fighter bays)",
-		"AC_TargetLocationEx_TEXT1": "Increases the range of ballistic and energy weapons by %s",
-		"AC_TargetLocationEx_TEXT2": "Incompatible with other targeting systems",
-		"AC_EnergyIncreaseSmall_TEXT1": "Increases the range of small energy projectile weapons by %s",
-		"AC_HurricaneAmmoFeed_TEXT1": "Increases ballistic weapon fire rate by %s",
-		"AC_HurricaneAmmoFeed_TEXT2": "Reduces ballistic weapon flux output by %s",
-		"AC_HurricaneAmmoFeed_TEXT3": "Increases ballistic weapon effective range by %s",
-		"AC_Missileloader_TEXT1": "Increases missile weapon reload speed by %s",
-		"AC_Missileloader_TEXT2": "Increases missile ammo recovery rate by %s",
-		"AC_NarrowDeck_TEXT1": "Reduces fighter replacement rate by %s",
-		"AC_ImmobilizationGrid_TEXT1": "All weapons generate only %s of their normal flux",
-		"AC_ImmobilizationGrid_TEXT2": "Ship always generates hard flux"
-	},
-	"Skills": {},
-	"items": {},
-	"event": {}
+    "HullMod": {
+        "AC_EnergyIntegration_TEXT1": "Reduces the ordnance point cost of installing large energy weapons by %s",
+        "AC_HangarDisabled_TEXT1": "Unable to perform hangar operations (e.g., modifying fighter bays)",
+        "AC_TargetLocationEx_TEXT1": "Increases the range of ballistic and energy weapons by %s",
+        "AC_TargetLocationEx_TEXT2": "Incompatible with other targeting systems",
+        "AC_EnergyIncreaseSmall_TEXT1": "Increases the range of small energy projectile weapons by %s",
+        "AC_HurricaneAmmoFeed_TEXT1": "Increases ballistic weapon fire rate by %s",
+        "AC_HurricaneAmmoFeed_TEXT2": "Reduces ballistic weapon flux output by %s",
+        "AC_HurricaneAmmoFeed_TEXT3": "Increases ballistic weapon effective range by %s",
+        "AC_Missileloader_TEXT1": "Increases missile weapon reload speed by %s",
+        "AC_Missileloader_TEXT2": "Increases missile ammo recovery rate by %s",
+        "AC_NarrowDeck_TEXT1": "Reduces fighter replacement rate by %s",
+        "AC_ImmobilizationGrid_TEXT1": "All weapons generate only %s of their normal flux",
+        "AC_ImmobilizationGrid_TEXT2": "Ship always generates hard flux"
+    },
+    "Skills": {},
+    "items": {},
+    "event": {}
 }

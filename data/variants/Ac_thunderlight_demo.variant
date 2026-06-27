@@ -1,0 +1,83 @@
+{
+    "displayName": "demo",
+    "fluxCapacitors": 50,
+    "fluxVents": 33,
+    "goalVariant": true,
+    "hullId": "Ac_thunderlight",
+    "hullMods": [
+        "hardenedshieldemitter",
+        "targetingunit",
+    ],
+    "permaMods": [],
+    "sMods": [],
+    "suppressedMods": [],
+    "variantId": "Ac_thunderlight_demo",
+    "weaponGroups": [
+        {
+            "autofire": false,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS0001": "pilum_large",
+                "WS0002": "pilum_large",
+            }
+        },
+        {
+            "autofire": false,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS0016": "pilum",
+                "WS0015": "pilum",
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0010": "Ac_constraitdriver",
+                "WS0008": "Ac_constraitdriver",
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0012": "Ac_constraintsblaster",
+                "WS0014": "Ac_constraintsblaster",
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0009": "guardian",
+                "WS0007": "guardian",
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0022": "mininglaser",
+                "WS0011": "heavyburst",
+                "WS0003": "mininglaser",
+                "WS0013": "heavyburst",
+                "WS0021": "mininglaser",
+                "WS0020": "mininglaser",
+                "WS0019": "mininglaser",
+                "WS0004": "mininglaser",
+                "WS0018": "mininglaser",
+                "WS0017": "mininglaser",
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0005": "flak",
+                "WS0006": "flak",
+            }
+        },
+    ],
+    "wings": [],
+    "modules": [],
+}

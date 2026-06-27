@@ -1,0 +1,56 @@
+{
+    "displayName": "Raijin",
+    "fluxCapacitors": 50,
+    "fluxVents": 49,
+    "goalVariant": true,
+    "hullId": "Ac_irises",
+    "hullMods": [
+        "autorepair",
+        "converted_hangar",
+        "defensive_targeting_array",
+        "fluxbreakers",
+        "fluxdistributor",
+        "targetingunit",
+    ],
+    "permaMods": [],
+    "sMods": [],
+    "suppressedMods": [],
+    "variantId": "Ac_irises_Raijin",
+    "weaponGroups": [
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0001": "Ac_heavycannon",
+                "WS0002": "AC_impulsecannon",
+                "WS0005": "Ac_heavycannon",
+                "WS0016": "Ac_heavycannon",
+                "WS0006": "Ac_heavycannon",
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0004": "flak",
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0012": "mininglaser",
+                "WS0003": "mininglaser",
+                "WS0013": "mininglaser",
+                "WS0020": "mininglaser",
+                "WS0019": "mininglaser",
+                "WS0018": "mininglaser",
+                "WS0017": "mininglaser",
+            }
+        },
+    ],
+    "wings": [
+        "sarissa_wing",
+    ],
+    "modules": [],
+}

@@ -1,0 +1,50 @@
+{
+    "displayName": "Blaster",
+    "fluxCapacitors": 50,
+    "fluxVents": 39,
+    "goalVariant": true,
+    "hullId": "Ac_pulse",
+    "hullMods": [
+        "auxiliarythrusters",
+        "frontemitter",
+        "targetingunit",
+    ],
+    "permaMods": [],
+    "sMods": [],
+    "suppressedMods": [],
+    "variantId": "Ac_pulse_blaster",
+    "weaponGroups": [
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0001": "Ac_constraintsblaster",
+                "WS0011": "Ac_constraintsblaster",
+                "WS0002": "Ac_constraintsblaster",
+                "WS0010": "Ac_constraintsblaster",
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0003": "Ac_ioncannon",
+                "WS0004": "Ac_ioncannon",
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0012": "mininglaser",
+                "WS0014": "mininglaser",
+                "WS0013": "mininglaser",
+                "WS0005": "mininglaser",
+                "WS0015": "mininglaser",
+                "WS0006": "mininglaser",
+            }
+        },
+    ],
+    "wings": [],
+    "modules": [],
+}

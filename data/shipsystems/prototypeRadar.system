@@ -1,0 +1,15 @@
+{
+    "id":"prototypeRadar",
+	"type":"STAT_MOD",
+	"aiType":"WEAPON_BOOST",
+
+	"statsScript":"data.shipsystems.scripts.prototypeRadar",
+
+	"runScriptWhileIdle":true, # unapply() never gets called
+
+	"fadeActivationSoundOnChargedown":true,
+	"outOfUsesSound":"gun_out_of_ammo",
+
+	"aiHints":{
+	}
+}

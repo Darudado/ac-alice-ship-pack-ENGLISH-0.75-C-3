@@ -1,0 +1,107 @@
+{
+  "hullName": "Ac_afflictor",
+  "hullId": "Ac_afflictor",
+  "hullSize": "FRIGATE",
+  "spriteName": "graphics/ships/hvb_phase/Ac_afflictor.png",
+  "style": "HIGH_TECH",
+  "height": 160,
+  "width": 110,
+  "center": [55, 80],
+  "collisionRadius": 79.5,
+  "shieldCenter": [0, 0],
+  "shieldRadius": 79.5,
+  "viewOffset": 0,
+  "builtInMods": [
+    "autorepair",
+    "adaptive_coils"
+  ],
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "LARGE",
+      "type": "ENERGY",
+      "mount": "HARDPOINT",
+      "arc": 30,
+      "angle": 0,
+      "locations": [55, -0]
+    },
+    {
+      "id": "WS0002",
+      "size": "SMALL",
+      "type": "SYNERGY",
+      "mount": "HARDPOINT",
+      "arc": 30,
+      "angle": 0,
+      "locations": [46, 26]
+    },
+    {
+      "id": "WS0003",
+      "size": "SMALL",
+      "type": "SYNERGY",
+      "mount": "HARDPOINT",
+      "arc": 30,
+      "angle": -0,
+      "locations": [46, -26]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-60.5, 16],
+      "length": 39.5,
+      "width": 10,
+      "angle": 180,
+      "contrailSize": 10,
+      "style": "HIGH_TECH"
+    },
+    {
+      "location": [-60.5, -16],
+      "length": 39.5,
+      "width": 10,
+      "angle": -180,
+      "contrailSize": 10,
+      "style": "HIGH_TECH"
+    }
+  ],
+  "bounds": [
+    -75.5, 3,
+    -64, 9.5,
+    -63, 25,
+    -44, 26,
+    -41, 22.5,
+    -36, 21.5,
+    -26.5, 17,
+    -14.5, 17.5,
+    -1, 20.5,
+    -12, 25.5,
+    -22, 26.5,
+    -24.5, 39,
+    0.5, 40,
+    -1.5, 50,
+    7.5, 55.5,
+    23, 44.5,
+    31, 37,
+    43.5, 31,
+    45, 20,
+    56, 17,
+    56, -17,
+    45, -20,
+    43.5, -31,
+    31, -37,
+    23, -44.5,
+    7.5, -55.5,
+    -1.5, -50,
+    0.5, -40,
+    -24.5, -39,
+    -22, -26.5,
+    -12, -25.5,
+    -1, -20.5,
+    -14.5, -17.5,
+    -26.5, -17,
+    -36, -21.5,
+    -41, -22.5,
+    -44, -26,
+    -63, -25,
+    -64, -9.5,
+    -75.5, -3
+  ]
+}

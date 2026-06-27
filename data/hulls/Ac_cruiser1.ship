@@ -1,0 +1,176 @@
+{
+  "hullName": "Ac_cruiser1",
+  "hullId": "Ac_cruiser1",
+  "hullSize": "CRUISER",
+  "spriteName": "graphics/ships/Ac_special_remnants/Ac_cruiser1_cover.png",
+  "style": "HIGH_TECH",
+  "height": 218,
+  "width": 166,
+  "center": [83, 109],
+  "collisionRadius": 118,
+  "shieldCenter": [0, 0],
+  "shieldRadius": 124.5,
+  "viewOffset": 0,
+  "builtInMods": [
+    "ac_specialHullmod_1",
+    "missile_autoloader"
+  ],
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "LARGE",
+      "type": "UNIVERSAL",
+      "mount": "HARDPOINT",
+      "arc": 7,
+      "angle": 0,
+      "locations": [24, -0]
+    },
+    {
+      "id": "WS0003",
+      "size": "MEDIUM",
+      "type": "HYBRID",
+      "mount": "HARDPOINT",
+      "arc": 17,
+      "angle": 0,
+      "locations": [93, 16]
+    },
+    {
+      "id": "WS0004",
+      "size": "MEDIUM",
+      "type": "HYBRID",
+      "mount": "HARDPOINT",
+      "arc": 38,
+      "angle": 0,
+      "locations": [59, 56]
+    },
+    {
+      "id": "WS0005",
+      "size": "MEDIUM",
+      "type": "HYBRID",
+      "mount": "HARDPOINT",
+      "arc": 38,
+      "angle": 0,
+      "locations": [59, -56]
+    },
+    {
+      "id": "WS0002",
+      "size": "MEDIUM",
+      "type": "HYBRID",
+      "mount": "HARDPOINT",
+      "arc": 17,
+      "angle": 0,
+      "locations": [93, -16]
+    },
+    {
+      "id": "WS0006",
+      "size": "LARGE",
+      "type": "ENERGY",
+      "mount": "TURRET",
+      "arc": 223,
+      "angle": 54.5,
+      "locations": [-21, 37]
+    },
+    {
+      "id": "WS0007",
+      "size": "MEDIUM",
+      "type": "MISSILE",
+      "mount": "TURRET",
+      "arc": 198,
+      "angle": -61,
+      "locations": [-40, -46]
+    },
+    {
+      "id": "WS0008",
+      "size": "SMALL",
+      "type": "MISSILE",
+      "mount": "TURRET",
+      "arc": 261,
+      "angle": -33.5,
+      "locations": [-5, -35]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-81, -0],
+      "length": 61.5,
+      "width": 35,
+      "angle": 180,
+      "contrailSize": 35,
+      "style": "HIGH_TECH"
+    },
+    {
+      "location": [-90, 54],
+      "length": 37.5,
+      "width": 9,
+      "angle": 180,
+      "contrailSize": 9,
+      "style": "HIGH_TECH"
+    },
+    {
+      "location": [-90, -54],
+      "length": 37.5,
+      "width": 9,
+      "angle": -180,
+      "contrailSize": 9,
+      "style": "HIGH_TECH"
+    },
+    {
+      "location": [-86, 43],
+      "length": 35.5,
+      "width": 8,
+      "angle": 180,
+      "contrailSize": 8,
+      "style": "HIGH_TECH"
+    },
+    {
+      "location": [-86, -43],
+      "length": 35.5,
+      "width": 8,
+      "angle": -180,
+      "contrailSize": 8,
+      "style": "HIGH_TECH"
+    }
+  ],
+  "bounds": [
+    -82.5, 9.5,
+    -90, 19.5,
+    -99.5, 17.5,
+    -106, 28,
+    -90, 39.5,
+    -89, 44.5,
+    -92, 59,
+    -72.5, 67.5,
+    -66.5, 70.5,
+    -47.5, 84.5,
+    -19, 79.5,
+    -17.5, 72.5,
+    2.5, 60.5,
+    15.5, 58.5,
+    20.5, 68,
+    65, 65.5,
+    68, 49,
+    108.5, 37.5,
+    101.5, 7.5,
+    38.5, 6,
+    38.5, -6,
+    101.5, -7.5,
+    108.5, -37.5,
+    68, -49,
+    65, -65.5,
+    20.5, -68,
+    15.5, -58.5,
+    2.5, -60.5,
+    -17.5, -72.5,
+    -19, -79.5,
+    -47.5, -84.5,
+    -66.5, -70.5,
+    -72.5, -67.5,
+    -92, -59,
+    -89, -44.5,
+    -90, -39.5,
+    -106, -28,
+    -99.5, -17.5,
+    -90, -19.5,
+    -82.5, -9.5
+  ]
+}

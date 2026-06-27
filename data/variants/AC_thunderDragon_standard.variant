@@ -1,0 +1,33 @@
+{
+  "variantId": "Ac_thunderDragon_standard",
+  "hullId": "Ac_thunderDragon",
+  "displayName": "菁英战斗机",
+  "goalVariant": true,
+  "fluxCapacitors": 0,
+  "fluxVents": 0,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [
+    "fluxbreakers",
+    "autorepair"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "Ac_oerlikon"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0002": "lightneedler",
+        "WS0003": "lightneedler"
+      }
+    },
+  ],
+  "modules": [],
+  "wings": []
+}

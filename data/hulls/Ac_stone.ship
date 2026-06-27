@@ -1,0 +1,117 @@
+{
+  "hullName": "Ac_stone",
+  "hullId": "Ac_stone",
+  "hullSize": "FRIGATE",
+  "spriteName": "graphics/ships/Ac_MiniMora.png",
+  "style": "LOW_TECH",
+  "height": 141,
+  "width": 111,
+  "center": [55, 64],
+  "collisionRadius": 75.5,
+  "shieldCenter": [7, -0],
+  "shieldRadius": 77.5,
+  "viewOffset": 0,
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "SMALL",
+      "type": "COMPOSITE",
+      "mount": "TURRET",
+      "arc": 260,
+      "angle": 0,
+      "locations": [39.5, -17]
+    },
+    {
+      "id": "WS0002",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 213,
+      "angle": -80,
+      "locations": [-9.5, -44]
+    },
+    {
+      "id": "WS0003",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 218,
+      "angle": 81.5,
+      "locations": [-6.5, 43]
+    },
+    {
+      "id": "LB 1",
+      "size": "LARGE",
+      "type": "LAUNCH_BAY",
+      "mount": "HIDDEN",
+      "arc": 360,
+      "angle": 0,
+      "locations": [
+        70, -61.5,
+        74.5, -63
+      ]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-58.5, -5.5],
+      "length": 40,
+      "width": 16,
+      "angle": 180,
+      "contrailSize": 16,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-58.5, 10],
+      "length": 30,
+      "width": 10,
+      "angle": 180,
+      "contrailSize": 30,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-41.5, -25],
+      "length": 32.5,
+      "width": 14,
+      "angle": 180,
+      "contrailSize": 14,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-48.5, 30.5],
+      "length": 19,
+      "width": 15,
+      "angle": 180,
+      "contrailSize": 15,
+      "style": "LOW_TECH"
+    }
+  ],
+  "bounds": [
+    78.5, 7.5,
+    70.5, -16.5,
+    43.5, -31,
+    39, -36.5,
+    34.5, -37,
+    27, -43.5,
+    20, -44,
+    13, -49,
+    2, -48.5,
+    -3.5, -53.5,
+    -17, -54,
+    -43, -37.5,
+    -43, -19.5,
+    -59, -18.5,
+    -60, -10.5,
+    -61.5, 26.5,
+    -45.5, 27,
+    -48, 41.5,
+    -38.5, 49.5,
+    -24, 47.5,
+    -9, 55.5,
+    15, 48.5,
+    26.5, 40,
+    44.5, 36.5,
+    51, 27,
+    68, 24.5
+  ]
+}

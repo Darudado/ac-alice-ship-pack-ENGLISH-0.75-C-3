@@ -1,0 +1,10 @@
+<component name="ArtifactManager">
+  <artifact build-on-make="true" name="ac alice ship pack-ENGLISH-0.75 C-3:jar">
+    <output-path>$PROJECT_DIR$/jars</output-path>
+    <root id="root">
+      <element id="archive" name="alice cesCC.jar">
+        <element id="module-output" name="ac alice ship pack-ENGLISH-0.75 C-3" />
+      </element>
+    </root>
+  </artifact>
+</component>

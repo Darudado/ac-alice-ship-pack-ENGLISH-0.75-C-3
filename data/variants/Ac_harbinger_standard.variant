@@ -1,0 +1,47 @@
+{
+    "displayName": "standard",
+    "fluxCapacitors": 20,
+    "fluxVents": 2,
+    "goalVariant": true,
+    "hullId": "Ac_harbinger",
+    "hullMods": [
+        "safetyoverrides",
+    ],
+    "permaMods": [],
+    "sMods": [],
+    "suppressedMods": [],
+    "variantId": "Ac_harbinger_standard",
+    "weaponGroups": [
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0001": "sabotpod",
+            }
+        },
+        {
+            "autofire": false,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS0005": "typhoon",
+                "WS0004": "typhoon",
+            }
+        },
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0003": "heavyblaster",
+            }
+        },
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0002": "ionpulser",
+            }
+        },
+    ],
+    "wings": [],
+    "modules": [],
+}

@@ -1,0 +1,50 @@
+{
+    "displayName": "Blaster",
+    "fluxCapacitors": 50,
+    "fluxVents": 4,
+    "goalVariant": true,
+    "hullId": "Ac_smolder",
+    "hullMods": [
+        "expanded_deck_crew",
+        "frontemitter",
+        "nav_relay",
+        "stabilizedshieldemitter",
+        "targetingunit",
+    ],
+    "permaMods": [],
+    "sMods": [],
+    "suppressedMods": [],
+    "variantId": "Ac_smolder_assault",
+    "weaponGroups": [
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0001": "Ac_constraintsblaster",
+                "WS0003": "Ac_constraintsblaster",
+                "WS0002": "Ac_constraintsblaster",
+                "WS0004": "Ac_constraintsblaster",
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0010": "mininglaser",
+                "WS0009": "mininglaser",
+                "WS0008": "mininglaser",
+                "WS0005": "mininglaser",
+                "WS0007": "mininglaser",
+                "WS0006": "mininglaser",
+            }
+        },
+    ],
+    "wings": [
+        "flash_wing",
+        "flash_wing",
+        "flash_wing",
+        "flash_wing",
+        "flash_wing",
+    ],
+    "modules": [],
+}

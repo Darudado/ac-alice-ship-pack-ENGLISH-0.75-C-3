@@ -1,0 +1,77 @@
+{
+    "displayName": "Overdriven",
+    "fluxCapacitors": 27,
+    "fluxVents": 0,
+    "goalVariant": true,
+    "hullId": "Ac_cruiser2",
+    "hullMods": [
+        "armoredweapons",
+        "heavyarmor",
+        "magazines",
+        "missleracks",
+        "safetyoverrides",
+    ],
+    "permaMods": [],
+    "sMods": [],
+    "suppressedMods": [],
+    "variantId": "Ac_cruiser2_overdriven",
+    "weaponGroups": [
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0001": "ionpulser",
+                "WS0002": "ionpulser",
+            }
+        },
+        {
+            "autofire": false,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS0008": "phasecl",
+                "WS0007": "phasecl",
+            }
+        },
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0003": "heavyneedler",
+                "WS0004": "heavyneedler",
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0005": "phasebeam",
+            }
+        },
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0011": "mininglaser",
+            }
+        },
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0012": "mininglaser",
+            }
+        },
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0010": "mininglaser",
+                "WS0009": "mininglaser",
+                "WS0014": "mininglaser",
+                "WS0013": "mininglaser",
+            }
+        },
+    ],
+    "wings": [],
+    "modules": [],
+}

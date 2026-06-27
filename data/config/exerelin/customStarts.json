@@ -1,0 +1,34 @@
+{
+    "config": {
+        "colors": {
+            "Son of the Overlord": [
+                150,
+                150,
+                255
+            ],
+            "Broken Setting Sun": [
+                150,
+                150,
+                255
+            ]
+        }
+    },
+    "starts": [
+        {
+            "id": "Ac_CustomStart1",
+            "name": "Son of the Overlord",
+            "difficulty": "Easy, probably",
+            "desc": "You have lived on a giant battleship of changing ownership since you can remember. People say you are the orphan of the original crew of this great ship. Out of respect for this behemoth, no one was willing to do you harm.\n\nAll of this came to an abrupt end during a distant voyage when this giant ship fell into crisis under the attack of sky-blue automated machinery, forced to drag a heavily damaged fleet back to the Core Worlds. When the captain was declared dead, all eyes turned to you...",
+            "className": "data.campaign.scripts.customstart.Ac_CustomStart1",
+            "randomSector": -1
+        },
+        {
+            "id": "Ac_CustomStart2",
+            "name": "Broken Setting Sun",
+            "difficulty": "Easy, probably",
+            "desc": "You woke up from a cryo-pod far away from civilization. Muscle memory prompted you to stumble onto the bridge, activate the dusty central console, and subconsciously count the survivors in the fleet, finding that only what remains on this ship is left.\n\nThe malfunctioning life support system caused some damage to your brain, and most of your memories are lost. You only remember that the current ship was commissioned by the Supreme Hegemon to sweep up the remnants outside the Core Worlds at the end of the First AI War, and you were the lieutenant under its missing captain.\n\nIn any case, you gathered the remaining survivors to bring this super battleship back to the Core Worlds, restarting your Persean Sector journey as the new captain. However, after this, an ominous sky-blue fire often appears in your dreams...",
+            "className": "data.campaign.scripts.customstart.Ac_CustomStart2",
+            "randomSector": -1
+        }
+    ]
+}

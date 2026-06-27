@@ -1,52 +1,51 @@
 {
-  "variantId": "Ac_interdiction_assault",
-  "hullId": "Ac_interdiction",
-  "displayName": "assault",
-  "goalVariant": true,
-  "fluxCapacitors": 10,
-  "fluxVents": 29,
-  "quality": 1,
-  "permaMods": [],
-  "hullMods": [
-    "targetingunit"
-  ],
-  "weaponGroups": [
-    {
-      "autofire": true,
-      "mode": "LINKED",
-      "weapons": {
-        "WS0001": "sabotpod",
-        "WS0002": "sabotpod"
-      }
-    },
-    {
-      "autofire": true,
-      "mode": "LINKED",
-      "weapons": {
-        "WS0010": "plasma"
-      }
-    },
-    {
-      "autofire": true,
-      "mode": "LINKED",
-      "weapons": {
-        "WS0007": "lightac",
-        "WS0008": "lightac"
-      }
-    },
-    {
-      "autofire": true,
-      "mode": "LINKED",
-      "weapons": {
-        "WS0003": "pdlaser",
-        "WS0004": "pdlaser",
-        "WS0005": "pdlaser",
-        "WS0006": "pdlaser"
-      }
-    }
-  ],
-  "modules": [],
-  "wings": [
-    "sarissa_wing"
-  ]
+    "displayName": "Assault",
+    "fluxCapacitors": 30,
+    "fluxVents": 30,
+    "goalVariant": true,
+    "hullId": "Ac_interdiction",
+    "hullMods": [
+        "targetingunit",
+    ],
+    "permaMods": [],
+    "sMods": [],
+    "suppressedMods": [],
+    "variantId": "Ac_interdiction_assault",
+    "weaponGroups": [
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0010": "plasma",
+            }
+        },
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0001": "gazerpod",
+            }
+        },
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0002": "typhoon",
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0003": "mininglaser",
+                "WS0008": "mininglaser",
+                "WS0004": "mininglaser",
+                "WS0007": "mininglaser",
+            }
+        },
+    ],
+    "wings": [
+        "sarissa_wing",
+    ],
+    "modules": [],
 }

@@ -12,8 +12,8 @@
   "shieldRadius": 296,
   "viewOffset": 0,
   "builtInMods": [
-    "ecm",
-    "targetlocationex_ac"
+    "advancedcore",
+    "coherer"
   ],
   "builtInWeapons": {
     "WS0009": "blinker_red"

@@ -4,7 +4,7 @@
 	#"aiType":"HIGH_ENERGY_FOCUS",
 	"aiType":"WEAPON_BOOST",
 	
-	"statsScript":"data.shipsystems.AC_Hardening",
+	"statsScript":"data.shipsystems.scripts.AC_Hardening",
 	
 	
 	"weaponGlowColor":[255,0,255,255],

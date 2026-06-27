@@ -1,0 +1,54 @@
+{
+    "displayName": "Overdriven",
+    "fluxCapacitors": 0,
+    "fluxVents": 0,
+    "goalVariant": true,
+    "hullId": "Ac_Harasser_p",
+    "hullMods": [
+        "armoredweapons",
+        "autorepair",
+        "heavyarmor",
+        "missleracks",
+        "safetyoverrides",
+        "shield_shunt",
+    ],
+    "permaMods": [],
+    "sMods": [],
+    "suppressedMods": [],
+    "variantId": "Ac_Harasser_p_overdriven",
+    "weaponGroups": [
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0001": "hammerrack",
+            }
+        },
+        {
+            "autofire": false,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS0007": "hammerrack",
+                "WS0006": "hammerrack",
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0005": "lightneedler",
+                "WS0004": "lightneedler",
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0003": "lightmg",
+                "WS0002": "lightmg",
+            }
+        },
+    ],
+    "wings": [],
+    "modules": [],
+}

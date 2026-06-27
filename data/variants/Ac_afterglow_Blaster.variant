@@ -1,0 +1,44 @@
+{
+    "displayName": "Blaster",
+    "fluxCapacitors": 30,
+    "fluxVents": 29,
+    "goalVariant": true,
+    "hullId": "Ac_afterglow",
+    "hullMods": [
+        "frontemitter",
+        "hardenedshieldemitter",
+        "magazines",
+        "targetingunit",
+    ],
+    "permaMods": [],
+    "sMods": [],
+    "suppressedMods": [],
+    "variantId": "Ac_afterglow_support",
+    "weaponGroups": [
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0009": "Ac_constraintsblaster",
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0001": "Ac_constraintsblaster",
+                "WS0002": "Ac_constraintsblaster",
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0003": "Ac_ioncannon",
+                "WS0004": "Ac_ioncannon",
+            }
+        },
+    ],
+    "wings": [],
+    "modules": [],
+}

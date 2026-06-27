@@ -1,0 +1,46 @@
+{
+  "id": "Ac_os_launcher",
+  "specClass": "projectile",
+  "projectileSpecId": "Ac_os",
+  "type": "MISSILE",
+  "size": "LARGE",
+  "turretSprite": "graphics/weapons/Ac_osLauncher_1.png",
+  "hardpointSprite": "graphics/weapons/Ac_osLauncher_2.png",
+  "turretOffsets": [
+    2,
+    0
+  ],
+  "turretAngleOffsets": [
+    0
+  ],
+  "hardpointOffsets": [
+    8.5,
+    0
+  ],
+  "hardpointAngleOffsets": [
+    0
+  ],
+  "renderHints": [
+    RENDER_LOADED_MISSILES
+  ],
+  "barrelMode": "ALTERNATING",
+  "animationType": "SMOKE",
+  "smokeSpec": {
+      "particleSizeMin": 12,
+      "particleSizeRange": 12,
+      "cloudParticleCount": 6,
+      "cloudDuration": 1.5,
+      "cloudRadius": 10,
+      "blowbackParticleCount": 4,
+      "blowbackDuration": 2,
+      "blowbackLength": 22,
+      "blowbackSpread": 15,
+      "particleColor": [
+        100,
+        100,
+        100,
+        200
+      ]
+  },
+  "fireSoundTwo": "engine_disabled"
+}

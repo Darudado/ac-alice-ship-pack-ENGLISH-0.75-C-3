@@ -3,17 +3,20 @@
 		"hulls":{
 			"Ac_prometheus_3":1,
 			"Ac_judge":1.5,
+			"Ac_LuddicMonster":0.5,
 		},
 	},
 	"shipsWhenImporting":{
 		"hulls":[
 			"Ac_prometheus_3",
 			"Ac_judge",
+			"Ac_LuddicMonster",
 		],
 	},
 	"knownShips":{
 		"hulls":[
 			"Ac_prometheus_3",
+			"Ac_LuddicMonster",
 		],
 	},
 		

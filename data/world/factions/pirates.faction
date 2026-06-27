@@ -10,6 +10,7 @@
 		},
 		"hulls":{
 			"Ac_Ghoul":0.8,
+			"Ac_Harasser_p":0.8,
 		},
 	},
     "shipsWhenImporting":{
@@ -23,6 +24,7 @@
 		"hulls":[
 			"Ac_Ghoul",
 			"Ac_Deucalion",
+			"Ac_Harasser_p",
 		],
 	},
 	# listing ships here will make the faction mostly use them even if other hulls become available

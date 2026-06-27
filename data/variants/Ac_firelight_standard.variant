@@ -1,70 +1,37 @@
 {
-  "variantId": "Ac_firelight_standard",
-  "hullId": "Ac_firelight",
-  "displayName": "standard",
-  "goalVariant": true,
-  "fluxCapacitors": 15,
-  "fluxVents": 37,
-  "quality": 1,
-  "permaMods": [],
-  "hullMods": [
-    "stabilizedshieldemitter",
-    "targetingunit",
-    "fluxbreakers"
-  ],
-  "weaponGroups": [
-    {
-      "autofire": false,
-      "mode": "LINKED",
-      "weapons": {
-        "WS0003": "plasma",
-        "WS0004": "plasma"
-      }
-    },
-    {
-      "autofire": true,
-      "mode": "LINKED",
-      "weapons": {
-        "WS0007": "lightneedler",
-        "WS0008": "lightneedler"
-      }
-    },
-    {
-      "autofire": true,
-      "mode": "LINKED",
-      "weapons": {
-        "WS0001": "guardian",
-        "WS0002": "guardian",
-        "WS0005": "flak",
-        "WS0006": "flak",
-        "WS0009": "pdlaser",
-        "WS0010": "pdlaser",
-        "WS0011": "pdlaser",
-        "WS0012": "pdlaser",
-        "WS0013": "pdlaser",
-        "WS0014": "pdlaser",
-        "WS0015": "pdlaser",
-        "WS0016": "pdlaser",
-        "WS0017": "pdlaser",
-        "WS0018": "pdlaser"
-      }
-    }
-  ],
-  "modules": [
-    {
-      "WS0022": "Ac_firewood_l1_standard"
-    },
-    {
-      "WS0021": "Ac_firewood_r1_standard"
-    },
-    {
-      "WS0020": "Ac_firewood_r2_standard"
-    },
-    {
-      "WS0019": "Ac_firewood_l2_standard"
-    }
-  ],
-  "wings": [
-    "wasp_wing"
-  ]
+    "displayName": "Breaker",
+    "fluxCapacitors": 50,
+    "fluxVents": 45,
+    "goalVariant": true,
+    "hullId": "Ac_firelight",
+    "hullMods": [
+        "auxiliarythrusters",
+        "fluxbreakers",
+        "stabilizedshieldemitter",
+        "targetingunit",
+        "unstable_injector",
+    ],
+    "permaMods": [],
+    "sMods": [],
+    "suppressedMods": [],
+    "variantId": "Ac_firelight_standard",
+    "weaponGroups": [
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0003": "plasma",
+                "WS0004": "plasma",
+            }
+        },
+    ],
+    "wings": [
+        "wasp_wing",
+    ],
+    "modules": [
+        {"WS0022": "Ac_firewood_l1_standard"},
+        {"WS0021": "Ac_firewood_r1_standard"},
+        {"WS0020": "Ac_firewood_r2_standard"},
+        {"WS0019": "Ac_firewood_l2_standard"},
+    ],
 }

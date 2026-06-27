@@ -1,0 +1,48 @@
+{
+  "id": "Ac_monarch",
+  "specClass": "projectile",
+  "projectileSpecId": "Ac_monarch_shot",
+  "type": "BALLISTIC",
+  "size": "MEDIUM",
+  "turretSprite": "graphics/weapons/Ac_monach_2.png",
+  "turretGlowSprite": "graphics/weapons/Ac_monach_2_glow.png",
+  "hardpointSprite": "graphics/weapons/Ac_monach_2_h.png",
+  "hardpointGlowSprite": "graphics/weapons/Ac_monach_2_h_glow.png",
+  "glowColor": [
+    255,
+    255,
+    255,
+    255
+  ],
+  "turretOffsets": [
+    25,
+    0
+  ],
+  "turretAngleOffsets": [
+    0
+  ],
+  "hardpointOffsets": [
+    30,
+    0
+  ],
+  "hardpointAngleOffsets": [
+    0
+  ],
+  "fireSoundTwo":"AC_railgun_fire",
+  "barrelMode": "ALTERNATING",
+  "animationType": "GLOW_AND_FLASH",
+  "muzzleFlashSpec": {
+    "length": 30,
+    "spread": 20,
+    "particleSizeMin": 10,
+    "particleSizeRange": 10,
+    "particleDuration": 0.5,
+    "particleCount": 10,
+    "particleColor": [
+      255,
+      255,
+      255,
+      255
+    ]
+  }
+}

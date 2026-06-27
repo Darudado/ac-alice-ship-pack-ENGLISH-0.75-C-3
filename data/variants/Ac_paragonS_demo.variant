@@ -1,0 +1,88 @@
+{
+    "displayName": "Demo",
+    "fluxCapacitors": 50,
+    "fluxVents": 19,
+    "goalVariant": true,
+    "hullId": "Ac_pS",
+    "hullMods": [
+        "armoredweapons",
+        "fluxdistributor",
+        "frontemitter",
+        "missile_autoloader",
+        "missleracks",
+        "unstable_injector",
+    ],
+    "permaMods": [],
+    "sMods": [],
+    "suppressedMods": [],
+    "variantId": "Ac_pS_demo",
+    "weaponGroups": [
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0001": "plasma",
+                "WS0002": "plasma",
+            }
+        },
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {
+                "MAIN_01": "locust",
+            }
+        },
+        {
+            "autofire": false,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS0012": "reaper",
+                "WS0011": "reaper",
+                "WS0014": "reaper",
+                "WS0013": "reaper",
+                "WS0005": "sabotpod",
+                "WS0006": "sabotpod",
+            }
+        },
+        {
+            "autofire": false,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS0008": "phasecl",
+                "WS0007": "phasecl",
+            }
+        },
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {
+                "MAIN_02": "plasma",
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0020": "phasebeam",
+                "WS0019": "phasebeam",
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0023": "mininglaser",
+                "WS0022": "mininglaser",
+                "WS0010": "mininglaser",
+                "WS0021": "mininglaser",
+                "WS0009": "mininglaser",
+                "WS0016": "mininglaser",
+                "WS0015": "mininglaser",
+                "WS0018": "mininglaser",
+                "WS0017": "mininglaser",
+            }
+        },
+    ],
+    "wings": [],
+    "modules": [],
+}

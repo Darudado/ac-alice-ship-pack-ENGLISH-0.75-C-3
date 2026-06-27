@@ -3,7 +3,7 @@
 	"type":"FAST_RELOAD",
 	"aiType":"FAST_RELOAD",
 	#"aiType":"CUSTOM",
-	#"aiScript":"data.shipsystems.AC_Reload",
+	#"aiScript":"data.shipsystems.scripts.AC_Reload",
 	
 	"weaponTypes":[BALLISTIC,ENERGY],
 	"minFractionToReload":0.5,

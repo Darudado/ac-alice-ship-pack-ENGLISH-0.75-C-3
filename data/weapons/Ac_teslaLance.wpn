@@ -1,0 +1,46 @@
+{
+  "id": "Ac_teslaLance",
+  "specClass": "beam",
+  "type": "ENERGY",
+  "size": "LARGE",
+  "beamEffect":"data.weapons.scripts.beam.TeslaBeamEffectAc",
+
+  "collisionClass": "RAY",
+  "collisionClassByFighter": "RAY_FIGHTER",
+  "turretSprite": "graphics/weapons/Ac_teslaLance.png",
+  "hardpointSprite": "graphics/weapons/Ac_teslaLance_h.png",
+  "hitGlowRadius": 0,
+  "turretOffsets": [
+    5,
+    7,
+    5,
+    -7
+  ],
+  "turretAngleOffsets": [
+    0,
+    0
+  ],
+  "hardpointOffsets": [
+    16,
+    7,
+    16,
+    -7
+  ],
+  "hardpointAngleOffsets": [
+    0,
+    0
+  ],
+  "fringeColor":[25,125,175,255],
+  "coreColor":[255,255,255,200],
+  "glowColor":[125,215,255,255],
+  "width": 18,
+  "darkCore":false,
+
+  "textureType": ROUGH,
+  "textureScrollSpeed":292.0,
+  "pixelsPerTexel":5.0,
+  "pierceSet":[PROJECTILE_FF,PROJECTILE_NO_FF,PROJECTILE_FIGHTER,MISSILE_FF,MISSILE_NO_FF],
+
+  "fireSoundTwo":"ir_autolance_loop",
+
+}

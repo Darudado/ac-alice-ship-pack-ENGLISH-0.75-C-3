@@ -1,0 +1,198 @@
+{
+  "hullName": "Ac_derelict_scholar",
+  "hullId": "Ac_derelict_scholar",
+  "hullSize": "CRUISER",
+  "spriteName": "graphics/ships/hvb_derelict/derelict_scholar.png",
+  "style": "LOW_TECH",
+  "height": 234,
+  "width": 190,
+  "center": [95, 117],
+  "collisionRadius": 130,
+  "shieldCenter": [0, 0],
+  "shieldRadius": 130.5,
+  "viewOffset": 0,
+  "builtInMods": [
+    "missile_autoloader",
+    "ac_missleRelay",
+    "missleracks"
+  ],
+  "builtInWeapons": {
+    "WS0010": "AC_bigHammer_2",
+    "WS0011": "AC_bigHammer_2"
+  },
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "SMALL",
+      "type": "MISSILE",
+      "mount": "TURRET",
+      "arc": 255,
+      "angle": -20.5,
+      "locations": [19, -37]
+    },
+    {
+      "id": "WS0002",
+      "size": "SMALL",
+      "type": "MISSILE",
+      "mount": "TURRET",
+      "arc": 255,
+      "angle": 20.5,
+      "locations": [19, 37]
+    },
+    {
+      "id": "WS0003",
+      "size": "MEDIUM",
+      "type": "COMPOSITE",
+      "mount": "TURRET",
+      "arc": 210,
+      "angle": -43.5,
+      "locations": [-23, -28]
+    },
+    {
+      "id": "WS0004",
+      "size": "MEDIUM",
+      "type": "COMPOSITE",
+      "mount": "TURRET",
+      "arc": 210,
+      "angle": 43.5,
+      "locations": [-23, 28]
+    },
+    {
+      "id": "WS0005",
+      "size": "SMALL",
+      "type": "COMPOSITE",
+      "mount": "TURRET",
+      "arc": 202,
+      "angle": -32.5,
+      "locations": [-10, -49.5]
+    },
+    {
+      "id": "WS0006",
+      "size": "SMALL",
+      "type": "COMPOSITE",
+      "mount": "TURRET",
+      "arc": 202,
+      "angle": 32.5,
+      "locations": [-10, 49.5]
+    },
+    {
+      "id": "WS0007",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 173,
+      "angle": 135,
+      "locations": [-57, 34]
+    },
+    {
+      "id": "WS0008",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 173,
+      "angle": -135,
+      "locations": [-57, -34]
+    },
+    {
+      "id": "WS0009",
+      "size": "LARGE",
+      "type": "MISSILE",
+      "mount": "TURRET",
+      "arc": 225,
+      "angle": 0,
+      "locations": [-35, -0]
+    },
+    {
+      "id": "WS0010",
+      "size": "LARGE",
+      "type": "BUILT_IN",
+      "mount": "HIDDEN",
+      "arc": 5,
+      "angle": 0,
+      "locations": [-15, 14.5]
+    },
+    {
+      "id": "WS0011",
+      "size": "LARGE",
+      "type": "BUILT_IN",
+      "mount": "HIDDEN",
+      "arc": 5,
+      "angle": -0,
+      "locations": [-15, -14.5]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-104, 31.5],
+      "length": 40.5,
+      "width": 10,
+      "angle": -180,
+      "contrailSize": 10,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-104, -31.5],
+      "length": 40.5,
+      "width": 10,
+      "angle": 180,
+      "contrailSize": 10,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-106.5, -11],
+      "length": 74,
+      "width": 13,
+      "angle": -180,
+      "contrailSize": 13,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-106.5, 11],
+      "length": 74,
+      "width": 13,
+      "angle": 180,
+      "contrailSize": 13,
+      "style": "LOW_TECH"
+    }
+  ],
+  "bounds": [
+    -103.5, 3.5,
+    -108.5, 5,
+    -108.5, 17.5,
+    -101.5, 19.5,
+    -100.5, 24,
+    -106.5, 27,
+    -109, 35.5,
+    -117.5, 47.5,
+    -59.5, 65,
+    -50, 97,
+    -19, 97.5,
+    18.5, 65.5,
+    26.5, 56,
+    51.5, 57.5,
+    112.5, 45.5,
+    118, 31.5,
+    84.5, 25.5,
+    78, 8.5,
+    20.5, 4,
+    20.5, -4,
+    78, -8.5,
+    84.5, -25.5,
+    118, -31.5,
+    112.5, -45.5,
+    51.5, -57.5,
+    26.5, -56,
+    18.5, -65.5,
+    -19, -97.5,
+    -50, -97,
+    -59.5, -65,
+    -117.5, -47.5,
+    -109, -35.5,
+    -106.5, -27,
+    -100.5, -24,
+    -101.5, -19.5,
+    -108.5, -17.5,
+    -108.5, -5,
+    -103.5, -3.5
+  ]
+}

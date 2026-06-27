@@ -1,0 +1,84 @@
+{
+    "displayName": "Assault",
+    "fluxCapacitors": 50,
+    "fluxVents": 47,
+    "goalVariant": true,
+    "hullId": "Ac_capital1",
+    "hullMods": [
+        "frontemitter",
+        "hardenedshieldemitter",
+        "magazines",
+        "targetingunit",
+    ],
+    "permaMods": [],
+    "sMods": [],
+    "suppressedMods": [],
+    "variantId": "Ac_capital1_assault",
+    "weaponGroups": [
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0001": "typhoon",
+            }
+        },
+        {
+            "autofire": false,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS0012": "dragon",
+                "WS0014": "dragon",
+                "WS0013": "dragon",
+                "WS0015": "dragon",
+            }
+        },
+        {
+            "autofire": false,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS0005": "sabot",
+                "WS0004": "sabot",
+                "WS0007": "sabot",
+                "WS0006": "sabot",
+            }
+        },
+        {
+            "autofire": false,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS0011": "gigacannon",
+                "WS0010": "gigacannon",
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0003": "lightneedler",
+                "WS0002": "lightneedler",
+                "WS0009": "heavyneedler",
+                "WS0008": "heavyneedler",
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0021": "Ac_ioncannon",
+                "WS0020": "Ac_ioncannon",
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0019": "mininglaser",
+                "WS0016": "mininglaser",
+                "WS0018": "mininglaser",
+                "WS0017": "mininglaser",
+            }
+        },
+    ],
+    "wings": [],
+    "modules": [],
+}

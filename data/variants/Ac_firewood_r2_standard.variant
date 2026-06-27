@@ -1,24 +1,26 @@
 {
-  "variantId": "Ac_firewood_r2_standard",
-  "hullId": "Ac_firewood_r2",
-  "displayName": "standard",
-  "goalVariant": true,
-  "fluxCapacitors": 0,
-  "fluxVents": 18,
-  "quality": 1,
-  "permaMods": [],
-  "hullMods": [
-    "heavyarmor"
-  ],
-  "weaponGroups": [
-    {
-      "autofire": false,
-      "mode": "LINKED",
-      "weapons": {
-        "WS0002": "heavyblaster"
-      }
-    }
-  ],
-  "modules": [],
-  "wings": []
+    "displayName": "Standard",
+    "fluxCapacitors": 0,
+    "fluxVents": 17,
+    "goalVariant": true,
+    "hullId": "Ac_firewood_r2",
+    "hullMods": [
+        "escort_package",
+        "magazines",
+    ],
+    "permaMods": [],
+    "sMods": [],
+    "suppressedMods": [],
+    "variantId": "Ac_firewood_r2_standard",
+    "weaponGroups": [
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0002": "ionpulser",
+            }
+        },
+    ],
+    "wings": [],
+    "modules": [],
 }

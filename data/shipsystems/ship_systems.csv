@@ -1,6 +1,9 @@
 name,id,flux/second,f/s (base rate),f/s (base cap),flux/use,f/u (base rate),f/u (base cap),cr/u,max uses,regen,charge up,active,down,cooldown,toggle,noDissipation,noHardDissipation,hardFlux,noFiring,noTurning,noStrafing,noAccel,noShield,noVent,isPhaseCloak,tags,icon
 Mine Strike,mine_strike_ac,,,,,,0.1,,1,0.2,0.25,,0.25,0,,,,,,,,,,,,,graphics/icons/hullsys/interdictor_array.png
 Power Drive,jets_ac,,,,,,,,3,0.1,0.2,2,0.4,0,,,,,,,,,,,,,graphics/icons/hullsys/burn_drive.png
+,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Prototype Maneuvering Jets,jets_ac_2,,,,,,,,5,0.033,0.2,3.6,0.2,0,,,,,,,,,TRUE,,,,graphics/icons/hullsys/burn_drive.png
+,,,,,,,,,,,,,,,,,,,,,,,,,,,
 High-Speed Charger,highspeedcharger_ac,1,,,,,,,3,0.05,0.25,4.5,0.25,5,,,,,,,,,,,,,graphics/icons/hullsys/high_energy_focus.png
 Phantom Teleportation Field,teleporter_ac,,,,,,,,3,0.05,0.75,0,0.75,3,,,,TRUE,,,,,,,,,graphics/icons/hullsys/displacer.png
 Temporal Shell (Weak),temporalshellweak_ac,1,,,,,0.125,,3,0.1,0.5,2,0.5,2,,,,,,,,,,,,,graphics/icons/hullsys/temporal_shell.png
@@ -16,4 +19,10 @@ Lightning Strike Mk.II,quickattack_ac_1,1,,,,,,,,,0.5,4,0.25,10,,,,,,,,,,,,,grap
 ,,,,,,,,,,,,,,,,,,,,,,,,,,,
 Linked Teleporter,linkteleporter_ac,,,,,,,,,,0.25,0.5,0.25,10,,,,,,,,,,,,,graphics/icons/hullsys/high_energy_focus.png
 Rapid Reload,reload_ac,,,,,,0.1,,3,0.1,1,0,0,0,,,,,,,,,,,graphics/icons/hullsys/missile_racks.png,,graphics/icons/hullsys/high_energy_focus.png
+Adaptive Reinforcement Protocol,paragonSSkill,,,,,,,,3,0.05,0.25,9,0.75,2,,,,,,,,,,,,,graphics/icons/hullsys/high_energy_focus.png
 Overload Mk.II,overload_ac_1,1,,,,,,,,0.05,0.25,9.5,0.25,10,,,,,,,,,,,,,graphics/icons/hullsys/high_energy_focus.png
+Prototype Radar Array,prototypeRadar,1,,,,,,,,,3.25,5,1,10,,,,,,,,,,,,offensive,graphics/icons/hullsys/lidar_barrage.png
+Prototype Recall Device,recallPlus_ac,,,,,,0.5,,3,0.025,0.5,,0.5,7.5,,,,,,,,,,,,,graphics/icons/hullsys/recall_device.png
+,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Volt Scrambler,powerfield_ac,,,,,,0.2,,,,0.5,9,1,32,,,,,,,,,,,,offensive,graphics/icons/hullsys/entropy_amplifier.png
+Extinction Drive,missleDrive_ac,,,,,,,,2,0.05,0.1,1.2,0.2,0,,,,,,TRUE,,,,,,,graphics/icons/hullsys/burn_drive.png

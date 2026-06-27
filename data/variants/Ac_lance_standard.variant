@@ -1,7 +1,7 @@
 {
   "variantId": "Ac_lance_standard",
   "hullId": "Ac_lance",
-  "displayName": "火力支援机",
+  "displayName": "重型支援机",
   "goalVariant": true,
   "fluxCapacitors": 0,
   "fluxVents": 0,
@@ -9,14 +9,15 @@
   "permaMods": [],
   "hullMods": [
     "terminator_core",
-    "targetlocationex_ac"
+    "targetlocationex_ac",
+    "immobilizationgrid_ac"
   ],
   "weaponGroups": [
     {
       "autofire": true,
       "mode": "LINKED",
       "weapons": {
-        "WS0001": "Ac_miningblaster"
+        "WS0001": "Ac_constraintsblaster"
       }
     },
     {
